@@ -2,6 +2,7 @@
 layout: page
 title: Learning Goals
 permalink: learning_goals.html
+use_math: true
 ---
 
 ### Course-Scale Learning Goals
