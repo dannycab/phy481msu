@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Calendar
-permalink: ./calendar.html
+permalink: calendar.html
 use_math: true
 ---
 
