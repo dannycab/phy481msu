@@ -37,7 +37,7 @@ magnetic properties of matter (dielectrics and magnetic media), and,
 include content and mathematical skill mastery, high level
 problem-solving skills, physical sense-making, deepened conceptual
 understanding, communication skills, and connection to other courses and
-to the real world. *Required Prerequisites:* **Add here**
+to the real world. *Required Prerequisites:* MTH 234 or MTH 254H or LB 220
 
 #### Required purchases:
 
