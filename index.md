@@ -17,7 +17,7 @@ are preliminary until this message has been removed.
 -   Instructor: [Prof. Danny Caballero](http://dannycab.github.io)
 -   Class Meetings: MWF 12:40 PM - 1:30 PM (1415 BPS)
 -   Instructor: <caballero@pa.msu.edu>, cell: (517) 420-5330, office:
-    1310-A BPS\
+    1310-A BPS
 -   TAs/staff: TBD
 -   Office hrs: TBD I enjoy visiting and talking with you about physics.
 -   Web page:
@@ -105,12 +105,7 @@ be your own: in your own words, reflecting your own understanding. (If,
 at any time, for any reason, you feel disadvantaged or isolated, contact
 me and I can discretely try to help arrange study groups.)
 
-There will be *some use of computation in this course* on homework
-problems. I will encourage and support the use of Python (through
-Jupyter notebooks). You do not need any computational experience for
-this course as you will learn some fundamentals early on and keep using
-them throughout the course. You are welcome to use any environment of
-your choosing (e.g., Octave/MATLAB, Mathematica, C++), but I will only
+**Computational Homework Problems:** There will be *some use of computation in this course* on homework problems. I will encourage and support the use of Python (through Jupyter notebooks). You do not need any computational experience for this course as you will learn some fundamentals early on and keep using them throughout the course. You are welcome to use any environment of your choosing (e.g., Octave/MATLAB, Mathematica, C++), but I will only
 provide support for Python. Python is in use across the sciences, but it
 is becoming much used in physics, so learning it will serve you well in
 your future work. I suggest downloading the [Anaconda distribution of
@@ -134,12 +129,19 @@ you will be greatly reduced.
 
 Your course grade is largely determined by a combination of your
 performance on exams and homework. There will be some extra credit for
-in-class and online participation (which basically "unweights" the exams
-- see web for more details.)
+in-class and online participation, which basically "unweights" the exams.
+
+| Activity   |   |            Date           | Percent of Grade |
+|------------|---|:-------------------------:|-----------------:|
+| Exam 1     |   |         Wed Oct 5         |              20% |
+| Exam 2     |   |         Wed Nov 2         |              20% |
+| Final Exam |   |   Time and Location TBD   |              20% |
+| Homework   |   | Due Fri at start of class |              40% |
+
 
 **Clickers and online participation:** These activities are pure extra
 credit: they REDUCE total midterm weights up to 10% of exam total (i.e.
-7% of your grade) See web page for more details.
+7% of your grade).
 
 **Exams:** There are no makeups. You may not miss any exam except for
 reasons beyond your control, approved by Prof. Caballero (usually a
@@ -148,7 +150,6 @@ case of an (at most, single) excused absence from midterms, I'll use an
 average of your other exams. You may bring one side of a single sheet of
 8.5 in. x 11 in. paper for each exam, with your own handwritten notes.
 Calculators with scientific notation are allowed and sometimes needed.
-More details will be announced at the time of the midterm -- see web.
 
 ### What we cover, and why:
 

@@ -104,13 +104,13 @@ Curvilinear coordinates; Dirac delta function; Vector fields
 
 **Prerequisites** - Students should already be able to,
 
--   Be able to compute correctly div, grad and curl in rectangular
+-   Compute correctly div, grad and curl in rectangular
     coordinates for any test function
 -   Do a path integral along a specific path -- eg. Griffiths 2.20
--   Be able to expand \\(\\dfrac{1}{(1+e)}\\)
+-   Expand \\(\\dfrac{1}{(1+e)}\\)
     and \\(\\dfrac{1}{(1-e)}\\) when e is very small (Taylor series).
 
-**Goals** - Students should be able to,
+**Goals** - Students should be able to, 
 
 -   Evaluate the integral from negative infinity to infinity of the
     delta function
@@ -123,29 +123,23 @@ Curvilinear coordinates; Dirac delta function; Vector fields
 -   Change a multidimensional integral in Cartesian coordinates to one
     in another coordinate system using the Jacobian.
 
-
-
-
-
-
 #### Chapter 2: Electrostatics
-
-
 
 **Topics** - Electric field, Coulomb's law; Gauss' Law, divergence and
 curl of E; Potential; Poisson & Laplace equation; Work & energy;
 Conductors
 
-**Prerequisites** - Students should already be able to,
+**Prerequisites**
 
--   State Gauss' Law and construct the 3 Gaussian surfaces (sphere,
+-   Students should already be able to state Gauss' Law and construct the 3 Gaussian surfaces (sphere,
     cylinder, pillbox)
--   Use Cartesian, spherical and cylindrical coordinates appropriately
+-   Students should already be able to use Cartesian, spherical and cylindrical coordinates appropriately
     when constructing integrals and surface and volume elements
 
-**Goals** - Students should be able to,
+**Goals**
 
 Electric Field
+
 -   Students should be able to state Coulomb's Law and use it to solve
     for E above a line of charge, a loop of charge, and a circular disk
     of charge.
@@ -154,6 +148,7 @@ Electric Field
     the inner-front cover of Griffiths).
 
 Divergence and Curl of E; Gauss' Law
+
 -   Students should recognize when Gauss' Law is the appropriate way to
     solve a problem (by recognizing cases of symmetry; and by
     recognizing limiting cases, such as being very close to a
@@ -165,6 +160,7 @@ Divergence and Curl of E; Gauss' Law
     field E.
 
 Electric Potential
+
 -   Students should be able to state two ways of calculating the
     potential (via the charge distribution and via the E-field);
     indicate which is the appropriate formulation in different
@@ -184,12 +180,14 @@ Electric Potential
     absolute value).
 
 Work and Energy
+
 -   Students should be able to calculate the energy stored in a
     continuous charge distribution when given the appropriate formula
 -   Students should be able to explain in words what this
     energy represents.
 
 Conductors
+
 -   Students should be able to sketch the induced charge distribution on
     a conductor placed in an electric field.
 -   Students should be able to explain what happens to a conductor when
@@ -204,19 +202,13 @@ Conductors
     resides on the surface of a conductor.
 
 Maxwell's Equations
+
 -   Students should be able to interpret the first and second Maxwell's
     equations for electrostatics (divergence and curl of E) and use them
     to describe electrostatics (i.e., Gauss' Law is just one application
     of the first law).
 
-
-
-
-
-
 #### Chapter 3: Special Techniques
-
-
 
 **Topics** - Laplace's equation; Boundary conditions and uniqueness;
 Method of images; Separation of variables in Cartesian and spherical;
@@ -232,13 +224,15 @@ Multipole expansion
     basis, such as sin and cos.
 -   State that conductors are equipotentials.
 
-**Goals** - Students should be able to,
+**Goals**
 
 Laplace's Equation
+
 -   Students should recognize that the solution to Laplace's equation
     is unique.
 
 Method of Images
+
 -   Students should realize when the method of images is applicable and
     be able to solve simple cases.
 -   Students should be able to explain the difference between the
@@ -246,6 +240,7 @@ Method of Images
     (image charges).
 
 Separation of Variables/Boundary Value problems
+
 -   Students should be able to state the appropriate boundary conditions
     on V in electrostatics and be able to derive them from
     Maxwell's equations.
@@ -265,6 +260,7 @@ Separation of Variables/Boundary Value problems
     these coefficients.
 
 Multipole Expansion
+
 -   Students should be able to explain when and why approximate
     potentials are useful.
 -   Students should be able to identify and calculate the lowest-order
@@ -272,23 +268,17 @@ Multipole Expansion
 -   Students should be able to sketch the direction and calculate the
     dipole moment of a given charge distribution.
 
-
-
-
-
-
 #### Chapter 4: Electric Fields in Matter
-
-
 
 **Topics** - Polarization & dielectrics; Field of polarized object
 (bound charges, field inside dielectric); Electric displacement; Linear
 dielectrics: Susceptibility, permittivity, dielectric constant; Boundary
 value problems with dielectrics
 
-**Goals** - Students should be able to,
+**Goals**
 
 Polarization and Dielectrics
+
 -   Students should be able to go between two representations of dipoles
     – as point charges, and as generalized dipole vectors – for simple
     charge configurations.
@@ -304,6 +294,7 @@ Polarization and Dielectrics
     charge at a macroscopic and microscopic level.
 
 Field from a Polarized Object
+
 -   Students should be able to sketch the E field inside and outside a
     dielectric sphere placed in an electric field.
 -   Students should be able to explain what happens to a dielectric,
@@ -314,12 +305,14 @@ Field from a Polarized Object
     conditions on D given its relationship to E and Q\_free.
 
 Electric Displacement
+
 -   Students should be able to sketch the direction of D, P, and E for
     simple problems involving dielectrics
 -   Students should be able to calculate the E field inside a dielectric
     when given epsilon and the free charge on the dielectric.
 
 Linear Dielectrics
+
 -   Students should be able to articulate the difference between a
     linear and nonlinear dielectric.
 -   Students should be able to write down Maxwell's equations
@@ -328,14 +321,7 @@ Linear Dielectrics
 -   Students should be able to identify the appropriate boundary
     conditions on D, given its relationship to E.
 
-
-
-
-
-
 #### Chapter 5: Magnetostatics
-
-
 
 **Topics** - Currents and charge density; Magnetic fields and forces
 (Lorentz force law); Biot-Savart law; Divergence and curl of B (Ampere's
@@ -346,9 +332,10 @@ Law); Magnetic vector potential
 -   Write down Lorentz force law
 -   Know the right-hand rule and how to apply it
 
-**Goals** - Students should be able to,
+**Goals**
 
 Currents and Charge Density
+
 -   Students should be able to calculate current density J given the
     current I, and know the units for each.
 -   Students should be able to explain, in words, what the charge
@@ -359,6 +346,7 @@ Currents and Charge Density
     of the velocity of the particle or in terms of each other.
 
 Magnetic Fields and Forces
+
 -   Students should be able to describe the trajectory of a charged
     particle in a given magnetic field.
 -   Students should be able to sketch the B field around a current
@@ -367,6 +355,7 @@ Magnetic Fields and Forces
     work using concepts and mathematics from this course.
 
 Biot-Savart
+
 -   Students should be able to state when the Biot-Savart Law applies
     (magnetostatics; steady currents, dp/dt=0).
 -   Students should be able to compare similarities and differences
@@ -376,6 +365,7 @@ Biot-Savart
     in simple cases.
 
 Divergence and Curl of B
+
 -   Students should be able to draw appropriate Amperian loops for the
     cases in which symmetry allows for solution of the B field using
     Ampere's Law (ie., infinite wire, infinite plane, infinite solenoid,
@@ -384,6 +374,7 @@ Divergence and Curl of B
     Maxwell's equations
 
 Magnetic Vector Potential
+
 -   Students should be able to explain why the potential A is a vector
     for magnetostatics, whereas it's a scalar (V) in electrostatics.
     Ie., that the source of magnetic fields (the current) is a vector,
@@ -393,32 +384,28 @@ Magnetic Vector Potential
     useful for solving problems.
 
 Separation of Variables/Boundary Value Problems
+
 -   Students should be able to state the appropriate boundary conditions
     on B in magnetostatics and be able to derive them from Maxwell's
     equations
 
 Maxwell's Equations
--   1\. Students should be able to interpret the third and fourth Maxwell's
+
+-   Students should be able to interpret the third and fourth Maxwell's
     equations for electrostatics (divergence and curl of B) and use them to
     describe magnetostatics (i.e., Ampere's Law and Biot-Savart law are just
     applications of these laws).
 
-
-
-
-
-
 #### Chapter 6: Magnetic Fields in Matter
-
-
 
 **Topics** - Magnetization – diamagnets, paramagnets, ferromagnets;
 Field of magnetized object (bound currents); Auxiliary field H; Linear
 and nonlinear media: susceptibility, permeability
 
-**Goals** - Students should be able to,
+**Goals**
 
 Magnetization
+
 -   Students should be able to calculate the torque on a magnetic dipole
     in a magnetic field.
 -   Students should be able to explain the difference between para, dia,
@@ -426,6 +413,7 @@ Magnetization
     magnetic field.
 
 The Field of a Magnetized Object
+
 -   Students should be able to predict whether a particular
     magnetization will result in a bound surface and/or volume current,
     for simple magnetizations.
@@ -433,6 +421,7 @@ The Field of a Magnetized Object
     surface and volume current, using Stokes' Theorem.
 
 The Auxiliary Field H
+
 -   Students should be able to calculate H when given B or M
 -   Students should recognize that H is a mathematical construction,
     whereas B and M are physical quantities.
@@ -443,14 +432,7 @@ The Auxiliary Field H
 -   Students should be able to identify the appropriate boundary
     conditions on H given its relationship to M and K\_free.
 
-
-
-
-
-
 #### Chapter 7: Electrodynamics
-
-
 
 **Topics** - Electromotive force (Ohm's Law, emf); Electromagnetic
 induction (Faraday's Law); Maxwell's equations
@@ -461,16 +443,9 @@ take the second semester and will see Maxwell's equations there. Even if
 this material is covered in here, it may still be prudent to review at
 the beginning of the following semester.
 
-
-
-
-
-
 #### Course Objectives: Calculation and Computation
 
-
-
-**Goals** - Students should be able to,
+**Goals**
 
 -   Compute gradient, divergence, curl, and Laplacian
 -   Evaluate line, surface, and volume integrals
