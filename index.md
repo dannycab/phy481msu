@@ -1,8 +1,3 @@
----
-layout: page
-permalink: teaching/phy481.html
----
-
 All aspects of this syllabus and any accompanying pages or references
 are preliminary until this message has been removed.
 
