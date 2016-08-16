@@ -139,9 +139,7 @@ in-class and online participation, which basically "unweights" the exams.
 | Homework   |   | Due Fri at start of class |              40% |
 
 
-**Clickers and online participation:** These activities are pure extra
-credit: they REDUCE total midterm weights up to 10% of exam total (i.e.
-7% of your grade).
+**Clickers:** Clickers are pure extra credit: they REDUCE total midterm weights up to 10% of exam total. That is, the total number of clicker questions you answer divided by the total number of questions given is the fraction of the 10% reduction you will receive. For example, let's assume you answer 90% of the clicker questions over the course of the semester then your two midterm exams count for 36.4% of your grade instead of 40%.
 
 **Exams:** There are no makeups. You may not miss any exam except for
 reasons beyond your control, approved by Prof. Caballero (usually a
