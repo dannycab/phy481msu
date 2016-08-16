@@ -67,7 +67,7 @@ make sense of the material. I will assume you have done the required
 readings in advance! Griffiths is one of the best (and most readable)
 texts I know of - it will make a huge difference if you spend the time
 and effort to carefully read and follow the text. The
-[calendar](#calendar) has the details on reading assignments.
+[calendar](./calendar.html) has the details on reading assignments.
 
 #### Class Meetings
 
