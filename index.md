@@ -105,12 +105,12 @@ be your own: in your own words, reflecting your own understanding. (If,
 at any time, for any reason, you feel disadvantaged or isolated, contact
 me and I can discretely try to help arrange study groups.)
 
-**Computational Homework Problems:** There will be *some use of computation in this course* on homework problems. I will encourage and support the use of Python (through Jupyter notebooks). You do not need any computational experience for this course as you will learn some fundamentals early on and keep using them throughout the course. You are welcome to use any environment of your choosing (e.g., Octave/MATLAB, Mathematica, C++), but I will only
-provide support for Python. Python is in use across the sciences, but it
-is becoming much used in physics, so learning it will serve you well in
+**Computational Homework Problems:** There will be *some use of computation in this course* on homework problems. I will encourage and support the use of Python (through [Jupyter notebooks](http://jupyter.org/)). You do not need any computational experience for this course as you will learn some fundamentals early on and keep using them throughout the course. You are welcome to use any environment of your choosing (e.g., Octave/MATLAB, Mathematica, C++), but I will only provide support for Python. Python is in use across the sciences, but it is becoming much used in physics, so learning it will serve you well in
 your future work. I suggest downloading the [Anaconda distribution of
 Python](https://www.continuum.io/) as it comes with all the packages you
 will need to get up and running with Jupyter notebooks.
+
+**[Installing Jupyter Notebooks](http://jupyter.readthedocs.io/en/latest/install.html)**
 
 #### Help Sessions
 
