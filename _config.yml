@@ -17,4 +17,9 @@ baseurl: "/phy481msu" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
-#markdown: maruku
+
+collection:
+  assignments:
+    output: true
+  notes:
+    output: true
