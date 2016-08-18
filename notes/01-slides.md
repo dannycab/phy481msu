@@ -1,39 +1,17 @@
 ---
-layout: notes
+layout: slide
+title: Introduction
+description: Introduction to Physics 481
+theme: white
+transition: slide
 ---
 
-# My Awesome Presentation
+<section data-markdown>
+## PHY 481
 
----
+Electrostatics
+</section>
 
-# Agenda
-
-1. Introduction
-2. Deep-dive
-3. ...
-
-[NOTE]: Note that you need active internet connection to access remark.js script file
-
----
-
-# Introduction
-
-Hello world!
-
-# My Awesome Presentation
-
----
-
-# Agenda
-
-1. Introduction
-2. Deep-dive
-3. ...
-
-[NOTE]: Note that you need active internet connection to access remark.js script file
-
----
-
-# Introduction
-
-Hello world!
+<section data-markdown>
+## The End
+</section>
