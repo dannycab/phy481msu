@@ -1,7 +1,5 @@
 ---
 layout: slide
-title: Introduction
-description: Introduction to Physics 481
 theme: white
 transition: slide
 ---
