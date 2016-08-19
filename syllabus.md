@@ -18,10 +18,17 @@ are preliminary until this message has been removed.
 -   Class Meetings: MWF 12:40 PM - 1:30 PM (1415 BPS)
 -   Instructor: <caballero@pa.msu.edu>, cell: (517) 420-5330, office:
     1310-A BPS
--   TA: Dennis Foren (<forenden@msu.edu>)
--   Office hrs: TBD I enjoy visiting and talking with you about physics.
+-   Office hrs: Open door policy. I enjoy visiting and talking with you about physics.
 -   Web page:
     [dannycab.github.io/phy481msu/](http://dannycab.github.io/phy481msu/)
+
+-   TA: Dennis Foren (<forenden@msu.edu>)
+-   Office hrs: TDB
+
+#### Piazza Discussion Forum
+*This term we will be using Piazza for class discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TA, and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. Find our class page at: <https://piazza.com/msu/fall2016/phy481/home>*
+
+
 
 ### Overview
 
