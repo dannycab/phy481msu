@@ -3,4 +3,4 @@ title: Homework
 layout: page
 ---
 
-* [Homework 1 (Due Sept. 9)](./homework1.html)
+* Homework 1 (Due Sept. 9)

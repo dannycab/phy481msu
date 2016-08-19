@@ -110,9 +110,9 @@ All three of these goals are clearly important. However,  which of these three g
 
 ### Electromagnetism is the foundational field theory of physics
 
-<p class="fragment">Think about everything you already know about electromagnetism (it's a lot already!).</p>
+Think about everything you already know about electromagnetism (it's a lot already!).
 
-<p class="fragment">Work with a partner to map out the electromagnetism concepts that you know and how they are related to each other.</p>
+Work with a partner to map out the electromagnetism concepts that you know and how they are related to each other.
 
 </section>
 

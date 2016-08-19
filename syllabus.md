@@ -18,7 +18,7 @@ are preliminary until this message has been removed.
 -   Class Meetings: MWF 12:40 PM - 1:30 PM (1415 BPS)
 -   Instructor: <caballero@pa.msu.edu>, cell: (517) 420-5330, office:
     1310-A BPS
--   TAs/staff: TBD
+-   TA: Dennis Foren (<forenden@msu.edu>)
 -   Office hrs: TBD I enjoy visiting and talking with you about physics.
 -   Web page:
     [dannycab.github.io/phy481msu/](http://dannycab.github.io/phy481msu/)
@@ -131,12 +131,12 @@ Your course grade is largely determined by a combination of your
 performance on exams and homework. There will be some extra credit for
 in-class and online participation, which basically "unweights" the exams.
 
-| Activity   |   |            Date           | Percent of Grade |
-|------------|---|:-------------------------:|-----------------:|
-| Exam 1     |   |         Wed Oct 5         |              20% |
-| Exam 2     |   |         Wed Nov 2         |              20% |
-| Final Exam |   |   Time and Location TBD   |              20% |
-| Homework   |   | Due Fri at start of class |              40% |
+| Activity   |            Date           | Percent of Grade |
+|------------|:-------------------------:|-----------------:|
+| Exam 1     |         Wed Oct 5         |              20% |
+| Exam 2     |         Wed Nov 2         |              20% |
+| Final Exam |   Time and Location TBD   |              20% |
+| Homework   | Due Fri at start of class |              40% |
 
 
 **Clickers:** Clickers are pure extra credit: they REDUCE total midterm weights up to 10% of exam total. That is, the total number of clicker questions you answer divided by the total number of questions given is the fraction of the 10% reduction you will receive. For example, let's assume you answer 90% of the clicker questions over the course of the semester then your two midterm exams count for 36.4% of your grade instead of 40%.
@@ -206,15 +206,14 @@ Physics 481 covers some of the most important physics and mathematical
 methods in the field. Your reward for the hard work and effort will be
 learning important and elegant material that you will use over and over
 as a physics major. Here is what I have experienced, and heard from
-other faculty teaching upper division physics in the past: 
+other faculty teaching upper division physics in the past:
 
 - most students reported spending a minimum of 10 hours per week on the
-homework (!!) 
+homework (!!)
 - students who didn't attend the homework help sessions
-often did poorly in the class. 
+often did poorly in the class.
 - students reported learning a tremendous amount in this class.
 
 **The course topics that we will cover in Physics 481 are among the
 greatest intellectual achievements of humans. Don't be surprised if you
 have to think hard and work hard to master the material.**
-
