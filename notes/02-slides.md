@@ -118,7 +118,7 @@ Note:
 
 <section data-markdown>
 
-Coulomb's Law: $\mathbf{F}  = \frac{k q_1 q_2}{\mathfrak{R}^2}\hat{\mathfrak{R}}$ where $\mathfrak{R}$ is the relative position vector. In the figure, $q_1$ and $q_2$ are 2 m apart. Which arrow **can** represent $\hat{\mathfrak{R}}$?
+Coulomb's Law: $\mathbf{F}  = \frac{k q_1 q_2}{\left|\mathfrak{R}\right|^2}\hat{\mathfrak{R}}$ where $\mathfrak{R}$ is the relative position vector. In the figure, $q_1$ and $q_2$ are 2 m apart. Which arrow **can** represent $\hat{\mathfrak{R}}$?
 
 <img src ="./images/cq_unit_r.png" align="center" style="width: 550px";/>
 
@@ -194,7 +194,7 @@ Note:
 
 <section data-markdown>
 
-A rod (radius $R$) with a hole ($radius r$) drilled down its entire length $L$ has a mass density of $\frac{m_0\phi}{\phi_0}$ (where $\phi$ is the normal polar coordinate).
+A rod (radius $R$) with a hole (radius $r$) drilled down its entire length $L$ has a mass density of $\frac{m_0\phi}{\phi_0}$ (where $\phi$ is the normal polar coordinate).
 
 To find the total mass of this rod, which coordinate system should be used (take note that the mass density varies as a function of angle):
 
@@ -202,5 +202,45 @@ To find the total mass of this rod, which coordinate system should be used (take
 2. Spherical ($r,\phi,\theta$)
 3. Cylindrical ($s, \phi, z$)
 4. It doesn't matter, just pick one.
+
+</section>
+
+<section data-markdown>
+
+Which of the following two fields has zero divergence?
+
+<img src ="./images/cq_two_fields.png" align="center" style="width: 700px";/>
+
+1. Both do.
+2. Only I is zero
+3. Only II is zero
+4. Neither is zero
+5. ???
+
+</section>
+
+<section data-markdown>
+
+Which of the following two fields has zero curl?
+
+<img src ="./images/cq_two_fields.png" align="center" style="width: 700px";/>
+
+1. Both do.
+2. Only I is zero
+3. Only II is zero
+4. Neither is zero
+5. ???
+
+</section>
+
+<section data-markdown>
+Consider a vector field defined as the gradient of some well-behaved scalar function:
+$$\mathbf{v}(x,y,z) = \nabla T(x,y,z).$$
+
+What is the value of $\oint_C \mathbf{v} \cdot d\mathbf{l}$?
+
+1. Zero
+2. Non-zero, but finite
+3. Can't tell without a function for $T$
 
 </section>
