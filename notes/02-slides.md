@@ -209,7 +209,9 @@ To find the total mass of this rod, which coordinate system should be used (take
 
 Which of the following two fields has zero divergence?
 
-<img src ="./images/cq_two_fields.png" align="center" style="width: 700px";/>
+| I | II |
+|:-:|:-:|
+| <img src ="./images/cq_left_field.png" align="center" style="width: 400px";/> | <img src ="./images/cq_right_field.png" align="center" style="width: 400px";/> |
 
 1. Both do.
 2. Only I is zero
