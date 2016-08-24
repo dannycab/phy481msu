@@ -3,3 +3,10 @@ _site
 .jekyll-metadata
 .ipynb_checkpoints
 .DS_Store
+latex.inc
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz

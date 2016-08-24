@@ -151,7 +151,7 @@ Correct answer: E (It's $dx\;\hat{x}+dy\;\hat{y}$).
 
 You are trying to compute the work done by a force, $\mathbf{F} = a\hat{x} + x\hat{y}$, along the line $y=2x$ from $\langle 0,0 \rangle$ to $\langle 1,2 \rangle$. Given that $d\mathbf{l} = dx\;\hat{x}+dy\;\hat{y}$, which of the following forms of the integral is correct?
 
-1. $\int_0^1 a\;dx + \int_0^2 x\;dy)$
+1. $\int_0^1 a\;dx + \int_0^2 x\;dy$
 2. $\int_0^1 (a\;dx + 2x\;dx)$
 3. $\frac{1}{2} \int_0^2 (a\;dy + y\;dy)$
 4. More than one is correct
@@ -164,7 +164,7 @@ Correct answer: D (All are correct forms, but B and C are ready to integrate).
 
 <section data-markdown>
 
-A certain fluid has a velocity field given by $\mathbf{v} = x\hat{x} + z \hat{y}$. Which component of the field contributed to "fluid flux" integral ($\int_S \mathbf{v}\cdot d\mathbf{A}$) through the x-z plane?
+A certain fluid has a velocity field given by $\mathbf{v} = x\hat{x} + z \hat{y}$. Which component(s) of the field contributed to "fluid flux" integral ($\int_S \mathbf{v}\cdot d\mathbf{A}$) through the x-z plane?
 
 1. $v_x$
 2. $v_y$
@@ -194,7 +194,7 @@ Note:
 
 <section data-markdown>
 
-A rod (radius $R$) with a hole (radius $r$) drilled down its entire length $L$ has a mass density of $\frac{m_0\phi}{\phi_0}$ (where $\phi$ is the normal polar coordinate).
+A rod (radius $R$) with a hole (radius $r$) drilled down its entire length $L$ has a mass density of $\frac{\rho_0\phi}{\phi_0}$ (where $\phi$ is the normal polar coordinate).
 
 To find the total mass of this rod, which coordinate system should be used (take note that the mass density varies as a function of angle):
 
