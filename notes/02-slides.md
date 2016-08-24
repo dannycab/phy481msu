@@ -225,7 +225,9 @@ Which of the following two fields has zero divergence?
 
 Which of the following two fields has zero curl?
 
-<img src ="./images/cq_two_fields.png" align="center" style="width: 700px";/>
+| I | II |
+|:-:|:-:|
+| <img src ="./images/cq_left_field.png" align="center" style="width: 400px";/> | <img src ="./images/cq_right_field.png" align="center" style="width: 400px";/> |
 
 1. Both do.
 2. Only I is zero
