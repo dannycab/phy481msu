@@ -224,3 +224,7 @@ often did poorly in the class.
 **The course topics that we will cover in Physics 481 are among the
 greatest intellectual achievements of humans. Don't be surprised if you
 have to think hard and work hard to master the material.**
+
+### Handling Emergency Situations
+
+*In the event of an emergency arising within the classroom, Prof. Caballero will notify you of what actions that may be required to ensure your safety. It is the responsibility of each student to understand the evacuation, “shelter-in-place,” and “secure-in-place” guidelines posted in each facility and to act in a safe manner. You are allowed to maintain cellular devices in a silent mode during this course, in order to receive emergency SMS text, phone or email messages distributed by the university. When anyone receives such a notification or observes an emergency situation, they should immediately bring it to the attention of Prof. Caballero in a way that causes the least disruption. If an evacuation is ordered, please ensure that you do it in a safe manner and facilitate those around you that may not otherwise be able to safely leave. When these orders are given, you do have the right as a member of this community to follow that order. Also, if a shelter-in-place or secure-in-place is ordered, please seek areas of refuge that are safe depending on the emergency encountered and provide assistance if it is advisable to do so.*
