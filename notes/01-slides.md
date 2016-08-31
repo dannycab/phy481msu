@@ -97,6 +97,18 @@ How likely are you to attend the help sessions?
 
 <section data-markdown>
 
+### Computational Homework problems
+
+* We will be using Python on homework problems this semester.
+* Installation instructions appear on the piazza site.
+* Homework questions will take the form of [a Jupyter notebook](https://github.com/dannycab/phy481msu/blob/gh-pages/jupyter/HW1-GradientProblem.ipynb), which you can print to PDF and turn in.
+* If you get stuck somewhere, post on piazza, so your classmates benefit from your question.
+
+</section>
+
+
+<section data-markdown>
+
 Thinking of what you want to get out of your college education and this course, which of the following is *most* important to you?
 
 1. Acquiring information (facts, principles, concepts, procedures)
