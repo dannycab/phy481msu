@@ -33,50 +33,23 @@ The concept of superposition is critically important to the study of electrodyna
 
 #### 3. Superposition and continuous charge distributions
 
-Superposition is a very powerful tool that can help quantitatively describe the electric field produced by any arbitrary static distribution of charges. For some problems, it is either incredibly time-consuming to apply superposition analytically to the problem or the problem may not have an analytical solution (i.e., the integral can be constructed but not solved in closed form). In this problem, you will extend your knowledge of superposition to include how we might numerically determine the electric field due to a well-known charge distribution (a rod with a constant linear charge density). *By choosing something familar like a rod of charge, we hope for you to build intuition about the numerical method we are using.*
+Superposition is a very powerful tool that can help quantitatively describe the electric field produced by any arbitrary static distribution of charges. For some problems, it is either incredibly time-consuming to apply superposition analytically to the problem or the problem may not have an analytical solution (i.e., the integral can be constructed but not solved in closed form). In this problem, you will extend your knowledge of superposition to include how we might numerically determine the electric field due to a well-known charge distribution (a rod with a constant linear charge density). *By choosing something familiar like a rod of charge, we hope for you to build intuition about the numerical method we are using.*
 
 The electric field at a distance $r$ from the midpoint of a uniformly charged rod of length $L$ along an axis perpendicular to the rod is given by:
 
-$$E=\frac{1}{4\pi\varepsilon_0}\frac{Q}{r\sqrt{r^2+(L/2)^2}}$$
+$$E_{rod}=\frac{1}{4\pi\varepsilon_0}\frac{Q}{r\sqrt{r^2+(L/2)^2}}$$
 
-1. Suppose you have a vertically oriented rod of total charge $Q=+1\ \mu$C, centered at the origin with a length of 1 m. Determine the electric field at the location $\langle 0.1 , 0 , 0 \rangle$ m? *Is your answer a vector because it should be.*
+1. Suppose you have a vertically oriented rod of total charge $Q=+1\ \mu$C, centered at the origin with a length of 1 m. Determine the electric field at the location $\langle 0.1 , 0 , 0 \rangle$ m? *Is your answer a vector? Because it should be.*
 
-2. To numerically compute the electric field at a point in space due to a uniformly charged rod, you must break the rod into small pieces and treat each piece as a point particle.  Then, calculate the electric field due to each piece and use superposition to get the net electric field at the given point in space. In this exercise, you will calculate it by hand for a small number of pieces. In later exercises, you will use a computational tool that is far more efficient.
+2. To numerically compute the electric field at a point in space due to a uniformly charged rod, you must break the rod into small pieces and treat each piece as a point particle.  Then, calculate the electric field due to each piece and use superposition to get the net electric field at the given point in space.  Break each half of the rod described above into 2 pieces for a total of 4 pieces. Calculate the net electric field at the same location $\langle 0.1 , 0 , 0 \rangle$ m by treating each piece as a point charge. How does this compare with the analytic result in question 1? What can you do to make the numeric result in this exercise more accurate?
 
-You have a vertically oriented rod of total charge $+Q=1\mu C$, centered at the origin with a length of 1 m. Break each half of the rod into 2 pieces for a total of 4 pieces. Calculate the net electric field at the location $\langle 0.1 , 0 , 0 \rangle$ m by treating each piece as a particle. We'll call this point P.
-Here are the steps:
+3. Note what a pain it would be if you broke the rod into 100 pieces and had to calculate electric field by hand! That's why you prefer to solve it analytically. However, not all charge distributions are easily solved analytically. Furthermore what if the point $P$ was not along an axis of symmetry? That's why we write computer programs to do the numeric calculation. We created a Jupyter notebook that walks you through how to perform this numerical integral, you can [download it here](../jupyter/HW2-ElectricFieldChargedRod.ipynb) (or [view it here](https://github.com/dannycab/phy481msu/blob/gh-pages/jupyter/HW2-ElectricFieldChargedRod.ipynb)). For this part, you are try to reproduce the value obtained in the previous part, but doing so numerically.
 
-* Sketch the rod, showing each piece. Label the pieces by numbering them 1 through 6.
-* Write the coordinates of the first piece $\langle x , y , z \rangle$.
-* Calculate the position of point P relative to the center of the first piece, $\vec{r}$. Calculate the vector $\vec{r}$, the unit vector $\hat{r}$, and the magnitude $\|\vec{r}\|$, for point P relative to the center of the first piece.
-* Calculate the electric field at point P due to the first piece.
-* Repeat this calculation (steps 2-4) for each of the other pieces.
-* Calculate the net electric field at point P by summing the electric field due to each piece.
 
-How does this compare with the analytic result in question 1? What can you do to make the numeric result in this exercise more accurate?
+4. Your answer in the previous part does not match the analytic result in from the very first part because the approximation of each piece of the rod being a *point charge* at the center of the piece is not accurate for large pieces. To use smaller piece sizes, we must break the rod into a larger number of pieces, $N$. Increase $N$ and run your simulation again. What value of $N$ is sufficient to give a result that agrees within 1% of the analytic result from the first exercise? What about 0.1%? What about 0.0001% - "five sigma" agreement? What does this tell you about making *very* accurate simulations?
 
-3. Note what a pain it would be if you broke the rod into 100 pieces and had to calculate electric field by hand! That's why you prefer to solve it analytically. However, not all charge distributions are easily solved analytically. Furthermore what if the point $P$ was not along an axis of symmetry? That's why we write computer programs to do the numeric calculation.
+5. BONUS -- You now have a simulation that will solve for the electric field at any specified location, all you need to do is change the observation location. For this bonus problem, worth up to one part of one problem, alter the code (or write another code) to find the electric field in a circle of a given radius around the line charge.
 
-Write a computer program that computes the electric field for the situation as in Exercise 2 (with the rod broken into only 6 pieces). Compare the result given by your program to the result found in Exercise 2. It should be the same
-
-4. Your answer in Exercise 3 does not match the analytic result in Exercise 1 because the approximation of each piece of the rod being a *point particle* at the center of the piece is not accurate for large pieces. To use smaller piece sizes, we must break the rod into a larger number of pieces, $N$.
-
-Increase $N$ and run your simulation (from Exercise 3) again. Make a data table showing the following values of $N$ and the resulting net electric field at the given point, $P$.
-
-| $N$ | $\vec{E}_{net} \quad \mathrm{(N/C)}$ |
-| -- | -- |
-| 6 | |
-| 10 | |
-| 50 | |
-| 100 | |
-| 500 | |
-| 1000 | |
-
-What value of $N$ is sufficient to give a result that agrees within 1% of the analytic result from Exercise 1?
-
-5. Using the same charge and length for the rod, calculate analytically the electric field at the location $< 0, 0.6 , 0 >$ m, that is along the axis of the rod. Use your program to numerically compute the electric field at the same point. Verify that you get a similar result, depending on the value of $N$ that you use.
-
-6. The advantage of computing the electric field numerically is you can compute the electric field at any point P in space. What is the electric field at the location $< 0.1, 0.5 , 0 >$ m?
 
 #### 4. Disk of charge - Checking new results against your intuition
 
@@ -109,3 +82,13 @@ $$E_x = \dfrac{1}{4\pi\epsilon_0}\dfrac{Qx}{\left(x^2+a^2\right)^{3/2}}$$
 3. Consider the situation where the particle is very close to a large ring (i.e., where $x/a\;<<\;1$). Determine the approximate form of the differential equation for this case -- keep only terms that depend linearly on $x$. This is called "linearizing" the differential equation, which makes it analytically tractable.
 4. Solve the differential equation for the case where the particle starts from rest at a distance of $x_0$ from the ring. Sketch the resulting motion of the test charge as a function of time. Does your graph agree with your intuition about the motion?
 5. What would happen to the test charge if it was not placed precisely on the central axis? Why?
+6. simulation
+
+#### 6. Finding the electric field of spherical shell using direct integration
+
+In this class, you will learn a mathematical technique (Gauss' Law) that makes solving for the electric field relatively simple in comparison to direct integration for certain kinds of problems. In this problem, you will solve for the electric field that can be determined using Gauss' Law, but you will use direct integration instead. This problem involves relatively sophisticated integral, which you are free to look up, have some software solve, or (for the gluttons for pain) solve yourself. The message here is: when you run across a difficult piece of math, it's ok to use your resources.
+
+1. Find the electric field a distance $z$ above the center of a spherical surface of radius $R$, which carries a uniform surface charge density $\sigma$. Do this by explicit integration (i.e., starting from Griffith's equation 2.7), please. Just treat the case of $z > R$ (*outside* the sphere). Express your answer in terms of the total charge $q$ on the sphere. *Also, be careful, when you get a square root, to take the positive root:* $\sqrt{R^2 + z^2 - 2Rz}=(R-z)$ if $R>z$, but it's $(z-R)$ if $R<z$.
+2. Check your answer using a units check and your knowledge from PHY 184. Briefly discuss what the answer should be outside the sphere. What should the answer be inside the sphere and why? *You don't have to solve that problem explicitly.*
+
+*Historical note: Newton solved part 1 using geometry (no calculus!!) This geometric proof is tricky and still excites debate: see R. Weinstock Am. J. Phys., 52, (1984), p. 883; H. Erlichson, Am. J. Phys. 58, (1990) p. 882. Newton thought calculus should be kept secret, and held up publication of Principia until he could work out these non-calculus proofs. He published calculus much later, about the same time as Leibniz published his calculus.*
