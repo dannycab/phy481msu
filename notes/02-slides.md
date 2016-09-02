@@ -41,7 +41,8 @@ $\nabla\times\mathbf{E} = - \frac{\partial\mathbf{B}}{\partial t} \qquad \int \m
 
 $\nabla\times\mathbf{B} = \mu_0\mathbf{J} + \mu_0\epsilon_0\frac{\partial\mathbf{E}}{\partial t} \qquad \int \mathbf{B} \cdot d\mathbf{A} = \mu_0 \int \left(\mathbf{J} + \epsilon_0 \frac{\partial\mathbf{E}}{\partial t}\right) \cdot d\mathbf{A} $
 
-
+Note:
+There's a reason that we are starting with vectors and vector operations; it's inherent in the way electromagnetism is described!
 </section>
 
 <section data-markdown>
@@ -59,9 +60,7 @@ Two charges +Q and -Q are fixed a distance r apart.  The direction of the force 
 
 Note:
 * CORRECT ANSWER:  A
-* Student Responses: [[92]] 4 0 2 2 (Sp 2013)
-* SJP Comment: The first concept test, it went quickly, and when they did it silently it was about 70% correct. I used this to point out that even elementary questions are easy to mess up, and conversing with neighbors “fixes” simple problems. We can’t move in if 1/3 of the class is getting THIS wrong! Mentioned to some individuals that E is down, which was a nice reminder for them.
-
+* Use superposition
 
 </section>
 
@@ -77,6 +76,7 @@ In a typical Cartesian coordinate system, vector $\mathbf{A}$ lies along the $+\
 
 Note:
 * Correct Answer: D
+* Use the right-hand rule
 
 </section>
 
@@ -92,7 +92,7 @@ In a typical Cartesian coordinate system, vector $\mathbf{A}$ lies along the $+\
 
 Note:
 * Correct Answer: C
-
+* Use right-hand rule; means $\mathbf{A} \times \mathbf{B} = - \mathbf{B} \times \mathbf{A}$
 </section>
 
 <section data-markdown>
@@ -103,6 +103,9 @@ Note:
 
 Consider the radial unit vector ($\hat{r}$) in the spherical coordinate system as shown in the figure to the right. Determine the components of this unit vector in the Cartesian $(x,y,z)$ system.
 
+
+Note:
+This demonstrates that the r unit vector is a curious thing, in fact in contains all the information that is needed to define where you on the unit sphere. The other vectors can be though of as defined relative to that.
 </section>
 <section data-markdown>
 
@@ -119,7 +122,7 @@ In cylindrical (2D) coordinates, what would be the correct description of the po
 
 Note:
 * CORRECT ANSWER:  A
-* INSTRUCTOR NOTES This was the “review’ question to start class. We had done almost exactly the same question at the start of the previous class, so I thought it would be even higher. (The position vector is different from the coordinates! Students seem to be confused about this - the point P has r=Sqrt[2], phi=pi/4, but it is certainly not the case that, e.g.  B would be the position vector. The units aren’t even correct!)   -SJP
+* INSTRUCTOR NOTES This was the "review" question to start class. We had done almost exactly the same question at the start of the previous class, so I thought it would be even higher. (The position vector is different from the coordinates! Students seem to be confused about this - the point P has r=Sqrt[2], phi=pi/4, but it is certainly not the case that, e.g.  B would be the position vector. The units aren't even correct!)   -SJP
 
 </section>
 
@@ -136,7 +139,7 @@ How is the vector $\mathfrak{R}_{12}$ related to $\mathbf{r}_1$ and  $\mathbf{r}
 
 Note:
 * CORRECT ANSWER:  C
-* SJP Comment: Nice concept test. I asked my students first: given a charge q1 and r1 and q2 at r2, what physical vector does Coulomb’s law implicitly have in it,i..e  what’s the “r vector” in the simple version of Coulomb’s law? I got several responses, including the sum (average) of r1 and r2, or the difference…  That lead beautifully into this question. Silently they were about 70% correct, after brief discussion it went to 90+%. It’s not hard, but very worth while. The point here is that R12 as shown is clearly what you physically want, and then the picture tells you how to construct it, this is not something to “memorize”, it just makes sense!
+
 
 </section>
 
@@ -151,6 +154,10 @@ Coulomb's Law: $\mathbf{F}  = \frac{k q_1 q_2}{\left|\mathfrak{R}\right|^2}\hat{
 3. C
 4. More than one (or NONE) of the above
 5. You can't decide until you know if $q_1$ and $q_2$ are the same or opposite charges
+
+Note:
+* CORRECT ANSWER: D
+* A unit vector has no units; so it's length is meaningless on a picture with units.
 
 
 </section>
@@ -167,7 +174,8 @@ You are trying to compute the work done by a force, $\mathbf{F} = a\hat{x} + x\h
 5. Something else
 
 Note:
-Correct answer: E (It's $dx\;\hat{x}+dy\;\hat{y}$).
+* CORRECT ANSWER: E
+* It's $dx\;\hat{x}+dy\;\hat{y}$.
 
 </section>
 
@@ -181,7 +189,8 @@ You are trying to compute the work done by a force, $\mathbf{F} = a\hat{x} + x\h
 4. More than one is correct
 
 Note:
-Correct answer: D (All are correct forms, but B and C are ready to integrate).
+* CORRECT ANSWER: D
+* All are correct forms, but B and C are ready to integrate.
 
 </section>
 
@@ -196,7 +205,7 @@ A certain fluid has a velocity field given by $\mathbf{v} = x\hat{x} + z \hat{y}
 4. neither
 
 Note:
-* Correct answer: B
+* CORRECT ANSWER: B
 * Only the vector perpendicular to the surface will contribute
 
 </section>
@@ -211,7 +220,7 @@ For the same fluid with velocity field given by $\mathbf{v} = x\hat{x} + z \hat{
 4. I can't tell without doing the integral
 
 Note:
-* Correct answer: A
+* CORRECT ANSWER: A
 * The velocity field is parallel to the x-y plane every where and hence contributes no flux through the surface.
 
 </section>
@@ -226,6 +235,10 @@ To find the total mass of this rod, which coordinate system should be used (take
 2. Spherical ($r,\phi,\theta$)
 3. Cylindrical ($s, \phi, z$)
 4. It doesn't matter, just pick one.
+
+Note:
+* CORRECT ANSWER: C
+* It makes the most sense from the geometry of the problem and writing the limits.
 
 </section>
 
@@ -243,6 +256,10 @@ Which of the following two fields has zero divergence?
 4. Neither is zero
 5. ???
 
+Note:
+* CORRECT ANSWER: B
+* Think about dE/dx and dE/dy
+
 </section>
 
 <section data-markdown>
@@ -259,6 +276,9 @@ Which of the following two fields has zero curl?
 4. Neither is zero
 5. ???
 
+Note:
+* CORRECT ANSWER: C
+* Think about paddle wheel
 </section>
 
 <section data-markdown>
@@ -270,5 +290,9 @@ What is the value of $\oint_C \mathbf{v} \cdot d\mathbf{l}$?
 1. Zero
 2. Non-zero, but finite
 3. Can't tell without a function for $T$
+
+Note:
+* CORRECT ANSWER: A
+* Closed loop integral of a gradient is zero.
 
 </section>
