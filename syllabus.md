@@ -23,7 +23,6 @@ are preliminary until this message has been removed.
     [dannycab.github.io/phy481msu/](http://dannycab.github.io/phy481msu/)
 
 -   TA: Dennis Foren (<forenden@msu.edu>)
--   Office hrs: TDB
 
 #### Piazza Discussion Forum
 *This term we will be using Piazza for class discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TA, and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. Find our class page at: <https://piazza.com/msu/fall2016/phy481/home>*

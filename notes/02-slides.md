@@ -6,6 +6,30 @@ transition: slide
 
 <section data-markdown>
 
+On Wednesday, you took an assessment of electromagnetism concepts.
+
+**How did that assessment feel for you?**
+
+1. I think it went fine; I felt like I knew most of the answers.
+2. I was concerned about one or two questions; but most of the questions were familiar.
+3. I guessed (or left blank) most of the questions; none of the questions really felt familiar.
+
+</section>
+
+<section data-markdown>
+
+### Announcements
+
+* Homework Help Session
+    * Wednesday 6-7pm+ in 1300 BPS
+    * Thursday 6-7pm+ in 1400 BPS
+* Any trouble installing/using Python?
+    * Check the Piazza forum for help
+
+</section>
+
+<section data-markdown>
+
 ## Lecture 2: Mathematical Preliminaries
 
 $\nabla\cdot\mathbf{E} = \frac{\rho}{\epsilon_0} \qquad \int \mathbf{E}\cdot d\mathbf{A} = \int \frac{\rho}{\epsilon_0} d\tau$
