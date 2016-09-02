@@ -75,7 +75,7 @@ Consider a thin ring (positive charge, $Q$; radius, $a$) that has its central ax
 
 A charged ring with these parameters will produce an electric field along its central axis given by,
 
-$$E_x = \dfrac{1}{4\pi\epsilon_0}\dfrac{Qx}{\left(x^2+a^2\right)^{3/2}}$$
+$$E_x = \dfrac{1}{4\pi\varepsilon_0}\dfrac{Qx}{\left(x^2+a^2\right)^{3/2}}$$
 
 1. Write down the differential equation that describes the motion of a particle with negative charge $-q$ and mass $m$ that is carefully positioned on the $x$-axis. *Note: this particle has a charge that is opposite the sign of the ring, so $q$ is the magnitude of the charge of this particle.*
 2. What kind of motion do you expect to see for this charge? Why? Does the differential equation describe that kind of motion? *Hint: Consider if this differential equation is analytically tractable (i.e., can it be solved in closed form).*
