@@ -14,6 +14,10 @@ On Wednesday, you took an assessment of electromagnetism concepts.
 2. I was concerned about one or two questions; but most of the questions were familiar.
 3. I guessed (or left blank) most of the questions; none of the questions really felt familiar.
 
+Note:
+* Fall 2016: 3 32 65 0 0
+
+
 </section>
 
 <section data-markdown>
@@ -61,6 +65,7 @@ Two charges +Q and -Q are fixed a distance r apart.  The direction of the force 
 Note:
 * CORRECT ANSWER:  A
 * Use superposition
+* Fall 2016: [71] 14 3 8 5; Second vote (after discussion): [98] [2] 0 0 0
 
 </section>
 
@@ -77,6 +82,7 @@ In a typical Cartesian coordinate system, vector $\mathbf{A}$ lies along the $+\
 Note:
 * Correct Answer: D
 * Use the right-hand rule
+* Fall 2016: 0 0 23 [77]
 
 </section>
 
@@ -93,6 +99,7 @@ In a typical Cartesian coordinate system, vector $\mathbf{A}$ lies along the $+\
 Note:
 * Correct Answer: C
 * Use right-hand rule; means $\mathbf{A} \times \mathbf{B} = - \mathbf{B} \times \mathbf{A}$
+* Fall 2016: 0 0 [94] 6 0
 </section>
 
 <section data-markdown>
@@ -122,7 +129,7 @@ In cylindrical (2D) coordinates, what would be the correct description of the po
 
 Note:
 * CORRECT ANSWER:  A
-* INSTRUCTOR NOTES This was the "review" question to start class. We had done almost exactly the same question at the start of the previous class, so I thought it would be even higher. (The position vector is different from the coordinates! Students seem to be confused about this - the point P has r=Sqrt[2], phi=pi/4, but it is certainly not the case that, e.g.  B would be the position vector. The units aren't even correct!)   -SJP
+* Fall 2016: [6] 90 3 0 1; Second vote (discussion and hint about units): [54] 35 4 1 4
 
 </section>
 
@@ -139,6 +146,7 @@ How is the vector $\mathfrak{R}_{12}$ related to $\mathbf{r}_1$ and  $\mathbf{r}
 
 Note:
 * CORRECT ANSWER:  C
+* Fall 2016: 6 1 [91] 1 0
 
 
 </section>
@@ -158,6 +166,7 @@ Coulomb's Law: $\mathbf{F}  = \frac{k q_1 q_2}{\left|\mathfrak{R}\right|^2}\hat{
 Note:
 * CORRECT ANSWER: D
 * A unit vector has no units; so it's length is meaningless on a picture with units.
+* Fall 2016 (hint given while still open): 14 10 9 [44] 23; students wanted to discuss E
 
 
 </section>
@@ -175,5 +184,6 @@ You are trying to compute the work done by a force, $\mathbf{F} = a\hat{x} + x\h
 Note:
 * CORRECT ANSWER: E
 * It's $dx\;\hat{x}+dy\;\hat{y}$.
+* Fall 2016 (given right at the end of class): 8 6 8 58 [20]
 
 </section>

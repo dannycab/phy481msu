@@ -82,7 +82,8 @@ $$E_x = \dfrac{1}{4\pi\varepsilon_0}\dfrac{Qx}{\left(x^2+a^2\right)^{3/2}}$$
 3. Consider the situation where the particle is very close to a large ring (i.e., where $x/a\;<<\;1$). Determine the approximate form of the differential equation for this case -- keep only terms that depend linearly on $x$. This is called "linearizing" the differential equation, which makes it analytically tractable.
 4. Solve the differential equation for the case where the particle starts from rest at a distance of $x_0$ from the ring. Sketch the resulting motion of the test charge as a function of time. Does your graph agree with your intuition about the motion?
 5. What would happen to the test charge if it was not placed precisely on the central axis? Why?
-6. simulation
+6. We have created a Jupyter notebook that models the motion of the test charge using both the exact and the approximate differential equation. You can [download it here](../jupyter/HW2-MotionOfTestCharge.ipynb) (or [view it here](https://github.com/dannycab/phy481msu/blob/gh-pages/jupyter/HW2-MotionOfTestCharge.ipynb)). By working through this notebook, we expect you to be able to explain the output of each model and its assumptions. We also ask that you determine under what conditions the approximate model is a good one and explain how you know. 
+
 
 #### 6. Finding the electric field of spherical shell using direct integration
 
