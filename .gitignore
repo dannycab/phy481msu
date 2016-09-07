@@ -12,3 +12,4 @@ latex.inc
 *.synctex.gz
 assignments/solutions
 jupyter/solutions
+grades

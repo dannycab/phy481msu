@@ -22,6 +22,19 @@ Note:
 </section>
 
 <section data-markdown>
+### Announcements
+
+* **Homework 1 (Due Friday)**
+* Homework Help Session
+   * Tonight 6-7pm+ (1300 BPS)
+   * Tomorrow 6 -7pm+ (1400 BPS)
+* Some helpful posts on Piazza already
+* Clickers won't be counted until next Monday
+   * 8AF4EB95, A185FEDA are unregistered
+
+</section>
+
+<section data-markdown>
 
 You are trying to compute the work done by a force, $\mathbf{F} = a\hat{x} + x\hat{y}$, along the line $y=2x$ from $\langle 0,0 \rangle$ to $\langle 1,2 \rangle$. Given that $d\mathbf{l} = dx\;\hat{x}+dy\;\hat{y}$, which of the following forms of the integral is correct?
 
