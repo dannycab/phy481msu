@@ -18,7 +18,7 @@ You are trying to compute the work done by a force, $\mathbf{F} = a\hat{x} + x\h
 Note:
 * CORRECT ANSWER: E
 * It's $dx\;\hat{x}+dy\;\hat{y}$.
-
+* Fall 2016: 5 0 3 38 [54]
 </section>
 
 <section data-markdown>
@@ -46,6 +46,7 @@ You are trying to compute the work done by a force, $\mathbf{F} = a\hat{x} + x\h
 Note:
 * CORRECT ANSWER: D
 * All are correct forms, but B and C are ready to integrate.
+* Fall 2016: 7 3 0 [90] 0
 
 </section>
 
@@ -62,7 +63,7 @@ A certain fluid has a velocity field given by $\mathbf{v} = x\hat{x} + z \hat{y}
 Note:
 * CORRECT ANSWER: B
 * Only the vector perpendicular to the surface will contribute
-
+* Fall 2016: 16 [78] 4 0 0
 </section>
 
 <section data-markdown>
@@ -77,6 +78,7 @@ For the same fluid with velocity field given by $\mathbf{v} = x\hat{x} + z \hat{
 Note:
 * CORRECT ANSWER: A
 * The velocity field is parallel to the x-y plane every where and hence contributes no flux through the surface.
+* Fall 2016: [89] 9 3 0 0
 
 </section>
 
@@ -94,6 +96,7 @@ To find the total mass of this rod, which coordinate system should be used (take
 Note:
 * CORRECT ANSWER: C
 * It makes the most sense from the geometry of the problem and writing the limits.
+* Fall 2016: 0 0 [94] 6 0
 
 </section>
 
@@ -114,6 +117,7 @@ Which of the following two fields has zero divergence?
 Note:
 * CORRECT ANSWER: B
 * Think about dE/dx and dE/dy
+* Fall 2016: 7 [34] 13 43 3; (Asked them to consider dvx/dx and dvy/dy) 3 [90] 3 4 0
 
 </section>
 
@@ -134,6 +138,7 @@ Which of the following two fields has zero curl?
 Note:
 * CORRECT ANSWER: C
 * Think about paddle wheel
+* Fall 2016: 9 0 [89] 3 0
 </section>
 
 <section data-markdown>
@@ -149,5 +154,6 @@ What is the value of $\oint_C \mathbf{v} \cdot d\mathbf{l}$?
 Note:
 * CORRECT ANSWER: A
 * Closed loop integral of a gradient is zero.
+* Fall 2016: [92] 4 4 0 0
 
 </section>
