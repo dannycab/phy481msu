@@ -7,3 +7,4 @@ permalink: notes/index.html
 * Lecture 1 (August 31st): Introduction to PHY 481 [[HTML]](./01-slides.html) [[PDF]](./01-slides.pdf)
 * Lecture 2 (September 2nd): Mathematics Review [[HTML]](./02-slides.html) [[PDF]](./02-slides.pdf)
 * Lecture 3 (September 7th): Mathematics Review II [[HTML]](./03-slides.html) [[PDF]](./03-slides.pdf)
+* Lecture 4 (September 9th): Electrostatics and Superposition [[HTML]](./04-slides.html) [[PDF]](./04-slides.pdf)

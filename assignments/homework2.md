@@ -3,8 +3,6 @@ layout: homework
 use_math: true
 ---
 
-<p style="color:purple">This homework is not ready until this message has been removed.</p>
-
 # Homework 2 (Due September 16th)
 
 Homework 2 emphasizes the electric field and the principle of superposition that will form the basis of much of your understanding of electrostatics. This homework makes use of what you learned from Secs. 1.1-1.4 in Griffiths and adds to it the concepts from Sec. 2.1, which make up the bulk of the assignment. In addition, we have begun to introduce the idea of finding approximate formulae using Taylor expansions, which is one of the most common practices of theoretical physics. In this assignment, you will use a Jupyter notebook to explore the concept of superposition and visualize the field of a charged rod at any point in space, not just where it is more analytically tractable.
