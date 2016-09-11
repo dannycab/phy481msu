@@ -27,7 +27,10 @@ are preliminary until this message has been removed.
 #### Piazza Discussion Forum
 *This term we will be using Piazza for class discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TA, and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. Find our class page at: <https://piazza.com/msu/fall2016/phy481/home>*
 
+#### Homework Help Session
 
+- Wednesdays 6-7pm+ (1300 BPS)
+- Thursdays 6-7pm+ (1400 BPS)
 
 ### Overview
 

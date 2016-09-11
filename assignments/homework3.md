@@ -41,6 +41,52 @@ When solving some E&M problems, you will need to bring several different theoret
 
 
 1. For a cloud of charge (radius, $R$) with uniform charge density ($\rho_0$), determine the electric field inside and outside the cloud.
-2. Graph the electric field as a function of distance from the center of the cloud. [Download this Jupyter notebook](../jupyter/HW3-LinePlotting.ipynb) to create this plot (you can [view it here]()). *You will have to choose values for $\rho_0$ and $R$ to make your graph.*
-3. Consider two oppositely charged clouds (radii, $R$), both with uniform charge densities. They overlap like shown in the figure. Find the electric field in the overlapping region. (*Hint: consider how Gauss' Law and superposition can help here.*)
+2. Graph the electric field as a function of distance from the center of the cloud. [Download this Jupyter notebook](../jupyter/HW3-LinePlotting.ipynb) to create this plot (you can [view it here](https://github.com/dannycab/phy481msu/blob/gh-pages/jupyter/HW3-LinePlotting.ipynb)). *You will have to choose values for $\rho_0$ and $R$ to make your graph.*
+3. Consider two oppositely charged clouds (radii, $R$), both with uniform charge densities. They overlap like shown in the figure with their centers separated by $d$. Find the electric field in the overlapping region. (*Hint: consider how Gauss' Law and superposition can help here.*)
 4. In this overlapping region, sketch the electric field lines.
+5. In the limit that $d$ becomes very small compared to $R$, discuss in words and make a sketch of what the resulting (total, physical) charge distribution in space really looks like (so that later in the course when we encounter such a charge distribution, we will know where it came from and what the electric field looks like inside!)
+
+#### 4. Cube with a hole
+
+<img src="./images/hw3/cube_w_hole.png" align="center" width="300px"/>
+
+1. Compute the field at $z$
+2. Verify that your answer makes sense if $d$ goes to zero.
+
+
+#### 5. Screened Coulomb Potential
+
+Consider the "screened Coulomb potential" of a point charge $q$ that arises, for example, in plasma physics:
+
+$$V(r) = \dfrac{q}{4\pi\varepsilon_0} \dfrac{e^{-r/\lambda}}{r}$$
+
+where $\lambda$ is a constant (called the screening length).
+
+1. Determine the electric field $\mathbf{E}(\mathbf{r})$ associated with this potential.
+2. Find the charge distribution $\rho(\mathbf{r})$ that produces this potential. (Think carefully about what happens at the origin!)
+3. Sketch this function $\rho(\mathbf{r})$ in a manner that clearly describes its characteristics (i.e., what's the best way of representing this three-dimensional charge distribution? Use it, and explain what you are plotting.)
+4. Show, by explicit calculation over $\rho(\mathbf{r})$ that the net charge represented by this distribution is zero. (*If you don't get zero, think again about what happens at $r = 0$.*).
+5. Verify this result using the integral form of Gauss' Law (i.e., integrate your electric flux over a *very large* spherical surface.)
+
+#### 6. Something delta functions
+
+The linear charge density for a series of charges on the $x$-axis is given by:
+
+$$\lambda(x) = \sum_{n=0}^{10} q_0 n^2\delta\left(x-\dfrac{n}{10}\right)$$
+
+1. Write a sentence or two describing the units of each term in the equation. (Don't forget the delta function!)
+2. What is the total change on $x$-axis?
+
+#### 7. Something else delta functions
+
+1. Write down the appropriate expression for the volume charge density, $\rho(\mathbf{r})$, for a point charge, $q$, located at $\mathbf{r}'$. Interpret the units of each term in the expression.
+2. Consider an electric dipole with a $+q$ charge at a location $+d$ on the $y$-axis and a $-q$ charge located at $-d$ on the $y$-axis. Write down the volume charge density, $\rho(\mathbf{r})$ for this distribution.
+3. Using Coulomb's law (direct integration), show that you can obtain the electric field of this dipole at any location $x$ on the $x$-axis.
+
+
+#### 8. Estimating the amount of excess charge on a balloon
+
+In class, we discussed that an electric field strength of 300 kV/m can cause the molecules int he air to breakdown allowing a spark to travel through the air.
+
+1. Estimate the minimum amount of static charge on a balloon that could cause this sparking. In your estimation, make clear any assumptions you are making and/or quantities that you are estimating or looking up. Explain how you are making this estimate in words.
+2. Using your estimate in part 1, further estimate the fraction of excess electrons on the surface of the balloon compared to the number electrons that make up the balloon. Does this estimate seem reasonable to you? Why or why not?
