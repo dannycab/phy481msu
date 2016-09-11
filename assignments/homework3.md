@@ -50,8 +50,9 @@ When solving some E&M problems, you will need to bring several different theoret
 
 <img src="./images/hw3/cube_w_hole.png" align="center" width="300px"/>
 
-1. Compute the field at $z$
-2. Verify that your answer makes sense if $d$ goes to zero.
+1. Something conceptual?
+2. Compute the field at $z$
+3. Verify that your answer makes sense if $d$ goes to zero.
 
 
 #### 5. Screened Coulomb Potential
