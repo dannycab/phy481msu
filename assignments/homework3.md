@@ -7,7 +7,7 @@ use_math: true
 
 # Homework 3 (Due September 23rd)
 
-Homework 3 emphasizes alternative methods to direct integration (Coulomb's Law) for solving the electric field problem including the use of Gauss' Law and reducing the vector problem to a scalar one by using electric potential. In addition, it introduces the concept of the Dirac delta function as a tool for describing distributions of charge. This homework makes use of what you learned in Secs. 1.5, 2.2, and 2.3 (up to about 2.3.2), but what you know from 2.1 (i.e., superposition of $\mathbf{E}$) will also be important.
+Homework 3 emphasizes alternative methods to direct integration (Coulomb's Law) for solving the electric field problem including the use of Gauss' Law and reducing the vector problem to a scalar one by using electric potential. In addition, it introduces the concept of the Dirac delta function as a tool for describing distributions of charge. This homework makes use of what you learned in Secs. 1.5, 2.2, and 2.3 (up to about 2.3.2), but what you know from 2.1 (i.e., superposition of ($\mathbf{E}$) will also be important.
 
 #### 1. Comparing Coulomb's Law to Gauss' Law
 
@@ -56,11 +56,13 @@ When solving some E&M problems, you will need to bring several different theoret
 
 #### 5. Screened Coulomb Potential
 
+It is common in theoretical physics to describe the interactions of a system in terms of a scalar field (i.e., its potential). It is a compact description and you can (if you are careful) derive other important aspects of the system (e.g., how its sources are configured) from that scalar field if there is a rule for doing so. In this problem, you will gain some practice doing this for the [screened Coulomb potential](https://en.wikipedia.org/wiki/Electric-field_screening).
+
 Consider the "screened Coulomb potential" of a point charge $q$ that arises, for example, in plasma physics:
 
 $$V(r) = \dfrac{q}{4\pi\varepsilon_0} \dfrac{e^{-r/\lambda}}{r}$$
 
-where $\lambda$ is a constant (called the screening length).
+where $\lambda$ is a constant (called [the screening length](https://en.wikipedia.org/wiki/Debye_length)).
 
 1. Determine the electric field $\mathbf{E}(\mathbf{r})$ associated with this potential.
 2. Find the charge distribution $\rho(\mathbf{r})$ that produces this potential. (Think carefully about what happens at the origin!)
@@ -68,7 +70,9 @@ where $\lambda$ is a constant (called the screening length).
 4. Show, by explicit calculation over $\rho(\mathbf{r})$ that the net charge represented by this distribution is zero. (*If you don't get zero, think again about what happens at $r = 0$.*).
 5. Verify this result using the integral form of Gauss' Law (i.e., integrate your electric flux over a *very large* spherical surface.)
 
-#### 6. Something delta functions
+#### 6. Describing charge distributions with delta functions
+
+The [Dirac delta function](https://en.wikipedia.org/wiki/Dirac_delta_function) is an important theoretical tool for describing distributions of a variety of physical quantities (e.g., mass, charge) where a point object (or system of point objects) is the model we intend to use. In addition, it can be used to describe distributions where these quantities exist in highly constrained spaces (e.g., on a plane or spherical shell). In this class, we will use the Dirac delta function to describe how a charges are distributed. In this problem, you will get familiar with the Dirac delta function for a set point charges on a line.
 
 The linear charge density for a series of charges on the $x$-axis is given by:
 
@@ -77,16 +81,22 @@ $$\lambda(x) = \sum_{n=0}^{10} q_0 n^2\delta\left(x-\dfrac{n}{10}\right)$$
 1. Write a sentence or two describing the units of each term in the equation. (Don't forget the delta function!)
 2. What is the total change on $x$-axis?
 
-#### 7. Something else delta functions
+#### 7. Using Dirac delta functions in electrostatics
+
+Sometimes, we will describe the distribution of charge ($\rho$) using the Dirac delta function. We will need to be able to use that description to find the electric field (e.g., by using Coulomb's Law). in this problem, you will work with the Dirac delta function to describe point charge distributions with which you are familiar. You will also find the electric field due to those charge distributions. We aim for you to gain confidence in using Dirac delta functions by checking you can find the field that you determine through other means.
 
 1. Write down the appropriate expression for the volume charge density, $\rho(\mathbf{r})$, for a point charge, $q$, located at $\mathbf{r}'$. Interpret the units of each term in the expression.
 2. Consider an electric dipole with a $+q$ charge at a location $+d$ on the $y$-axis and a $-q$ charge located at $-d$ on the $y$-axis. Write down the volume charge density, $\rho(\mathbf{r})$ for this distribution.
 3. Using Coulomb's law (direct integration), show that you can obtain the electric field of this dipole at any location $x$ on the $x$-axis.
+4. Write down the appropriate expression for the *volume* charge distribution ($\rho$) for an infinite plane of charge at $z = a$ with surface charge density $\sigma_0$. Comment on the units of each term in your distribution.  
 
 
 #### 8. Estimating the amount of excess charge on a balloon
 
-In class, we discussed that an electric field strength of 300 kV/m can cause the molecules int he air to breakdown allowing a spark to travel through the air.
+Developing real world estimates of certain E&M phenomenon is an important skill to develop from this course. If what we do doesn't describe reality, what's the point?! In this problem, you will develop an estimate for that amount of electrons transferred to a balloon through "static electricity."
+
+
+In class, we discussed that an electric field strength of 300 kV/m can cause the molecules in the air to breakdown allowing a spark to travel through the air. You have probably rubbed a ballon through your hair and heard some crackling - that is one effect of the breakdown of the molecules in the air as a result of this high field strength due to transferred electrons.
 
 1. Estimate the minimum amount of static charge on a balloon that could cause this sparking. In your estimation, make clear any assumptions you are making and/or quantities that you are estimating or looking up. Explain how you are making this estimate in words.
 2. Using your estimate in part 1, further estimate the fraction of excess electrons on the surface of the balloon compared to the number electrons that make up the balloon. Does this estimate seem reasonable to you? Why or why not?
