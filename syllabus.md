@@ -60,12 +60,6 @@ to the real world. *Required Prerequisites:* MTH 234 or MTH 254H or LB 220
 2.  An "iClicker", available at the bookstore, will be used
     every lecture.
 
-There will be a copy of Griffiths on reserve in the library, along with
-several other good texts including the "Feynman Lectures in Physics"
-(Vol II is all about E&M, and is wonderful reading), and Pollack and
-Stump, "Electromagnetism". This is at Griffith's level, but a little
-more mathematical/formal.
-
 ### Course Activities
 
 #### Readings
@@ -123,16 +117,7 @@ will need to get up and running with Jupyter notebooks.
 
 #### Help Sessions
 
-(Times listed at the top of the syllabus) Help sessions/office hours are
-to facilitate your learning. We encourage attendance - plan on working
-in small groups, our role will be as learning coaches. **DAY OF WEEK**
-sessions may involve special problems and activities designed to help
-you understand current material, and set you up for the upcoming
-homework. **DAY OF WEEK** sessions may be more homework-centric, but we
-will not be explicitly telling anyone how to do the homework (how would
-that help you learn?) I strongly encourage you to start all problems on
-your own. If you come to help sessions "cold", the value of homework to
-you will be greatly reduced.
+(Times listed at the top of the syllabus) Help sessions/office hours are to facilitate your learning. We encourage attendance - plan on working in small groups, our role will be as learning coaches. Both sessions are homework-centric, but we will not be explicitly telling anyone how to do the homework (how would that help you learn?) I strongly encourage you to start all problems on your own. If you come to help sessions "cold", the value of homework to you will be greatly reduced.
 
 ### Grading and Exams
 
