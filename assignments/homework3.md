@@ -30,14 +30,13 @@ For parts 1 and 2, consider a sphere of radius $R$, centered one the origin, wit
 3. For each of these allowable charge distributions, what does the electric field look like outside the sphere ($r>R$)?
 4. *The following problem is from the 2001 Physics GRE Exam. Students were expected to solve the problem in just a few minutes!* Two spherical, nonconducting, and very thin shells of uniformly distributed positive charge $Q$ and radius $d$ are located a distance 10$d$ apart. A positive point charge $q$ is placed inside on of the shells at a distance $d/2$ from the center, on the line connecting the centers of the two shells, as shown in the figure. What is the net force on the charge $q$?
 
-<img src="./images/hw3/gre_problem.png" align="center" width="600px"/>
-
+![GRE Problem](./images/hw3/gre_problem.png "GRE Problem")
 
 #### 3. Overlapping clouds of charge
 
 When solving some E&M problems, you will need to bring several different theoretical tools to bear. In this problem, we ask you to consider both Gauss' Law and superposition in working out your solution.
 
-<img src="./images/hw3/overlapping_clouds.png" align="right" width="300px"/>
+![Overlapping Clouds](./images/hw3/overlapping_clouds.png "Overlapping Clouds")
 
 
 1. For a cloud of charge (radius, $R$) with uniform charge density ($\rho_0$), determine the electric field inside and outside the cloud.
@@ -48,7 +47,7 @@ When solving some E&M problems, you will need to bring several different theoret
 
 #### 4. Cube with a hole
 
-<img src="./images/hw3/cube_w_hole.png" align="center" width="300px"/>
+![Cube with Hole](./images/hw3/cube_w_hole.png "Cube with hole")
 
 1. Something conceptual?
 2. Compute the field at $z$
