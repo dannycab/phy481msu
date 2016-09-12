@@ -92,6 +92,12 @@ $$V(r) = -\dfrac{1}{4\pi\varepsilon_0}\dfrac{q}{r}$$
 
 For part 2, the following vector identities might be helpful:
 
+$$\nabla \left(f(\mathbf{r}) \mathbf{A}\right) = \nabla f(\mathbf{r}) \cdot \mathbf{A} + f(\mathbf{r}) \nabla \cdot \mathbf{A}$$
+
+$$\nabla \cdot \dfrac{\hat{r}}{r^2} = 4\pi\delta^3(\mathbf{r})$$
+
+$$\nabla \cdot \dfrac{\hat{r}}{r} = \dfrac{1}{r^2}$$
+
 #### 8. Estimating the amount of excess charge on a balloon
 
 Developing real world estimates of certain E&M phenomenon is an important skill to develop from this course. If what we do doesn't describe reality, what's the point?! In this problem, you will develop an estimate for that amount of electrons transferred to a balloon through "static electricity."
