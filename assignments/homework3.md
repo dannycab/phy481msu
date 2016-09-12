@@ -47,14 +47,17 @@ When solving some E&M problems, you will need to bring several different theoret
 
 #### 4. Cube with a hole
 
+What happens when you have problems were the symmetries are mixed? How do you tackle a problem with two different geometries? In this problem, you will explore how to deal with situations where they are two "competing" geometries for the problem.
+
+Consider a cube (edge length $a$) with a uniform charge distributed throughout its volume ($\rho$). We carve a spherical cavity out of it of radius $d$, such that the cavity is centered at the center of the cube.
+
 ![Cube with Hole](./images/hw3/cube_w_hole.png "Cube with hole")
 
 1. Does Gauss' Law hold for this problem? Can Gauss' Law be used on this problem? If so, what surface do you use? If not, why?
-2. Compute the field at $z$
-3. Verify that your answer makes sense if $d$ goes to zero.
-4. What happens when $a$ goes to zero? What does this mean physically and how is it related to superposition?
+2. Let the center of the cube (and thus the center of the cavity) be located at the origin $\langle 0,0,0 \rangle$. Determine the electric field at point $P$ a distance $z$ from the center of the cube. Explain anything special that you had to do to determine this field.
+3. Verify that your expression for the electric field makes sense if $d$ goes to zero. What does this correspond to physically?
 
-#### 6. Describing charge distributions with delta functions
+#### 5. Describing charge distributions with delta functions
 
 The [Dirac delta function](https://en.wikipedia.org/wiki/Dirac_delta_function) is an important theoretical tool for describing distributions of a variety of physical quantities (e.g., mass, charge) where a point object (or system of point objects) is the model we intend to use. In addition, it can be used to describe distributions where these quantities exist in highly constrained spaces (e.g., on a plane or spherical shell). In this class, we will use the Dirac delta function to describe how a charges are distributed. In this problem, you will get familiar with the Dirac delta function for a set point charges on a line.
 
@@ -63,9 +66,9 @@ The linear charge density for a series of charges on the $x$-axis is given by:
 $$\lambda(x) = \sum_{n=0}^{10} q_0 n^2\delta\left(x-\dfrac{n}{10}\right)$$
 
 1. Write a sentence or two describing the units of each term in the equation. (Don't forget the delta function!)
-2. What is the total change on $x$-axis?
+2. What is the total charge on $x$-axis?
 
-#### 7. Using Dirac delta functions in electrostatics
+#### 6. Using Dirac delta functions in electrostatics
 
 Sometimes, we will describe the distribution of charge ($\rho$) using the Dirac delta function. We will need to be able to use that description to find the electric field (e.g., by using Coulomb's Law). in this problem, you will work with the Dirac delta function to describe point charge distributions with which you are familiar. You will also find the electric field due to those charge distributions. We aim for you to gain confidence in using Dirac delta functions by checking you can find the field that you determine through other means.
 
@@ -74,6 +77,21 @@ Sometimes, we will describe the distribution of charge ($\rho$) using the Dirac 
 3. Using Coulomb's law (direct integration), show that you can obtain the electric field of this dipole at any location $x$ on the $x$-axis.
 4. Write down the appropriate expression for the *volume* charge distribution ($\rho$) for an infinite plane of charge at $z = a$ with surface charge density $\sigma_0$. Comment on the units of each term in your distribution.  
 
+
+#### 7. Connecting potential, electric field, and charge
+
+It is common in theoretical physics to describe the interactions of a system in terms of a scalar field (i.e., its potential). It is a compact description and you can (if you are careful) derive other important aspects of the system (e.g., how its sources are configured) from that scalar field if there is a rule for doing so. In this problem, you will do this work for a negative point charge. The understanding you draw from this problem will be used in future problems where the electric field and charge density might not be obvious.
+
+Consider the potential of a point charge at the origin:
+
+$$V(r) = -\dfrac{1}{4\pi\varepsilon_0}\dfrac{q}{r}$$
+
+1. Determine the electric field of this charge by calculating the gradient ($\mathbf{E} = -\nabla V$). Show your work.
+2. Calculate the charge density from the electric field by using Gauss' Law directly ($\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}$). Do this 2 ways: (1) Use the definition of the divergence from the front fly leaf of Griffiths in spherical coordinates (what do you get?) and (2) by performing a coordinate-free calculation (is your answer the same?). For (2), the following vector identities might be helpful:
+$$\nabla \left(f(\mathbf{r}) \mathbf{A}\right) = \nabla f(\mathbf{r}) \cdot \mathbf{A} + f(\mathbf{r}) \nabla \cdot \mathbf{A}$$
+$$\nabla \cdot \dfrac{\hat{r}}{r^2} = 4\pi\delta^3(\mathbf{r})$$
+$$\nabla \cdot \dfrac{\hat{r}}{r} = \dfrac{1}{r^2}$$
+3. How do your two answers from part 2 compare? Which one is correct? How do you know? What does this tell you about computing charge densities from electric potentials?
 
 #### 8. Estimating the amount of excess charge on a balloon
 

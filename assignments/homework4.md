@@ -3,7 +3,7 @@ layout: homework
 use_math: true
 ---
 
-#### 5. Screened Coulomb Potential
+#### 1. Screened Coulomb Potential
 
 It is common in theoretical physics to describe the interactions of a system in terms of a scalar field (i.e., its potential). It is a compact description and you can (if you are careful) derive other important aspects of the system (e.g., how its sources are configured) from that scalar field if there is a rule for doing so. In this problem, you will gain some practice doing this for the [screened Coulomb potential](https://en.wikipedia.org/wiki/Electric-field_screening).
 
