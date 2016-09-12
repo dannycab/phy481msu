@@ -26,7 +26,7 @@ As you might have picked up by now, spherically symmetric charge distributions a
 For parts 1 and 2, consider a sphere of radius $R$, centered one the origin, with a radially symmetric charge distribution $\rho(r)$.
 
 1. What $\rho(r)$ is required for the electric field **in the sphere** to have the power law form $E(r) = cr^n$, where $c$ and $n$ are constants? The case of n=-2 is special. How so? Some values of $n$ are unphysical because these would lead to an infinite amount of charge in the sphere.. Which values of $n$ are allowed?
-2. What kind of charge distribution is required for the radial E-field inside the sphere to be of constant magnitude; that is, what $\rho(r)$ produces $E(r) = $ constant (inside only)?
+2. What kind of charge distribution is required for the radial E-field inside the sphere to be of constant magnitude; that is, what $\rho(r)$ produces $E(r) = $ constant (inside only)? Is this distribution physical realizable? Why or why not?
 3. For each of these allowable charge distributions, what does the electric field look like outside the sphere ($r>R$)?
 4. *The following problem is from the 2001 Physics GRE Exam. Students were expected to solve the problem in just a few minutes!* Two spherical, nonconducting, and very thin shells of uniformly distributed positive charge $Q$ and radius $d$ are located a distance 10$d$ apart. A positive point charge $q$ is placed inside on of the shells at a distance $d/2$ from the center, on the line connecting the centers of the two shells, as shown in the figure. What is the net force on the charge $q$?
 
@@ -49,26 +49,10 @@ When solving some E&M problems, you will need to bring several different theoret
 
 ![Cube with Hole](./images/hw3/cube_w_hole.png "Cube with hole")
 
-1. Something conceptual?
+1. Does Gauss' Law hold for this problem? Can Gauss' Law be used on this problem? If so, what surface do you use? If not, why?
 2. Compute the field at $z$
 3. Verify that your answer makes sense if $d$ goes to zero.
-
-
-#### 5. Screened Coulomb Potential
-
-It is common in theoretical physics to describe the interactions of a system in terms of a scalar field (i.e., its potential). It is a compact description and you can (if you are careful) derive other important aspects of the system (e.g., how its sources are configured) from that scalar field if there is a rule for doing so. In this problem, you will gain some practice doing this for the [screened Coulomb potential](https://en.wikipedia.org/wiki/Electric-field_screening).
-
-Consider the "screened Coulomb potential" of a point charge $q$ that arises, for example, in plasma physics:
-
-$$V(r) = \dfrac{q}{4\pi\varepsilon_0} \dfrac{e^{-r/\lambda}}{r}$$
-
-where $\lambda$ is a constant (called [the screening length](https://en.wikipedia.org/wiki/Debye_length)).
-
-1. Determine the electric field $\mathbf{E}(\mathbf{r})$ associated with this potential.
-2. Find the charge distribution $\rho(\mathbf{r})$ that produces this potential. (Think carefully about what happens at the origin!)
-3. Sketch this function $\rho(\mathbf{r})$ in a manner that clearly describes its characteristics (i.e., what's the best way of representing this three-dimensional charge distribution? Use it, and explain what you are plotting.)
-4. Show, by explicit calculation over $\rho(\mathbf{r})$ that the net charge represented by this distribution is zero. (*If you don't get zero, think again about what happens at $r = 0$.*).
-5. Verify this result using the integral form of Gauss' Law (i.e., integrate your electric flux over a *very large* spherical surface.)
+4. What happens when $a$ goes to zero? What does this mean physically and how is it related to superposition?
 
 #### 6. Describing charge distributions with delta functions
 
