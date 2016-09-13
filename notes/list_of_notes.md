@@ -9,3 +9,4 @@ permalink: notes/index.html
 * Lecture 3 (September 7th): Mathematics Review II [[HTML]](./03-slides.html) [[PDF]](./03-slides.pdf)
 * Lecture 4 (September 9th): Electrostatics and Superposition [[HTML]](./04-slides.html) [[PDF]](./04-slides.pdf)
 * Lecture 5 (September 12th): Electrostatics and Superposition II [[HTML]](./05-slides.html)[[PDF]](./05-slides.pdf)
+* Lecture 6 (September 14th): Gauss' Law and $\delta$ functions [[HTML]](./06-slides.html)
