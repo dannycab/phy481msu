@@ -222,3 +222,31 @@ What can you say about the flux of $\mathbf{E}$ through the sphere, and $|\mathb
 4. Flux is not zero, E need not be zero…
 
 </section>
+
+<section data-markdown>
+
+*Tutorial follow-up*:
+
+Does the charge $\sigma$ on the beam line affect the particles being accelerated inside it?
+
+1. Yes
+2. No
+3. ???
+
+*Think: Why? Or why not?*
+
+</section>
+
+<section data-markdown>
+
+*Tutorial follow-up*:
+
+Could the charge $\sigma$ affect the electronic equipment outside the tunnel?
+
+1. Yes
+2. No
+3. ???
+
+*Think: Why? Or why not?*
+
+</section>
