@@ -5,155 +5,135 @@ transition: slide
 ---
 
 <section data-markdown>
+A point charge ($q$) is located at position $\mathbf{R}$, as shown. What is $\rho(\mathbf{r})$, the charge density in all space?  
 
-## Electric Potential
+<img src ="./images/pt_charge_at_R.png" align="right" style="width: 300px";/>
 
-<img src="./images/lightning.jpg" align="center" style="width: 600px";/>
 
-</section>
-
-<section data-markdown>
-
-Which of the following two fields has zero curl?
-
-| I | II |
-|:-:|:-:|
-| <img src ="./images/cq_left_field.png" align="center" style="width: 400px";/> | <img src ="./images/cq_right_field.png" align="center" style="width: 400px";/> |
-
-1. Both do.
-2. Only I is zero
-3. Only II is zero
-4. Neither is zero
-5. ???
+1. $\rho(\mathbf{r}) = q\delta^3(\mathbf{R})$
+2. $\rho(\mathbf{r}) = q\delta^3(\mathbf{r})$
+3. $\rho(\mathbf{r}) = q\delta^3(\mathbf{R}-\mathbf{r})$
+4. $\rho(\mathbf{r}) = q\delta^3(\mathbf{r}-\mathbf{R})$
+5. Something else??
 
 Note:
-* CORRECT ANSWER: C
-* Think about paddle wheel
-* Fall 2016: 9 0 [89] 3 0
-</section>
-
-<section data-markdown>
-
-What is the curl of the vector field, $\mathbf{v}= c\hat{\phi}$, in the region shown below?
-
-<img src="./images/c_phi_field.png" align="right" style="width: 300px";/>
-
-1. non-zero everywhere
-2. zero at some points, non-zero at others
-3. zero curl everywhere
+* CORRECT ANSWER: E
+* This one is a curious one because a delta function is alway positive, both C and D are correct.
+* Expect most everyone to pick C
 
 </section>
 
 <section data-markdown>
 
-What is the curl of this vector field, in the red region shown below?
+What are the units of $\delta (x)$ if $x$ is measured in meters?
 
-<img src="./images/curl_red_box.png" align="center" style="width: 400px";/>
+1. $\delta(x)$ is dimension less (‘no units’)
+2. [$\mathrm{m}$]:      Unit of length
+3. [$\mathrm{m}^2$]:    Unit of length squared
+4. [$\mathrm{m}^{-1}$]:   1 / (unit of length)
+5. [$\mathrm{m}^{-2}$]:   1 / (unit of length squared)
 
-1. non-zero everywhere in the box
-2. non-zero at a limited set of points
-3. zero curl everywhere shown
-4. we need a formula to decide
-
-</section>
-
-<section data-markdown>
-
-What is the curl of this vector field, $\mathbf{v} = \dfrac{c}{s}\hat{\phi}$, in the red region shown below?
-
-<img src="./images/curl_red_box.png" align="center" style="width: 400px";/>
-
-1. non-zero everywhere in the box
-2. non-zero at a limited set of points
-3. zero curl everywhere shown
+Note:
+* CORRECT ANSWER: D
+* Think about what the integral must produce.
 
 </section>
 
 <section data-markdown>
 
-Is it mathematically ok to do this?
+What are the units of $\delta^3(\mathbf{r})$ if the components of $\mathbf{r}$ are measured in meters?
 
-$$\mathbf{E} = \dfrac{1}{4\pi\varepsilon_0}\int_V\rho(\mathbf{r}')d\tau'\left(-\nabla\dfrac{1}{\mathfrak{R}}\right)$$
+1. [$\mathrm{m}$]:      Unit of length
+2. [$\mathrm{m}^2$]:    Unit of length squared
+3. [$\mathrm{m}^{-1}$]:   1 / (unit of length)
+4. [$\mathrm{m}^{-2}$]:   1 / (unit of length squared)
+5. None of these.
 
-$$\longrightarrow \mathbf{E} =-\nabla\left( \dfrac{1}{4\pi\varepsilon_0}\int_V\rho(\mathbf{r}')d\tau'\dfrac{1}{\mathfrak{R}}\right)$$
+Note:
+* CORRECT ANSWER: E
+* Should be m^-3
+
+</section>
+
+<section data-markdown>
+
+What is the divergence in the boxed region?
+
+<img src ="./images/pt_charge_red_box.png" align="right" style="width: 400px";/>
+
+1. Zero
+2. Not zero
+3. ???
+
+Note:
+* CORRECT ANSWER: A
+* Just a check back in.
+</section>
+
+<section data-markdown>
+
+A Gaussian surface which is *not* a sphere has a single charge (q) inside it, *not* at the center. There are more charges outside. What can we say about total electric flux through this surface $\oint_S \mathbf{E} \cdot d\mathbf{A}$?
+
+1. It is $q/\varepsilon_0$.
+2. We know what it is, but it is NOT $q/\varepsilon_0$.
+3. Need more info/details to figure it out.
+
+Note:
+* CORRECT ANSWER: A
+
+</section>
+
+<section data-markdown>
+
+<img src ="./images/dipole_gauss.png" align="right" style="width: 300px";/>
+
+
+An electric dipole ($+q$ and $–q$, small distance $d$ apart) sits centered in a Gaussian sphere.
+
+What can you say about the flux of $\mathbf{E}$ through the sphere, and $|\mathbf{E}|$ on the sphere?
+
+1. Flux = 0, E = 0 everywhere on sphere surface
+2. Flux = 0, E need not be zero *everywhere* on sphere
+3. Flux is not zero, E = 0 everywhere on sphere
+4. Flux is not zero, E need not be zero...
+
+Note:
+* CORRECT ANSWER: B
+* Think about Q enclosed; what can we say about E though?
+
+</section>
+
+<section data-markdown>
+
+*Tutorial follow-up*:
+
+Does the charge $\sigma$ on the beam line affect the particles being accelerated inside it?
 
 1. Yes
 2. No
 3. ???
+
+*Think: Why? Or why not?*
+
+Note:
+* CORRECT ANSWER: B
+* There's no field inside
 </section>
 
 <section data-markdown>
 
-If $\nabla \times \mathbf{E} = 0$, then $\oint_C \mathbf{E} \cdot d\mathbf{l} =$
+*Tutorial follow-up*:
 
-1. 0
-2. something finite
-3. $\infty$
-4. Can't tell without knowing $C$
-
-</section>
-
-<section data-markdown>
-
-Can superposition be applied to electric potential, $V$?
-
-$$V_{tot} \stackrel{?}{=} \sum_i V_i = V_1 +V_2 + V_3 + \dots$$
+Could the charge $\sigma$ affect the electronic equipment outside the tunnel?
 
 1. Yes
 2. No
-3. Sometimes
+3. ???
+
+*Think: Why? Or why not?*
 
 Note:
-As long as the zero potential is the same for all measurements.
-
-</section>
-
-<section data-markdown>
-
-The potential is zero at some point in space.
-
-You can conclude that:
-1. The E-field is zero at that point
-2. The E-field is non-zero at that point
-3. You can conclude nothing at all about the E-field at that point
-
-</section>
-
-<section data-markdown>
-
-The potential is constant everywhere along a line in space.
-
-You can conclude that:
-1. The E-field has a constant magnitude along the line.
-2. The E-field is zero along that line.
-3. You can conclude nothing at all about the magnitude of $\mathbf{E}$ along that line.
-
-</section>
-
-<section data-markdown>
-
-<img src="./images/charged_shell.png" align="right" style="width: 200px";/>
-
-A spherical *shell* has a uniform positive charge density on its surface. (There are no other charges around.)
-
-What is the electric field *inside* the sphere?
-1. $\mathbf{E}=0$ everywhere inside
-2. $\mathbf{E}$ is non-zero everywhere in the sphere
-3. $\mathbf{E}=0$ only that the very center, but non-zero elsewhere inside the sphere.
-4. Not enough information given
-</section>
-
-
-<section data-markdown>
-
-<img src="./images/graph_shell.png" align="center" style="width: 400px";/>
-
-Could this be a plot of $\left|\mathbf{E}(r)\right|$? Or $V(r)$? (for SOME physical situation?)
-
-1. Could be $E(r)$, or $V(r)$
-2. Could be $E(r)$, but can't be $V(r)$
-3. Can't be $E(r)$, could be $V(r)$
-4. Can't be either
-5. ???
+* CORRECT ANSWER: A
+* Definitely a field outside
 
 </section>
