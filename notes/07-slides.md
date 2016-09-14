@@ -5,6 +5,25 @@ transition: slide
 ---
 
 <section data-markdown>
+
+Compute:
+
+$$\int_{-\infty}^{\infty} x^2\delta(3x+5)dx$$
+
+1. $25/3$
+2. $-5/3$
+3. $25/27$
+4. $25/9$
+5. Something else
+
+
+Note:
+* CORRECT ANSWER: C
+* Use a u substitution.
+
+</section>
+
+<section data-markdown>
 A point charge ($q$) is located at position $\mathbf{R}$, as shown. What is $\rho(\mathbf{r})$, the charge density in all space?  
 
 <img src ="./images/pt_charge_at_R.png" align="right" style="width: 300px";/>
@@ -18,7 +37,7 @@ A point charge ($q$) is located at position $\mathbf{R}$, as shown. What is $\rh
 
 Note:
 * CORRECT ANSWER: E
-* This one is a curious one because a delta function is alway positive, both C and D are correct.
+* This one is a curious one because a delta function is always positive, both C and D are correct.
 * Expect most everyone to pick C
 
 </section>
