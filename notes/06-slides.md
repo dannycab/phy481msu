@@ -22,6 +22,16 @@ CORRECT ANSWER: A
 </section>
 
 <section data-markdown>
+
+## Gauss' Law
+
+<img src="./images/gauss_pt_charge.png" align="center" style="width: 350px";/>
+
+$$\oint_S \mathbf{E}\cdot d\mathbf{A} = \int_V \dfrac{\rho}{\varepsilon_0}d\tau$$
+
+</section>
+
+<section data-markdown>
 <img src="./images/cubical_box.png" align="right" style="width: 350px";/>
 
 The space in and around a cubical box (edge length $L$) is filled with a constant uniform electric field, $\mathbf{E} = E_0 \hat{y}$. What is the TOTAL electric flux $\oint_S \mathbf{E} \cdot d\mathbf{A}$ through this closed surface?

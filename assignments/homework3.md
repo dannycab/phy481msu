@@ -3,8 +3,6 @@ layout: homework
 use_math: true
 ---
 
-<p style="color:purple">This homework is not ready until this message has been removed.</p>
-
 # Homework 3 (Due September 23rd)
 
 Homework 3 emphasizes alternative methods to direct integration (Coulomb's Law) for solving the electric field problem including the use of Gauss' Law and reducing the vector problem to a scalar one by using electric potential. In addition, it introduces the concept of the Dirac delta function as a tool for describing distributions of charge. This homework makes use of what you learned in Secs. 1.5, 2.2, and 2.3 (up to about 2.3.2), but what you know from 2.1 (i.e., superposition of ($\mathbf{E}$) will also be important.
@@ -34,7 +32,7 @@ For parts 1 and 2, consider a sphere of radius $R$, centered one the origin, wit
 
 #### 3. Overlapping clouds of charge
 
-When solving some E&M problems, you will need to bring several different theoretical tools to bear. In this problem, we ask you to consider both Gauss' Law and superposition in working out your solution.
+When solving some E&M problems, you will need to develop your argument (i.e., you solution) using an arbitrary location. In this problem, consider how choosing an arbitrary point in the overlapping region of the charge clouds will help you derive the result.
 
 ![Overlapping Clouds](./images/hw3/overlapping_clouds.png "Overlapping Clouds")
 
@@ -47,7 +45,7 @@ When solving some E&M problems, you will need to bring several different theoret
 
 #### 4. Cube with a hole
 
-What happens when you have problems were the symmetries are mixed? How do you tackle a problem with two different geometries? In this problem, you will explore how to deal with situations where they are two "competing" geometries for the problem.
+What happens when you have problems were the symmetries are mixed? How do you tackle a problem with two different geometries? In this problem, you will explore how to deal with situations where they are two "competing" geometries for the problem. Sometimes you will need to bring two (or more!) aspects of your theoretical toolbox to bear on a problem.
 
 Consider a cube (edge length $a$) with a uniform charge distributed throughout its volume ($\rho$). We carve a spherical cavity out of it of radius $d$, such that the cavity is centered at the center of the cube.
 
@@ -102,8 +100,7 @@ $$\nabla \cdot \dfrac{\hat{r}}{r} = \dfrac{1}{r^2}$$
 
 Developing real world estimates of certain E&M phenomenon is an important skill to develop from this course. If what we do doesn't describe reality, what's the point?! In this problem, you will develop an estimate for that amount of electrons transferred to a balloon through "static electricity."
 
-
-In class, we discussed that an electric field strength of 300 kV/m can cause the molecules in the air to breakdown allowing a spark to travel through the air. You have probably rubbed a ballon through your hair and heard some crackling - that is one effect of the breakdown of the molecules in the air as a result of this high field strength due to transferred electrons.
+An electric field strength of 300 kV/m can cause the molecules in the air to breakdown allowing a spark to travel through the air. You have probably rubbed a ballon through your hair and heard some crackling - that is one effect of the breakdown of the molecules in the air as a result of this high field strength due to transferred electrons.
 
 1. Estimate the minimum amount of static charge on a balloon that could cause this sparking. In your estimation, make clear any assumptions you are making and/or quantities that you are estimating or looking up. Explain how you are making this estimate in words.
 2. Using your estimate in part 1, further estimate the fraction of excess electrons on the surface of the balloon compared to the number electrons that make up the balloon. Does this estimate seem reasonable to you? Why or why not?

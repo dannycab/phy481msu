@@ -18,8 +18,6 @@
 \def\bottomrule{}
 
 \begin{document}
-This homework is not ready until this message has been removed.
-
 {\LARGE Homework 3 (Due September
 23rd)}\label{homework-3-due-september-23rd}
 
@@ -91,7 +89,8 @@ origin, with a radially symmetric charge distribution \(\rho(r)\).
 \item
   What kind of charge distribution is required for the radial E-field
   inside the sphere to be of constant magnitude; that is, what
-  \(\rho(r)\) produces \$E(r) = \$ constant (inside only)?
+  \(\rho(r)\) produces \$E(r) = \$ constant (inside only)? Is this
+  distribution physical realizable? Why or why not?
 \item
   For each of these allowable charge distributions, what does the
   electric field look like outside the sphere (\(r>R\))?
@@ -108,21 +107,20 @@ origin, with a radially symmetric charge distribution \(\rho(r)\).
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.9\linewidth]{./images/hw3/gre_problem.png}
-%\caption{GRE Problem}
+\includegraphics[width=0.6\linewidth]{./images/hw3/gre_problem.png}
 \end{figure}
 
 \paragraph{3. Overlapping clouds of
 charge}\label{overlapping-clouds-of-charge}
 
-When solving some E\&M problems, you will need to bring several
-different theoretical tools to bear. In this problem, we ask you to
-consider both Gauss' Law and superposition in working out your solution.
+When solving some E\&M problems, you will need to develop your argument
+(i.e., you solution) using an arbitrary location. In this problem,
+consider how choosing an arbitrary point in the overlapping region of
+the charge clouds will help you derive the result.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.5\linewidth]{./images/hw3/overlapping_clouds.png}
-%\caption{Overlapping Clouds}
+\includegraphics[width=0.4\linewidth]{./images/hw3/overlapping_clouds.png}
 \end{figure}
 
 \begin{enumerate}
@@ -157,69 +155,41 @@ consider both Gauss' Law and superposition in working out your solution.
 
 \paragraph{4. Cube with a hole}\label{cube-with-a-hole}
 
+What happens when you have problems were the symmetries are mixed? How
+do you tackle a problem with two different geometries? In this problem,
+you will explore how to deal with situations where they are two
+``competing'' geometries for the problem. Sometimes you will need to
+bring two (or more!) aspects of your theoretical toolbox to bear on a
+problem.
+
+Consider a cube (edge length \(a\)) with a uniform charge distributed
+throughout its volume (\(\rho\)). We carve a spherical cavity out of it
+of radius \(d\), such that the cavity is centered at the center of the
+cube.
+
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.4\linewidth]{./images/hw3/cube_w_hole.png}
-%\caption{Cube with Hole}
 \end{figure}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Something conceptual?
+  Does Gauss' Law hold for this problem? Can Gauss' Law be used on this
+  problem? If so, what surface do you use? If not, why?
 \item
-  Compute the field at \(z\)
+  Let the center of the cube (and thus the center of the cavity) be
+  located at the origin \(\langle 0,0,0 \rangle\). Determine the
+  electric field at point \(P\) a distance \(z\) from the center of the
+  cube. Explain anything special that you had to do to determine this
+  field.
 \item
-  Verify that your answer makes sense if \(d\) goes to zero.
+  Verify that your expression for the electric field makes sense if
+  \(d\) goes to zero. What does this correspond to physically?
 \end{enumerate}
 
-\paragraph{5. Screened Coulomb
-Potential}\label{screened-coulomb-potential}
-
-It is common in theoretical physics to describe the interactions of a
-system in terms of a scalar field (i.e., its potential). It is a compact
-description and you can (if you are careful) derive other important
-aspects of the system (e.g., how its sources are configured) from that
-scalar field if there is a rule for doing so. In this problem, you will
-gain some practice doing this for the
-\href{https://en.wikipedia.org/wiki/Electric-field_screening}{screened
-Coulomb potential}.
-
-Consider the ``screened Coulomb potential'' of a point charge \(q\) that
-arises, for example, in plasma physics:
-
-\[V(r) = \dfrac{q}{4\pi\varepsilon_0} \dfrac{e^{-r/\lambda}}{r}\]
-
-where \(\lambda\) is a constant (called
-\href{https://en.wikipedia.org/wiki/Debye_length}{the screening
-length}).
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Determine the electric field \(\mathbf{E}(\mathbf{r})\) associated
-  with this potential.
-\item
-  Find the charge distribution \(\rho(\mathbf{r})\) that produces this
-  potential. (Think carefully about what happens at the origin!)
-\item
-  Sketch this function \(\rho(\mathbf{r})\) in a manner that clearly
-  describes its characteristics (i.e., what's the best way of
-  representing this three-dimensional charge distribution? Use it, and
-  explain what you are plotting.)
-\item
-  Show, by explicit calculation over \(\rho(\mathbf{r})\) that the net
-  charge represented by this distribution is zero. (\emph{If you don't
-  get zero, think again about what happens at \(r = 0\).}).
-\item
-  Verify this result using the integral form of Gauss' Law (i.e.,
-  integrate your electric flux over a \emph{very large} spherical
-  surface.)
-\end{enumerate}
-
-\paragraph{6. Describing charge distributions with delta
+\paragraph{5. Describing charge distributions with delta
 functions}\label{describing-charge-distributions-with-delta-functions}
 
 The \href{https://en.wikipedia.org/wiki/Dirac_delta_function}{Dirac
@@ -245,10 +215,10 @@ given by:
   Write a sentence or two describing the units of each term in the
   equation. (Don't forget the delta function!)
 \item
-  What is the total change on \(x\)-axis?
+  What is the total charge on \(x\)-axis?
 \end{enumerate}
 
-\paragraph{7. Using Dirac delta functions in
+\paragraph{6. Using Dirac delta functions in
 electrostatics}\label{using-dirac-delta-functions-in-electrostatics}
 
 Sometimes, we will describe the distribution of charge (\(\rho\)) using
@@ -282,6 +252,49 @@ can find the field that you determine through other means.
   term in your distribution.
 \end{enumerate}
 
+\paragraph{7. Connecting potential, electric field, and
+charge}\label{connecting-potential-electric-field-and-charge}
+
+It is common in theoretical physics to describe the interactions of a
+system in terms of a scalar field (i.e., its potential). It is a compact
+description and you can (if you are careful) derive other important
+aspects of the system (e.g., how its sources are configured) from that
+scalar field if there is a rule for doing so. In this problem, you will
+do this work for a negative point charge. The understanding you draw
+from this problem will be used in future problems where the electric
+field and charge density might not be obvious.
+
+Consider the potential of a point charge at the origin:
+
+\[V(r) = -\dfrac{1}{4\pi\varepsilon_0}\dfrac{q}{r}\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Determine the electric field of this charge by calculating the
+  gradient (\(\mathbf{E} = -\nabla V\)). Show your work.
+\item
+  Calculate the charge density from the electric field by using Gauss'
+  Law directly
+  (\(\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}\)). Do this 2
+  ways: (1) Use the definition of the divergence from the front fly leaf
+  of Griffiths in spherical coordinates (what do you get?) and (2) by
+  performing a coordinate-free calculation (is your answer the same?).
+\item
+  How do your two answers from part 2 compare? Which one is correct? How
+  do you know? What does this tell you about computing charge densities
+  from electric potentials?
+\end{enumerate}
+
+For part 2, the following vector identities might be helpful:
+
+\[\nabla \left(f(\mathbf{r}) \mathbf{A}\right) = \nabla f(\mathbf{r}) \cdot \mathbf{A} + f(\mathbf{r}) \nabla \cdot \mathbf{A}\]
+
+\[\nabla \cdot \dfrac{\hat{r}}{r^2} = 4\pi\delta^3(\mathbf{r})\]
+
+\[\nabla \cdot \dfrac{\hat{r}}{r} = \dfrac{1}{r^2}\]
+
 \paragraph{8. Estimating the amount of excess charge on a
 balloon}\label{estimating-the-amount-of-excess-charge-on-a-balloon}
 
@@ -291,12 +304,11 @@ describe reality, what's the point?! In this problem, you will develop
 an estimate for that amount of electrons transferred to a balloon
 through ``static electricity.''
 
-In class, we discussed that an electric field strength of 300 kV/m can
-cause the molecules in the air to breakdown allowing a spark to travel
-through the air. You have probably rubbed a ballon through your hair and
-heard some crackling - that is one effect of the breakdown of the
-molecules in the air as a result of this high field strength due to
-transferred electrons.
+An electric field strength of 300 kV/m can cause the molecules in the
+air to breakdown allowing a spark to travel through the air. You have
+probably rubbed a ballon through your hair and heard some crackling -
+that is one effect of the breakdown of the molecules in the air as a
+result of this high field strength due to transferred electrons.
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
