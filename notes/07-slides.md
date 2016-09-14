@@ -110,7 +110,7 @@ As long as the zero potential is the same for all measurements.
 
 <section data-markdown>
 
-The voltage is zero at some point in space.
+The potential is zero at some point in space.
 
 You can conclude that:
 1. The E-field is zero at that point
@@ -121,7 +121,7 @@ You can conclude that:
 
 <section data-markdown>
 
-The voltage is constant everywhere along a line in space.
+The potential is constant everywhere along a line in space.
 
 You can conclude that:
 1. The E-field has a constant magnitude along the line.
