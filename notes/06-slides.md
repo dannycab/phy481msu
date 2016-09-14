@@ -17,7 +17,7 @@ Which of the following are vectors?
 5. I, II, and II
 
 Note:
-CORRECT ANSWER: A
+* CORRECT ANSWER: A
 
 </section>
 
@@ -42,6 +42,10 @@ The space in and around a cubical box (edge length $L$) is filled with a constan
 4. $6E_0L^2$
 5. We don't know $\rho(r)$, so can't answer.
 
+Note:
+* CORRECT ANSWER: A
+* All the incoming flux on the left side comes out the right side
+
 </section>
 
 <section data-markdown>
@@ -54,6 +58,9 @@ A positive point charge $+q$ is placed outside a closed cylindrical surface as s
 3. zero
 4. not enough information given to decide
 
+Note:
+* CORRECT ANSWER: B
+* This is meant to be hard to visualize, next slide illustrates it better.
 
 </section>
 
@@ -76,6 +83,9 @@ A positive point charge $+q$ is placed outside a closed cylindrical surface as s
 3. zero
 4. not enough information given to decide
 
+Note:
+* CORRECT ANSWER: B
+* Some of the incoming flux through C goes out A and B.
 
 </section>
 
@@ -110,6 +120,11 @@ What is the divergence in the boxed region?
 2. Not zero
 3. ???
 
+Note:
+* CORRECT ANSWER: A
+* Lines in; lines out - harder to see dE/dx and dE/dy
+* One of those curious ones where the 2D picture might get in the way; think 3D
+
 </section>
 
 <section data-markdown>
@@ -118,6 +133,9 @@ What is the divergence in the boxed region?
 
 *Hint: The front fly leaf of Griffiths suggests that the we take:*
 $$\dfrac{1}{r^2}\dfrac{\partial}{\partial r}\left(r^2\dfrac{\partial E_r}{\partial r}\right)$$
+
+Note:
+* You get zero! Motivates delta function
 
 </section>
 
@@ -141,6 +159,9 @@ $$\int_{-\infty}^{\infty} x^2 \delta(x-2)dx$$
 4. $\infty$
 5. Something else
 
+Note:
+* CORRECT ANSWER: C
+
 </section>
 
 <section data-markdown>
@@ -152,6 +173,8 @@ $$\int_{-\infty}^{\infty} x^2 \delta(x-2)dx$$
 * Row 5-6: $\int_{-\infty}^{0} xe^x \delta(x-1)dx$
 * Row 6+: $\int_{-\infty}^{\infty} (x+1)^2 \delta(4x)dx$
 
+Note:
+* Give them 2-3 minutes to work on it and ask for what they did.
 
 </section>
 
@@ -167,6 +190,11 @@ A point charge ($q$) is located at position $\mathbf{R}$, as shown. What is $\rh
 4. $\rho(\mathbf{r}) = q\delta^3(\mathbf{r}-\mathbf{R})$
 5. Something else??
 
+Note:
+* CORRECT ANSWER: E
+* This one is a curious one because a delta function is alway positive, both C and D are correct.
+* Expect most everyone to pick C
+
 </section>
 
 <section data-markdown>
@@ -179,6 +207,9 @@ What are the units of $\delta (x)$ if $x$ is measured in meters?
 4. [$\mathrm{m}^{-1}$]:   1 / (unit of length)
 5. [$\mathrm{m}^{-2}$]:   1 / (unit of length squared)
 
+Note:
+* CORRECT ANSWER: D
+* Think about what the integral must produce.
 
 </section>
 
@@ -192,6 +223,10 @@ What are the units of $\delta^3(\mathbf{r})$ if the components of $\mathbf{r}$ a
 4. [$\mathrm{m}^{-2}$]:   1 / (unit of length squared)
 5. None of these.
 
+Note:
+* CORRECT ANSWER: E
+* Should be m^-3
+
 </section>
 
 <section data-markdown>
@@ -204,6 +239,9 @@ What is the divergence in the boxed region?
 2. Not zero
 3. ???
 
+Note:
+* CORRECT ANSWER: A
+* Just a check back in.
 </section>
 
 <section data-markdown>
@@ -214,6 +252,8 @@ A Gaussian surface which is *not* a sphere has a single charge (q) inside it, *n
 2. We know what it is, but it is NOT $q/\varepsilon_0$.
 3. Need more info/details to figure it out.
 
+Note:
+* CORRECT ANSWER: A
 
 </section>
 
@@ -227,9 +267,13 @@ An electric dipole ($+q$ and $–q$, small distance $d$ apart) sits centered in 
 What can you say about the flux of $\mathbf{E}$ through the sphere, and $|\mathbf{E}|$ on the sphere?
 
 1. Flux = 0, E = 0 everywhere on sphere surface
-2. Flux = 0, E need not be zero everywhere on sphere
+2. Flux = 0, E need not be zero *everywhere* on sphere
 3. Flux is not zero, E = 0 everywhere on sphere
-4. Flux is not zero, E need not be zero…
+4. Flux is not zero, E need not be zero...
+
+Note:
+* CORRECT ANSWER: B
+* Think about Q enclosed; what can we say about E though?
 
 </section>
 
@@ -245,6 +289,9 @@ Does the charge $\sigma$ on the beam line affect the particles being accelerated
 
 *Think: Why? Or why not?*
 
+Note:
+* CORRECT ANSWER: B
+* There's no field inside
 </section>
 
 <section data-markdown>
@@ -258,5 +305,9 @@ Could the charge $\sigma$ affect the electronic equipment outside the tunnel?
 3. ???
 
 *Think: Why? Or why not?*
+
+Note:
+* CORRECT ANSWER: A
+* Definitely a field outside
 
 </section>
