@@ -11,4 +11,5 @@ permalink: notes/index.html
 * Lecture 5 (September 12th): Electrostatics and Superposition II [[HTML]](./05-slides.html)[[PDF]](./05-slides.pdf)
 * Lecture 6 (September 14th): Gauss' Law and $\delta$ functions [[HTML]](./06-slides.html) [[PDF]](./06-slides.pdf)
 * Lecture 7 (September 16th): Gauss' Law and $\delta$ functions II [[HTML]](./07-slides.html) [[PDF]](./07-slides.pdf)
-* Lecture 8 (September 14th): Electric Potential and $\nabla \times \mathbf{E} = 0$ [[HTML]](./08-slides.html) [[PDF]](./08-slides.pdf)
+* Lecture 8 (September 19th): Gauss' Law and $\delta$ functions III  [[HTML]](./08-slides.html) [[PDF]](./08-slides.pdf)
+* Lecture 9 (September 21st): Electric Potential and $\nabla \times \mathbf{E} = 0$ [[HTML]](./09-slides.html) [[PDF]](./09-slides.pdf)
