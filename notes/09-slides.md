@@ -15,7 +15,7 @@ What does that tell you about the difference in the field when we cross the shee
 1. it's zero
 2. it's $\frac{\sigma}{\varepsilon_0}$
 3. it's -$\frac{\sigma}{\varepsilon_0}$
-4. it's +$\frac{\sigma}{2\varepsilon_0} \hat{k}$
+4. it's +$\frac{\sigma}{\varepsilon_0} \hat{k}$
 5. it's -$\frac{\sigma}{\varepsilon_0} \hat{k}$
 
 
