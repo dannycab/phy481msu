@@ -18,6 +18,9 @@ What does that tell you about the difference in the field when we cross the shee
 4. it's +$\frac{\sigma}{\varepsilon_0} \hat{k}$
 5. it's -$\frac{\sigma}{\varepsilon_0} \hat{k}$
 
+Note:
+* CORRECT ANSWER: D
+* Makes for a good discussion about cross one direction versus the other
 
 </section>
 
