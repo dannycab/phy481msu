@@ -52,8 +52,8 @@ Consider a cube (edge length $a$) with a uniform charge distributed throughout i
 ![Cube with Hole](./images/hw3/cube_w_hole.png "Cube with hole")
 
 1. Does Gauss' Law hold for this problem? Can Gauss' Law be used on this problem? If so, what surface do you use? If not, why?
-2. Let the center of the cube (and thus the center of the cavity) be located at the origin $\langle 0,0,0 \rangle$. Determine the electric field at point $P$ a distance $z$ from the center of the cube. Explain anything special that you had to do to determine this field.
-3. Verify that your expression for the electric field makes sense if $d$ goes to zero. What does this correspond to physically?
+2. Let the center of the cube (and thus the center of the cavity) be located at the origin $\langle 0,0,0 \rangle$. **Explain** how you would determine the electric field at point $P$ a distance $z$ from the center of the cube.
+3. What should your expression for the electric field be as $d$ goes to zero. What does this correspond to physically?
 
 #### 5. Describing charge distributions with delta functions
 
