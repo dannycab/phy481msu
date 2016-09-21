@@ -6,6 +6,55 @@ transition: slide
 
 <section data-markdown>
 
+We derived that the electric field due to an infinite sheet with charge density $\sigma$ was as follows:
+
+$$\mathbf{E}(z) = \begin{cases} \dfrac{\sigma}{2\varepsilon_0}\hat{k} & \mbox{if} & \mbox{ z > 0} \cr \dfrac{-\sigma}{2\varepsilon_0}\hat{k} & \mbox{if} & \mbox{ z < 0}\end{cases}$$
+
+What does that tell you about the difference in the field when we cross the sheet, $\mathbf{E}(+z)-\mathbf{E}(-z)$?
+
+1. it's zero
+2. it's $\frac{\sigma}{2\varepsilon_0}$, but I'm not sure of the sign
+3. it's $\frac{\sigma}{\varepsilon_0}$, but I'm not sure of the sign
+4. it's $\frac{\sigma}{2\varepsilon_0} \hat{n}$
+5. it's $\frac{\sigma}{\varepsilon_0} \hat{n}$
+
+
+</section>
+
+<section data-markdown>
+
+## Announcements
+
+* Homework 2 solutions posted
+* Exam 1 is coming up! October 5th (More details next week!)
+
+</section>
+
+<section data-markdown>
+
+For me, the second homework was ...
+
+1. fairly straight-forward; lower difficulty than I expected.
+2. challenging, but at the level of difficulty I expected
+3. a bit more difficult than I expected, but still manageable
+4. much more difficult than I expected.
+
+</section>
+
+<section data-markdown>
+I spent ... hours on the second homework.
+
+1. 1-4
+2. 5-6
+3. 7-8
+4. 9-10
+5. More than 10
+</section>
+
+
+
+<section data-markdown>
+
 ## Electric Potential
 
 <img src="./images/lightning.jpg" align="center" style="width: 600px";/>
