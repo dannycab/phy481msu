@@ -54,7 +54,7 @@ Consider a very large set of metal capacitor plates separated by a small distanc
 6. BONUS: Consider that the plates have some depth to them (as with any real physical plate). Let them have a width $w$. Using what you remember or know about metals, what happens to your graphs in Parts 2 and 4? (For example, we will learn soon that metals in electrostatics are equipotential surfaces.)
 
 
-#### 6. Surface charge and boundary conditions
+#### 5. Surface charge and boundary conditions
 
 It might seem to you that the results that the electric field is discontinuous by an amount $\sigma/\varepsilon_0$ isn't really a big deal. There's probably a question about how useful this result is. We will come back to this particularly when we get to fields in matter, and suffice it to say, it will help us a lot there. To get a flavor of what is coming, this problem will discuss this discontinuity in a familiar context.
 
@@ -63,7 +63,7 @@ It might seem to you that the results that the electric field is discontinuous b
 3. Consider a similarly cylindrical plastic rod with a constant charge density $\rho$ distributed over its entire volume. Again, using Gauss' Law (far from the ends of the rod; assume it's long and skinny), determine the electric field inside and outside the rod.
 4. Again, take the difference between the electric fields you determined in Part 3 across the outer surface of the plastic rod. What do you find? Does your result make physical sense?
 
-#### 5. An energy conundrum
+#### 6. An energy conundrum
 
 There's a bit of a conundrum that occurs when we begin to compare our two different descriptions of energy associated with electrostatic systems. In this problem, you will compare these descriptions and develop an argument that resolves the conundrum.
 
