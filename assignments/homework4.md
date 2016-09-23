@@ -71,6 +71,6 @@ There's a bit of a conundrum that occurs when we begin to compare our two differ
 Consider two point charges ($q_1$ and $q_2$) that are brought to be a distance $r$ apart. You can locate them anywhere to develop this argument, but for the sake clarity, let's put them on the $x$-axis straddling the origin (i.e., one at $r/2$ and the other at $-r/2$).
 
 1. First, compute the work done to bring the charge configuration together. Recall that it costs nothing (i.e., there's no work done) to bring the first charge to it's location. Does this expression look familiar?
-2. Now, construct the integral expression for the total energy associated with the charge configuration using the integral formalism: $\frac{\varepsilon_0}{2} \int E^2 d\tau$. Remember that the electric field in this integral expression is due to the field from both charges: $\mathbf{E} = \mathbf{E}_1 + \mathbf{E}_2$. *Do not yet try to integrate it.*
-3. Your integral expression should expand out to three terms: you can integrate one of the terms, but not the other two. Why not?
-4. Subtract the result from part 1 from the result from part 3, you should be left with the two terms that are unable to be integrated. What is the physical difference of these two integrals (Part 1 and Part 3)? What is the meaning of the two left over terms?
+2. Now, construct the integral expression for the total energy associated with the charge configuration using the integral formalism: $\frac{\varepsilon_0}{2} \int E^2 d\tau$. Remember that the electric field in this integral expression is due to the field from both charges: $\mathbf{E} = \mathbf{E}_1 + \mathbf{E}_2$. *Do not try to integrate it.*
+3. Your integral expression can be expanded out to three terms: in principle, you can integrate one of the terms, but not the other two. Which two can't you integrate and why not?
+4. What is the physical significance of the two un-integrable terms? What must the integrable term be?
