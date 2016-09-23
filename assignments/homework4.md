@@ -3,8 +3,9 @@ layout: homework
 use_math: true
 ---
 
-<p style="color: purple">This homework is not complete until this message is removed.</p>
+# Homework 4 (Due September 30th)
 
+Homework 4 emphasizes another alternative method to direct integration for solving the electric field problem by reducing the vector problem to a scalar one by using electric potential. In addition, it introduces the electric potential energy concept. This homework emphasizes 2.3 and 2.4, but Sec. 2.2 (Gauss' Law) continues to be very important.
 
 #### 1. Energy of a point charge distribution
 
