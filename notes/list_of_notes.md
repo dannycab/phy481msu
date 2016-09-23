@@ -12,5 +12,6 @@ permalink: notes/index.html
 * Lecture 6 (September 14th): Gauss' Law and $\delta$ functions [[HTML]](./06-slides.html) [[PDF]](./06-slides.pdf)
 * Lecture 7 (September 16th): Gauss' Law and $\delta$ functions II [[HTML]](./07-slides.html) [[PDF]](./07-slides.pdf)
 * Lecture 8 (September 19th): Gauss' Law and $\delta$ functions III  [[HTML]](./08-slides.html) [[PDF]](./08-slides.pdf)
-* Lecture 9 (September 21st): Electric Potential and $\nabla \times \mathbf{E} = 0$ [[HTML]](./09-slides.html) [[PDF]](./09-slides.pdf)
-* Lecture 10 (September 23rd): Electric Potential and Electrostatic Potential Energy [[HTML]](./10-slides.html) [[PDF]](./10-slides.pdf)
+* Lecture 9 (September 21st): Electric Potential I [[HTML]](./09-slides.html) [[PDF]](./09-slides.pdf)
+* Lecture 10 (September 23rd): Electric Potential II [[HTML]](./10-slides.html) [[PDF]](./10-slides.pdf)
+* Lecture 11 (September 26th): Electrostatic Potential Energy [[HTML]](./11-slides.html) [[PDF]](./11-slides.pdf)
