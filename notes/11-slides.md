@@ -6,15 +6,63 @@ transition: slide
 
 <section data-markdown>
 
+True or False: The electric field, $\mathbf{E(\mathbf{r})}$, in some region of space is zero, thus the electric potential, $V(\mathbf{r})$, in that same region of space is zero.
+
+1. True
+2. False
+
+Note:
+* CORRECT ANSWER: B
+* The electric potential is a constant in the region; it might be zero, but doesn't have to be.
+
+</section>
+
+<section data-markdown>
+
+True or False: The electric potential, $V(\mathbf{r})$, in some region of space is zero, thus the electric field, $\mathbf{E(\mathbf{r})}$, in that same region of space is zero.
+
+1. True
+2. False
+
+Note:
+* CORRECT ANSWER: A
+* If the potential is zero in that space is zero, then it's gradient is zero in that space, so E must be zero also.
+
+</section>
+
+<section data-markdown>
+
+### Announcements
+
+* Exam 1 is October 5th (next Wednesday)
+  * Coverage: Griffiths Ch 1, Ch 2.1-2.4
+  * Mathematics (including $\delta$ functions), Coulomb and Gauss, Potential and Energy
+  * Specific topic/questions on Wednesday
+* No homework due next week
+  * Homework 5 will be a touch longer
+
+</section>
+
+<section data-markdown>
+Should we post Homework 5 on Friday or wait to post it until after Exam 1?
+
+1. Post it on Friday.
+2. Post it after Exam 1.
+3. I don't care either way, but I won't work on it until after Exam 1.
+</section>
+
+<section data-markdown>
+
 We usually choose $V(r\rightarrow\infty) \equiv 0$ when calculating the potential of a point charge to be $V(r) = +kq/r$. How does the potential $V(r)$ change if we choose our reference point to be $V(R) = 0$ where $R$ is close to $+q$.
 
-1. $V(r)$ is positive but smaller than $kq/r$
-2. $V(r)$ is positive but larger than $kq/r$
-3. $V(r)$ is negative
+1. $V(r)$ higher than it was before
+2. $V(r)$ is lower than it was before
 4. $V(r)$ doesn’t change ($V$ is independent of  choice of reference)
 
 Note:
-CORRECT ANSWER: C
+* CORRECT ANSWER: B
+* Show redefinition.
+
 
 </section>
 
@@ -74,7 +122,8 @@ $$\dfrac{\varepsilon_0}{2}\int E^2 d\tau$$
 3. remains constant
 
 Note:
-CORRECT ANSWER: B
+* CORRECT ANSWER: B
+* Consider when they overlap, field goes to zero, must be E gets smaller as they get closer. same volume
 </section>
 
 <section data-markdown>
@@ -89,5 +138,6 @@ A parallel-plate capacitor has $+Q$ on one plate, $-Q$ on the other.  The plates
 3. remains constant.
 
 Note:
-CORRECT ANSWER: A
+* CORRECT ANSWER: A
+* Same E; constant; larger volume where it is non-zero
 </section>
