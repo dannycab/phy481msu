@@ -47,6 +47,16 @@ Note:
 
 </section>
 
+<section data-markdown>
+
+### The conductor problem
+
+<img src="./images/metal.png" align="center" style="width: 500px";/>
+
+
+</section>
+
+
 
 <section data-markdown>
 
@@ -139,24 +149,6 @@ Note:
 
 <section data-markdown>
 
-<img src="./images/conducting_cap_plates.png" align="right" style="width: 400px";/>
-
-
-Given a pair of very large, flat, conducting capacitor plates with surface charge densities $+/-\sigma$, what is the E field in the region between the plates?
-
-1. $\sigma/2\varepsilon_0$
-2. $\sigma/\varepsilon_0$
-3. $2\sigma/\varepsilon_0$
-4. $4\sigma/\varepsilon_0$
-5. Something else
-
-Note:
-* CORRECT ANSWER: B
-
-</section>
-
-<section data-markdown>
-
 <img src="./images/conducting_cap_plates_simple.png" align="right" style="width: 300px";/>
 
 
@@ -170,6 +162,24 @@ Given a pair of very large, flat, conducting capacitor plates with total charges
 
 Note:
 * CORRECT ANSWER: D
+
+</section>
+
+<section data-markdown>
+
+<img src="./images/conducting_cap_plates.png" align="right" style="width: 400px";/>
+
+
+Given a pair of very large, flat, conducting capacitor plates with surface charge densities $+/-\sigma$, what is the E field in the region between the plates?
+
+1. $\sigma/2\varepsilon_0$
+2. $\sigma/\varepsilon_0$
+3. $2\sigma/\varepsilon_0$
+4. $4\sigma/\varepsilon_0$
+5. Something else
+
+Note:
+* CORRECT ANSWER: B
 
 </section>
 
