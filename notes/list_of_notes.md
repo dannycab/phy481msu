@@ -16,3 +16,4 @@ permalink: notes/index.html
 * Lecture 10 (September 23rd): Electric Potential II [[HTML]](./10-slides.html) [[PDF]](./10-slides.pdf)
 * Lecture 11 (September 26th): Electrostatic Potential Energy [[HTML]](./11-slides.html) [[PDF]](./11-slides.pdf)
 * Lecture 12 (September 28th): Conductors [[HTML]](./12-slides.html) [[PDF]](./12-slides.pdf)
+* Lecture 13 (September 30th): Conductors II [[HTML]](./13-slides.html) [[PDF]](./13-slides.pdf)
