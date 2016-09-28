@@ -6,6 +6,42 @@ transition: slide
 
 <section data-markdown>
 
+Does system energy "superpose"?
+
+That is, if you have one system of charges with total stored energy $W_1$, and a second charge distribution with $W_2$...if you superpose these charge distributions, is the total energy of the new system simply $W_1 + W_2$?
+
+1. Yes
+2. No
+
+Note:
+* CORRECT ANSWER: B
+* Draw 4 charges and show that it is not the sum of the 2 charges and the other 2.
+
+</section>
+
+<section data-markdown>
+### Exam 1 Information
+
+* Exam 1 on Wednesday, October 5th
+* Arrive on time!
+* We will provide Formula Sheets (posted on Piazza already)
+* You can bring one-side of a sheet of paper with your own notes.
+* 4 questions - True/False, Essay, Graphing, Calculations
+
+</section>
+
+<section data-markdown>
+### What's on Exam 1?
+
+* Identify whether conceptual statements about $\mathbf{E}$, $V$, and/or $\rho$ are true or false.
+* Sketch and discuss delta functions in relation to charge density, $\rho$
+* Calculate the electric potential, $V$, for a specific charge distribution and discuss what happens in limiting cases
+* Calculate the electric field, $\mathbf{E}$, inside and outside a continuous distribution of charge and sketch the results
+
+</section>
+
+<section data-markdown>
+
 <img src="./images/pt_charges_energy.png" align="center" style="width: 300px";/>
 
 
