@@ -132,7 +132,7 @@ Note:
 
 <section data-markdown>
 
-We have a large copper plate with uniform surface charge density
+We have a large copper plate with uniform surface charge density, $\sigma$.
 Imagine the Gaussian surface drawn below.  Calculate the E-field a small distance $s$ above the conductor surface.   
 
 <img src="./images/copper_plate.png" align="left" style="width: 300px";/>
