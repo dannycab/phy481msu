@@ -6,6 +6,17 @@ transition: slide
 
 <section data-markdown>
 
+### Tutorial today
+
+* Click 'A' once you finish page 1
+* Click 'B' once you finish page 2
+* Click 'C' once you finish page 3
+
+</section>
+
+
+<section data-markdown>
+
 A neutral copper sphere has a spherical hollow in the center.  A charge $+q$ is placed in the center of the hollow.  What is the total charge on the outside surface of the copper sphere? (Assume Electrostatic equilibrium.)
 
 <img src="./images/coppersphere_hole_and_charge.png" align="left" style="width: 350px";/>
