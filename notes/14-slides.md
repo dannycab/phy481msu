@@ -24,6 +24,17 @@ Note:
 
 <section data-markdown>
 
+### Announcements
+
+* Test on Wednesday
+  * All Homework solutions posted on Piazza
+  * You may bring in one side of a piece of paper with your own notes (formula sheets provided)
+* No homework due Friday; Homework 5 posted on Wednesday
+
+</section>
+
+<section data-markdown>
+
 <img src="./images/conducting_cap_plates.png" align="right" style="width: 400px";/>
 
 
