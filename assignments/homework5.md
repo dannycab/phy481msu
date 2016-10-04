@@ -69,6 +69,9 @@ $$\int_V \left(T \nabla^2 U + \nabla T \cdot \nabla U\right) d\tau = \oint_S \le
 
 In class we derived the solution for the 2D version of Laplace's equation with the boundary conditions shown below.
 
+![Channel](./images/hw5/channel.png "Channel")
+
+
 That solution was analytic, but it contained an infinite series:
 
 $$V(x,y) = \sum_{n=1,3,5,\dots}^{\infty} \dfrac{4 V_0}{\pi n} \sin \left(\dfrac{n\pi x}{a}\right)e^{-\dfrac{n\pi y}{a}}$$
