@@ -47,7 +47,7 @@ We carve out two spherical cavities from a metal sphere of radius $R$ (as shown 
 1. Sketch the surface charge everywhere. Explain how you know the surface charge looks this way.
 2. Determine the surface charges ($\sigma_a$, $\sigma_b$, and $\sigma_R$).
 3. Sketch the electric field everywhere. If the field is zero anywhere, indicate this explicitly. Explain how you know the electric field looks this way.
-4. Determine the electric field outside the conductor and inside each cavity.
+4. Determine the magnitude of electric field outside the conductor and inside each cavity.
 5. If we brought an external charge $q_c$ near the conducting sphere how do your answers to parts 1-4 change? You may answer in words, pictures or both.
 
 ## 5. Proving Uniqueness
