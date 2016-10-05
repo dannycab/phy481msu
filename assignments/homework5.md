@@ -18,7 +18,7 @@ A **metal** sphere of radius $R$, carrying a charge $+q$, is surrounded by a thi
 2. From part 1, you probably noticed the charge distributes in some way on the metals. Determine the surface charge density $\sigma$ at $R$, at $a$, and at $b$.
 3. Sketch the electric field everywhere; explain how you know the field you have drawn is correct. If the field is zero anywhere, indicate that explicitly.
 4. Find the potential everywhere, use $r \rightarrow \infty$ as your reference point for $V=0$.
-5. Now the outer surface is touched by a grounding wire, which lowers its potential to zero. How do your answers change to parts 2 and 3? Explain your reasoning.
+5. Now the outer surface is touched by a grounding wire, which lowers its potential to zero. How do your answers change to parts 2 and 4? Explain your reasoning.
 
 ## 2. Coax capacitors
 
