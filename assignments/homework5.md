@@ -39,7 +39,7 @@ Consider a coaxial cable with an inner conducting cylinder has radius $a$ and th
 
 ## 4. Superposition in conductors ("shielding")
 
-We carve out two spherical cavities from a metal sphere of radius $R$ (as shown below). The first cavity (radius, $a$) has a charge $q_a$ placed at the center of the cavity. Similarly, the second cavity (radius, $b$) has a charge $q_b$ placed at the center of that cavity.
+We carve out two spherical cavities from a metal sphere of radius $R$ (as shown below). The first cavity (radius, $a$) has a charge $+q_a$ placed at the center of the cavity. Similarly, the second cavity (radius, $b$) has a charge $+q_b$ placed at the center of that cavity.
 
 ![Shielded Charges](./images/hw5/shielded_charges.png "Shielded Charges")
 
