@@ -6,6 +6,31 @@ transition: slide
 
 <section data-markdown>
 
+I feel that Exam 1 was a fair assessment.
+
+1. Strongly Agree
+2. Agree
+3. Neither Agree/Disagree
+4. Disagree
+5. Strongly Disagree
+
+</section>
+
+<section data-markdown>
+
+I feel that Exam 1 was aligned with what we have been doing (in class and on homework).
+
+1. Strongly Agree
+2. Agree
+3. Neither Agree/Disagree
+4. Disagree
+5. Strongly Disagree
+
+</section>
+
+
+<section data-markdown>
+
 <img src="./images/cubical_lattice.png" align="center" style="width: 300px";/>
 
 
