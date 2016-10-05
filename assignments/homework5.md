@@ -14,7 +14,7 @@ A **metal** sphere of radius $R$, carrying a charge $+q$, is surrounded by a thi
 
 ![Concentric Spheres](./images/hw5/concentric_spheres.png "Concentric Spheres")
 
-1. Sketch the charge distribution everywhere.
+1. Sketch the charge distribution everywhere. If the charge is zero anywhere, indicate that explicity.
 2. From part 1, you probably noticed the charge distributes in some way on the metals. Determine the surface charge density $\sigma$ at $R$, at $a$, and at $b$.
 3. Find the potential everywhere, use $r \rightarrow \infty$ as your reference point for $V=0$.
 4. Sketch the electric field everywhere; explain how you know the field you have drawn is correct.
