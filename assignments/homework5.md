@@ -10,7 +10,7 @@ use_math: true
 
 ## 1. Gauss' Law and Cavities
 
-A **metal** sphere of radius $R$, carrying a charge $q$, is surrounded by a thick concentric **metal** shell (inner radius $a$, outer radius $b$). The shell carries no net charge. Where requested, please explain your reasoning.
+A **metal** sphere of radius $R$, carrying a charge $+q$, is surrounded by a thick concentric **metal** shell (inner radius $a$, outer radius $b$). The shell carries no net charge. Where requested, please explain your reasoning.
 
 ![Concentric Spheres](./images/hw5/concentric_spheres.png "Concentric Spheres")
 
