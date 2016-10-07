@@ -70,7 +70,7 @@ If $f(x) + g(y) + h(z) = 0$ for all $x$, $y$, $z$, then:
 4. All three functions have to be linear functions in $x$, $y$, or $z$ respectively (such as $f(x)=ax+b$)
 
 Note:
-* CORRECT ANSWER: C
+* CORRECT ANSWER: A
 
 </section>
 
