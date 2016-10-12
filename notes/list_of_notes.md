@@ -21,3 +21,4 @@ permalink: notes/index.html
 * Lecture 15 (October 7th): Laplace's Equation and Separation of Variables (Cartesian) [[HTML]](./15-slides.html) [[PDF]](./15-slides.pdf)
 * Lecture 16 (October 10th): Separation of Variables (Cartesian) [[HTML]](./16-slides.html) [[PDF]](./16-slides.pdf)
 * Lecture 17 (October 12th): Separation of Variables (Spherical) [[HTML]](./17-slides.html) [[PDF]](./17-slides.pdf)
+* Lecture 18 (October 14th): Separation of Variables (Spherical) [[HTML]](./18-slides.html) [[PDF]](./18-slides.pdf)
