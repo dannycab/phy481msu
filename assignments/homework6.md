@@ -36,4 +36,20 @@ We have gone through how to solve Laplace's equation in Cartesian and spherical 
 2. As we have argued twice, each of those differential equations is equal to a constant. Which constant is positive and which is negative? Explain your choice. *Think about what happens when you rotate your problem by 2$\pi$ in the $\phi$ direction, should the physics care that you've done that?* Going forward, choose the positive constant to be $+k^2$ and the negative one to be $-k^2$.
 3. Solve the differential equation for $\Theta(\theta)$ to obtain the general solution for $\Theta(\theta)$. Hint: $\Phi(\phi) = \Phi(\phi + 2\pi)$ so this puts an additional condition on $k$ that it must be an integer with $k \geq 0$.
 4. Armed with this information about $k$, solve the differential equation for $S(s)$ to obtain the general solution for $S(s)$. *Be careful to treat $k=0$ separately as that generates an additional and completely physical solution!*
-5. The potential a distance $s$ away from an infinite line charge (which should be captured by this solution) is: $V(s) = \dfrac{2\lambda}{4 \pi\varepsilon_0}\ln(s)$ + constant, which terms in general solution vanish to capture this solution?
+5. The potential at a distance $s$ away from an infinite line charge (which should be captured by this solution) is: $V(s) = \dfrac{2\lambda}{4 \pi\varepsilon_0}\ln(s)$ + constant, which terms in general solution vanish to capture this solution?
+
+*This problem is tough. But here's a little help. The general solution for the electric potential in cylindrical coordinates (with cylindrical symmetry) is:*
+
+$$V(s,\theta) = a_0 + b_0 \ln s + \sum_{k=1}^\infty \left[s^k(a_k \cos k\phi + b_k \sin k \phi)+s^{-k}(c_k \cos k\phi + d_k \sin k \phi)\right]$$
+
+You will not get full credit for this problem unless your work clearly shows how you this solution is developed.
+
+## 4. Zen and the Art of Multipole Expansion
+
+Developing intuition about the dominant contribution to the field that you are looking at will serve you very well in the future. In this problem, you will look at a few charge distributions (blue - positive charge; orange - negative charge) and discuss what the dominant contribution (monopole, dipole, quadrapole) to the field would be far from the distribution (as $r \rightarrow \infty$).
+
+For each distribution below, discuss which contribution to the multipole expansion dominants at large $r$. Explain how you can tell this is the dominant contribution (use equations and words).
+
+1. Distribution 1: ![Distribution 1](./images/hw6/distribution1.png)<br/><br/>
+2. Distribution 2: ![Distribution 2](./images/hw6/distribution2.png)<br/><br/>
+3. Distribution 3: ![Distribution 3](./images/hw6/distribution3.png)

@@ -18,5 +18,6 @@ permalink: notes/index.html
 * Lecture 12 (September 28th): Conductors [[HTML]](./12-slides.html) [[PDF]](./12-slides.pdf)
 * Lecture 13 (September 30th): Conductors II [[HTML]](./13-slides.html) [[PDF]](./13-slides.pdf)
 * Lecture 14 (October 3rd): Capacitors and Laplace's Equation [[HTML]](./14-slides.html) [[PDF]](./14-slides.pdf)
-* Lecture 15 (October 7th): Laplace's Equation and Separation of Variables [[HTML]](./15-slides.html) [[PDF]](./15-slides.pdf)
-* Lecture 16 (October 10th): Separation of Variables [[HTML]](./16-slides.html) [[PDF]](./16-slides.pdf)
+* Lecture 15 (October 7th): Laplace's Equation and Separation of Variables (Cartesian) [[HTML]](./15-slides.html) [[PDF]](./15-slides.pdf)
+* Lecture 16 (October 10th): Separation of Variables (Cartesian) [[HTML]](./16-slides.html) [[PDF]](./16-slides.pdf)
+* Lecture 17 (October 12th): Separation of Variables (Spherical) [[HTML]](./17-slides.html) [[PDF]](./17-slides.pdf)
