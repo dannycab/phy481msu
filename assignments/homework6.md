@@ -7,7 +7,32 @@ use_math: true
 
 # Homework 6 (Due October 21st)
 
-## 1. Method of Relaxation
+## 1. Method of Relaxation for Cartesian Problems
+
+One of the major properties of a solution to Laplace's equation is that the value of the potential at a point is equal the average of all the points surrounding it (a sphere in 3D or a circle in 2D). We can exploit this property to numerically solve Laplace's equation by successively computing the average value of the potential at a point on a mesh (a grid of 2D points in this case) based on the 4 other points that surround it (see the figure below).
+
+![Mesh](./images/hw6/mesh.png)
+
+To be explicit, in the simplest relaxation codes, which can run for an inordinate amount of time given the size of the mesh and the error tolerance demanded, we replace the value of the potential $V_{i,j}$ with the arithmetic average of its closest neighbors on the mesh:
+
+$$V_{i,j} = \dfrac{1}{4}\left(V_{i-1,j} + V_{i,j-1} + V_{i,j+1} + V_{i+1,j}  \right)$$
+
+The procedure for solving Laplace's equation numerically involves the following steps:
+
+1. Slice up the space where $\nabla^2 V = 0$ (and the boundary) into a grid of points (called a "mesh") that are equally spaced apart. *That mesh may have different spacing between points based on what the details of the problem being solved might be. For example, if the potential is expected to be change over short distances in some points and not others, it can make sense to change the spacing to optimize computational time (or memory). In this problem, we will use a mesh of equally spaced points.*
+2. Set the value of the boundary points given the specific problem you intend to solve. *This will typically be done in the initial parts of the program and can be changed easily to solve other kinds of problems. In this problem, we will start with a non-zero constant value on one edge and zero at the other 3 edges.*
+3. Starting at some location away from the boundary, systematically loop through each point applying the averaging given above. *It would be typical to start at one corner of the mesh and move systematically across (or down) and then down (or across) calculating the value at each new point as you go.*
+4. Compute the difference between the starting values of the potential and the values after iteration and compare to the accepted error that you decided on before starting the calculation, $Error_{i,j} = Vnew_{i,j}-Vold_{i,j}$. *Here, you could use the average error, the maximum error, or something else. In this problem, you will use the maximum error on the mesh, which we will set (at first) to 1e-1.*
+5. Repeat steps 3 and 4 until the computed error is below the accepted error.
+6. Plot the results as either a 3D plot or a contour map (or both). *In this problem, you will be asked to produce both plots.*
+
+So for this problem, [download this Jupyter notebook](../notebooks/HW6-MethodOfRelaxation.ipynb), which sets up all the aspects of the problem except for 3 things, which form the first 3 parts of the problem:
+
+1. Determine where the averaging and error checking must occur in the code and add the lines needed to do these computation. *Hint: there's only two lines to add and both of them are written as regular math above. It's your job to figure out where the go and how they are written.*
+2. Produce a 3D Plot of the potential. You did this with [a problem on the last homework](./homework6.html).
+3. [Review how to make a contour plot using matplotlib](http://matplotlib.org/examples/pylab_examples/contour_demo.html) and produce a contour plot of your results.
+4. Determine how many iterations on the mesh (*look for the print statements at the end of the code*) are needed to obtain an error tolerances of: 1e-2, 1e-3, 1e-4, 1e-5, 1e-6, and 1e-7.
+5. BONUS (Worth up to 2 parts of 1 problem): Set the value of the boundary to something more interesting (your choice!) and repeat parts 2 and 3.
 
 ## 2. Sphere with a known potential
 
@@ -44,7 +69,7 @@ $$V(s,\theta) = a_0 + b_0 \ln s + \sum_{k=1}^\infty \left[s^k(a_k \cos k\phi + b
 
 You will not get full credit for this problem unless your work clearly shows how you this solution is developed.
 
-## 4. Zen and the Art of Multipole Expansion
+## 4. Zen and the Art of the Multipole Expansion
 
 Developing intuition about the dominant contribution to the field that you are looking at will serve you very well in the future. In this problem, you will look at a few charge distributions (blue - positive charge; orange - negative charge) and discuss what the dominant contribution (monopole, dipole, quadrapole) to the field would be far from the distribution (as $r \rightarrow \infty$).
 
@@ -53,3 +78,13 @@ For each distribution below, discuss which contribution to the multipole expansi
 1. Distribution 1: ![Distribution 1](./images/hw6/distribution1.png)<br/><br/>
 2. Distribution 2: ![Distribution 2](./images/hw6/distribution2.png)<br/><br/>
 3. Distribution 3: ![Distribution 3](./images/hw6/distribution3.png)
+
+## 5. The "Beauty" of the Multipole expansion
+
+The [multipole expansion](https://en.wikipedia.org/wiki/Multipole_expansion) is a very powerful approximation that arises in a number of different kinds of field theories. The beauty of it is that it can provide a simple approximate form for the field in question far from the sources that produce the field. Often, this is helpful when solving problems where you only care about the dominant contributions because the others only provide small corrections to the behavior. In this problem, you will explore the the multipole expansion for the charge configuration shown below.
+
+![3 Charges](./images/hw6/multipole.png)
+
+1. For the three charges shown above, determine the approximate potential at a distance far from the origin of coordinates. Keep only the two lowest non-vanishing orders of the expansion. *Notice that each is a distance $r_0$ from the origin.*
+2. Explain how you know the two terms you find are the lowest non-vanishing terms for the potential.
+3. Using your answer to part 1, find the approximate electric field produced by this system of charges far from the origin. Express your answer in spherical coordinates.
