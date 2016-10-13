@@ -26,7 +26,7 @@ The procedure for solving Laplace's equation numerically involves the following 
 5. Repeat steps 3 and 4 until the computed error is below the accepted error.
 6. Plot the results as either a 3D plot or a contour map (or both). *In this problem, you will be asked to produce both plots.*
 
-So for this problem, [download this Jupyter notebook](../notebooks/HW6-MethodOfRelaxation.ipynb), which sets up all the aspects of the problem except for 3 things, which form the first 3 parts of the problem:
+So for this problem, [download this Jupyter notebook](../jupyter/HW6-MethodOfRelaxation.ipynb) (you can [view it here](https://github.com/dannycab/phy481msu/blob/gh-pages/jupyter/HW6-MethodOfRelaxation.ipynb)), which sets up all the aspects of the problem except for 3 things, which form the first 3 parts of the problem:
 
 1. Determine where the averaging and error checking must occur in the code and add the lines needed to do these computation. *Hint: there's only two lines to add and both of them are written as regular math above. It's your job to figure out where the go and how they are written.*
 2. Produce a 3D Plot of the potential. You did this with [a problem on the last homework](./homework6.html).
