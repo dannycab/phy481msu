@@ -69,7 +69,7 @@ For the dipole $\mathbf{p} = q\mathbf{d}$ shown, what does the formula predict f
 
 Note:
 * CORRECT ANSWER: D
-* The formula is for the perfect dipole.
+* The formula works far from the dipole only.
 
 
 </section>
