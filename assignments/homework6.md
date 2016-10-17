@@ -62,7 +62,7 @@ In this problem, you will develop the general solution to Laplace's equation in 
 2. As we have argued twice, each of those differential equations is equal to a constant. Which constant is positive and which is negative? Explain your choice. *Think about what happens when you rotate your problem by 2$\pi$ in the $\phi$ direction, should the physics care that you've done that?* Going forward, choose the positive constant to be $+k^2$ and the negative one to be $-k^2$.
 3. Solve the differential equation for $\Phi(\phi)$ to obtain the general solution for $\Phi(\phi)$. Hint: $\Phi(\phi) = \Phi(\phi + 2\pi)$ so this puts an additional condition on $k$ that it must be an integer with $k \geq 0$.
 4. Armed with this information about $k$, solve the differential equation for $S(s)$ to obtain the general solution for $S(s)$. *Be careful to treat $k=0$ separately as that generates an additional and completely physical solution!*
-5. Combine your solutions to Parts 3 and 4 to generate the complete general solution $V(s,\phi) = S(s)\Phi(\phi)$. 
+5. Combine your solutions to Parts 3 and 4 to generate the complete general solution $V(s,\phi) = S(s)\Phi(\phi)$.
 6. The potential at a distance $s$ away from an infinite line charge (which should be captured by this solution) is: $V(s) = \dfrac{2\lambda}{4 \pi\varepsilon_0}\ln(s)$ + constant, which terms in general solution vanish to capture this solution?
 
 *This problem is tough. But here's a little help. The general solution for the electric potential in cylindrical coordinates (with cylindrical symmetry) is:*
@@ -75,7 +75,7 @@ You will not get full credit for this problem unless your work clearly shows how
 
 Developing intuition about the dominant contribution to the field that you are looking at will serve you very well in the future. In this problem, you will look at a few charge distributions (blue - positive charge; orange - negative charge) and discuss what the dominant contribution (monopole, dipole, quadrapole) to the field would be far from the distribution (as $r \rightarrow \infty$).
 
-For each distribution below, discuss which contribution to the multipole expansion dominants at large $r$. Explain how you can tell this is the dominant contribution (use equations, pictures, and words as you see fit).
+For each distribution below, discuss which contribution to the multipole expansion dominates at large $r$. Explain how you can tell this is the dominant contribution (use equations, pictures, and words as you see fit).
 
 1. Distribution 1: ![Distribution 1](./images/hw6/distribution1.png)<br/><br/>
 2. Distribution 2: ![Distribution 2](./images/hw6/distribution2.png)<br/><br/>
