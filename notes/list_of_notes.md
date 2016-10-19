@@ -23,4 +23,5 @@ permalink: notes/index.html
 * Lecture 17 (October 12th): Separation of Variables (Spherical) [[HTML]](./17-slides.html) [[PDF]](./17-slides.pdf)
 * Lecture 18 (October 14th): Separation of Variables (Spherical) [[HTML]](./18-slides.html) [[PDF]](./18-slides.pdf)
 * Lecture 19 (October 17th): Multipole Expansion [[HTML]](./19-slides.html) [[PDF]](./19-slides.pdf)
-* Lecture 20 (October 17th): Multipole Expansion II [[HTML]](./20-slides.html) [[PDF]](./20-slides.pdf)
+* Lecture 20 (October 19th): Multipole Expansion II [[HTML]](./20-slides.html) [[PDF]](./20-slides.pdf)
+* Lecture 21 (October 21st): Introduction to Electric Fields in Matter [[HTML]](./21-slides.html) [[PDF]](./21-slides.pdf)
