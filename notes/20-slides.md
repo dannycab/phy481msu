@@ -128,22 +128,3 @@ Note:
 * CORRECT ANSWER: D
 
 </section>
-
-<section data-markdown>
-
-In which situation is the dipole term the leading non-zero contribution to the potential?
-
-<img src="./images/multipole_charge_configs_4.png" align="center" style="width: 600px";/>
-
-
-1. 1 and 3
-2. 2 and 4
-3. only 5
-4. 1 and 5
-5. Some other combo
-
-Note:
-* CORRECT ANSWER: D
-
-
-</section>
