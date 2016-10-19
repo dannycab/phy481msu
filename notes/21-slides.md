@@ -158,20 +158,6 @@ Note:
 
 </section>
 
-
-<section data-markdown>
-
-Are $\rho_b$ and $\sigma_b$ due to real charges?
-
-1. Of course not! They are as fictitious as it gets!
-2. Of course they are!  They are as real as it gets!
-3. I have no idea  
-
-
-Note:
-* CORRECT ANSWER: B
-</section>
-
 <section data-markdown>
 
 A dielectric sphere is uniformly polarized,
