@@ -45,7 +45,7 @@ You are going to find the potential inside and outside the sphere (there are no 
 
 1. Rewrite the potential at the surface using Legendre polynomials. *You will need to dust off some trig identities to do this.*
 2. Using this boundary condition and the knowledge that $V$ should be finite inside the sphere, find the electric potential, $V(r,\theta)$, inside this sphere. You do not have to re-derive the general solution to Laplace's equation, just use the result:
-$$V(r,\theta) = \left(A_lr^l+\dfrac{B_l}{r^{l+1}}\right)P_l(\cos \theta)$$
+$$V(r,\theta) = \sum_l \left(A_lr^l+\dfrac{B_l}{r^{l+1}}\right)P_l(\cos \theta)$$
 3. Using the same boundary condition and the knowledge that $V$ should vanish far from the sphere, find the electric potential, $V(r,\theta)$, outside this sphere.
 4. Show explicitly that your solutions to parts 2 and 3 match at the surface of the sphere.
 5. Take the "normal" derivative of each of your solutions ($\partial V/\partial r$) and use their difference at the surface to find the charge on the surface: $$\left(\dfrac{\partial V_{out}}{\partial r}-\dfrac{\partial V_{in}}{\partial r}\right) = -\dfrac{\sigma}{\varepsilon_0}$$
