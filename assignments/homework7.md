@@ -7,7 +7,19 @@ use_math: true
 
 # Homework 7 (Due October 28th)
 
-## 1. Atomic hydrogen and the polarization model
+## 1. Multipole expansion of a single point charge
+
+For this problem, consider a single point charge $+q$.
+
+1. Place the charge at the origin, write down the electric potential at a location $\mathbf{r} = \langle x,y,z \rangle$ from the origin. Use Cartesian coordinates.
+2. Move the charge to a short distance away from the origin on the $z$-axis, $\mathbf{r}' = \langle 0,0,d\rangle$. Write down the electric potential at a location $\mathbf{r} = \langle x,y,z \rangle$ from the origin. Use Cartesian coordinates.
+3. Assume the location of interest in Part 2 is far from the charge ($r>>d$). Expand your result in Part 2 and keep the two leading order terms. Interpret these terms in light of the multipole expansion.
+4. How do you resolve that the answer in Part 1 only contains a monopole term where the answer to Part 3 contains additional terms? Explain your reasoning.
+
+## 2. Dennis' Problem
+
+
+## 3. Atomic hydrogen and the polarization model
 
 Griffiths Table 4.1 gives an experimental value for $\alpha/4\pi\varepsilon_0$ for atomic hydrogen. (Read his caption carefully for units!)
 
@@ -17,19 +29,33 @@ Griffiths Table 4.1 gives an experimental value for $\alpha/4\pi\varepsilon_0$ f
 4. Now suppose you have a single hydrogen atom inside a charged parallel-plate capacitor, with plate spacing 1 mm, and voltage 100 V. Determine the "separation distance" $d$ (as defined in that same Example 4.1 problem) of the electron cloud and the proton nucleus. What fraction of the atomic radius of part 2 is this? (You should conclude that 100 V across a 1mm gap capacitor is unlikely to ionize a hydrogen atom, do you agree?)
 5. Use your calculations to roughly estimate what voltage (and thus, what E-field) would ionize this single hydrogen atom. (We’d say if you can pull the electron cloud one full atomic radius away, it’s breaking down! )
 
-## 2. Bound charges and the D-field
 
-Consider a long teflon rod, (a dielectric cylinder), radius $a$. Imagine that we could somehow set up a permanent polarization $\mathbf{P}(s,\phi,z) = k\mathbf{s} ( = ks\hat{s})$, where $s$ is the usual cylindrical radial vector from the $z$-axis, and $k$ is a constant). Neglect end effects, the cylinder is long.
+## 4. Polarized sphere of charge
 
-1. Calculate the bound charges $\sigma_{bound}$ (on the outer surface) and $\rho_{bound}$ (in the interior of the rod). What are the units of your constant $k$? Show that the units work out in all formulas you have used involving $k$.
-2. Next, use these bound charges (along with Gauss' law, this problem has very high symmetry!) to find the electric field, $\mathbf{E}$ inside and outside the cylinder. (Your answer should include both the direction and magnitude.)
-3. Finally, determine the electric displacement field ($\mathbf{D}$) inside and outside the cylinder using the fundamental definition ($\mathbf{D} = \varepsilon_0 \mathbf{E} + \mathbf{P}$) and verify that "Gauss’ law for D-fields" works out. Explain briefly in words why your answers are what they are.
+Consider a dielectric sphere of radius $a$ that has a polarization that is directed radially outward from the center of the sphere.
 
-## 3. Bound charges and the D-field II
+1. Determine the bound charges at the surface, $\sigma_B$, and in the volume of the sphere, $\rho_B$.
+2. Using the formula for the electric potential due to bound charges, find the electric potential everywhere.
+3. Using the electric potential, find the electric field everywhere.
+4. Sketch the electric field lines inside and outside the sphere. What does your sketch say about the electric field at the boundary of the sphere? Does this make sense to you? Why or why not?
 
-Now let's hollow out that teflon rod, so it has inner radius $b$, and outer radius is (still) $a$. Just to make things a little different here, suppose we now set up a different polarization within the teflon material, namely $\mathbf{P}(s,\phi,z) = k\hat{s}$ for $b<s<a$ and where $k$ is a given constant.
+## 5. The bar electret
 
+A curious little device that is the electrical analog of the bar magnet is the bar electret. It is a short cylinder with a radius of $b$ and a length $l$ that carries a uniform polarization $\mathbf{P}$ along its axis. In this problem, you will sketch the electric field produced by the bar electret for several scenarios.
 
-1. We have vacuum for $s<b$ and $s>a$. What does that tell you about $\mathbf{P}$ in those regions? Find the bound charges $\sigma_{bound}$ (on inner and outer surfaces of the hollow rod) and $\rho_{bound}$ (everywhere else).
-2. Use these bound charges, along with Gauss' law, to find the electric field, $\mathbf{E}$, everywhere in space. (Your answer should include the direction and magnitude.)
-3. Use Gauss' Law for D-fields to find $\mathbf{D}$ everywhere in space. *This should be quick – use symmetry! Are there any free charges in this problem?* Use this (simple) result for $\mathbf{D}$ along with $\mathbf{D}=\varepsilon_0 \mathbf{E}+\mathbf{P}$ to find $\mathbf{E}$ everywhere in space. (This should serve as a check for part 1, and shows why sometimes thinking about D-fields is easier and faster!)
+1. Find the bound charge everywhere in or on the bar electret.
+2. Sketch and describe the electric field produced by the bar electret if its length is much greater than its radius (long and skinny, $L>>b$).
+3. Sketch and describe the electric field produced by the bar electret if its length is much smaller than its radius (short and fat, $L<<b$).
+4. Sketch and describe the electric field produced by the bar electret if its length is roughly equal to its radius ($L\approx b$).
+
+## 6. Charge conservation
+
+When a neutral dielectric is polarized, no new charges are crated or destroyed, so the total charge must still be zero. The charge density on the surface is given by:
+
+$$\sigma_B = \mathbf{P}\cdot\hat{n}$$
+
+The charge denisty in the bulk is given by:
+
+$$\rho_B = -\nabla \cdot \mathbf{P}$$
+
+1. Using these definitions, show that the total charge for any neutral dielectric with a polarization $\mathbf{P}$ is zero.
