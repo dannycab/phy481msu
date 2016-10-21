@@ -8,13 +8,13 @@ transition: slide
 
 Which of the following distributions could have a dipole contribution to the potential far from the charges?
 
-<img src="./images/distributionA.png" align="left" style="width: 200px";/><br/>
+<img src="./images/distributionA.png" align="left" style="width: 200px";/>
 
-<img src="./images/distributionB.png" align="center" style="width: 200px";/><br/>
+<img src="./images/distributionB.png" align="center" style="width: 200px";/>
 
-<img src="./images/distributionC.png" align="left" style="width: 200px";/><br/>
+<img src="./images/distributionC.png" align="left" style="width: 200px";/>
 
-D. None<br/>
+D. None
 
 E. More than one!
 
