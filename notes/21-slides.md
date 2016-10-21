@@ -63,7 +63,7 @@ Note:
 * Click C when you have finished page 3
 
 
-</seciton>
+</section>
 
 
 <section data-markdown>
