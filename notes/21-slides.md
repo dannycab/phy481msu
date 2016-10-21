@@ -6,6 +6,37 @@ transition: slide
 
 <section data-markdown>
 
+Which of the following distributions could have a dipole contribution to the potential far from the charges?
+
+<img src="./images/distributionA.png" align="left" style="width: 200px";/><br/>
+
+<img src="./images/distributionB.png" align="center" style="width: 200px";/><br/>
+
+<img src="./images/distributionC.png" align="left" style="width: 200px";/><br/>
+
+D. None<br/>
+
+E. More than one!
+
+Note:
+* CORRECT ANSWER: E
+* We didn't specify where the origin!
+
+</section>
+
+<section data-markdown>
+
+## Announcements
+
+* Exam 2 (Wednesday, November 2)
+* Will cover through Homework 7 (due next Friday)
+* No homework the following week, but Homework 8 will be extra long (assigned on the Exam day).
+* Details about what's on the exam will be given next Friday.
+
+</section>
+
+<section data-markdown>
+
 In which situation is the dipole term the leading non-zero contribution to the potential?
 
 <img src="./images/multipole_charge_configs_4.png" align="center" style="width: 600px";/>
