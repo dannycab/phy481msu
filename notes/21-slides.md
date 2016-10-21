@@ -54,6 +54,16 @@ Note:
 
 </section>
 
+<section data-markdown>
+
+## Tutorial
+
+* Click A when you have finished page 1
+* Click B when you have finished page 2
+* Click C when you have finished page 3
+
+
+</seciton>
 
 
 <section data-markdown>
