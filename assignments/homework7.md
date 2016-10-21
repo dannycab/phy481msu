@@ -46,7 +46,7 @@ Griffiths Table 4.1 gives an experimental value for $\alpha/4\pi\varepsilon_0$ f
 
 ## 4. Polarized sphere of charge
 
-Consider a dielectric sphere of radius $a$ that has a polarization that is directed radially outward from the center of the sphere, $\mathbf{P} = P_0\hat{r}$.
+Consider a dielectric sphere of radius $a$ that has a polarization that is directed radially outward from the center of the sphere, $\mathbf{P} = P_0\mathbf{r}$.
 
 1. Determine the bound charges at the surface, $\sigma_B$, and in the volume of the sphere, $\rho_B$.
 2. Using the formula for the electric potential due to bound charges, find the electric potential everywhere.
