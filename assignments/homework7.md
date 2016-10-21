@@ -3,8 +3,6 @@ layout: homework
 use_math: true
 ---
 
-<p style="color:purple">This homework is not ready until this message has been removed.</p>
-
 # Homework 7 (Due October 28th)
 
 ## 1. Multipole Expansion of a Single Point Charge
@@ -20,17 +18,17 @@ For this problem, consider a single point charge $+q$.
 
 In this problem, we ask you to plot a few functions. You have plotted quite a bit using Jupyter, so we expect that you will use a Jupyter notebook of your own design to do your plotting now.
 
-Consider a sphere or radius $R$ that has a volume charge density inside the sphere given by:
+Consider a sphere of radius $R$ that has a volume charge density inside the sphere given by:
 
 $$\rho(r,\theta) = \mu r \sin\left(\dfrac{3\theta}{2}\right)$$
 
 where $\mu$ is known constant and $\theta$ is the usual polar angle in spherical coordinates.
 
-1. Plot $p(r,\theta)/r$ in units of $\mu$ as a function of $\theta$. Where does this charge live in space? Note that $\rho \propto r$.
+1. Plot $\rho(r,\theta)/r$ in units of $\mu$ as a function of $\theta$. Where does this charge live in space? Note that $\rho \propto r$.
 2. Calculate the total charge, $Q$, on the sphere.
 3. Calculate the dipole moment, $\mathbf{p}$, of the sphere.
 4. Use your results from Parts 2 and 3 to find $V(r,\theta)$ when you are far from the sphere ($r>>R$). Discuss how your results make sense with the plot in Part 1.
-5. The function $\sin\left(\frac{3\theta}{2}\right) \approx \frac{1}{\sqrt{2}} + \frac{3}{2\sqrt{2}}\cos\theta$, which would suggest that the volume charge density can be written as $\rho(r,\theta) \approx \frac{\mu r}{\sqrt{2}} + \frac{3\mu r}{2\sqrt{2}} \cos \theta$. Plot $p(r,\theta)/r$ in units of $\mu$ as a function of $\theta$ in this approximation.
+5. The function $\sin\left(\frac{3\theta}{2}\right) \approx \frac{1}{\sqrt{2}} + \frac{3}{2\sqrt{2}}\cos\theta$, which would suggest that the volume charge density can be written as $\rho(r,\theta) \approx \frac{\mu r}{\sqrt{2}} + \frac{3\mu r}{2\sqrt{2}} \cos \theta$. So this will look like a superposition of a spherically symmetric density and a density proportional to $\cos \theta$. Plot $\rho(r,\theta)/r$ in units of $\mu$ as a function of $\theta$ in this approximation.
 6. How does your plot in Part 1 compare to your plot in Part 5? Is this a good approximation to the original charge density? What does this imply about our approximation of $V$ compared to the exact $V$?
 
 ## 3. Atomic hydrogen and the polarization model
