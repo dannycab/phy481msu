@@ -25,8 +25,10 @@ Note:
 
 <section data-markdown>
 
-We define "Electric Displacement" or "D" field: $\mathbf{D} = \varepsilon_0 \mathbf{E} + \mathbf{P}$. If you put a dielectric in an external field $\mathbf{E}_{ext}$, it polarizes, adding a new field, $\mathbf{E}_{induced}$ (from the bound charges).
-These superpose, making a total field $\mathbf{E}_{tot}$. Which of these three E fields is the "E" in the formula for D above?
+We define "Electric Displacement" or "D" field,
+$$\mathbf{D} = \varepsilon_0 \mathbf{E} + \mathbf{P}$$
+
+If you put a dielectric in an **external** field, it polarizes, adding a new **induced** field (from the bound charges). These superpose, making a **total** electric field. Which of these three E fields is the "E" in the formula for D above?
 
 1. $\mathbf{E}_{ext}$
 2. $\mathbf{E}_{induced}$
@@ -42,7 +44,7 @@ Note:
 
 We define $\mathbf{D} = \varepsilon_0 \mathbf{E} + \mathbf{P}$, with
 
-$$\o_int \mathbf{D}\cdot d\mathbf{A} = Q_{free}$$
+$$\oint \mathbf{D}\cdot d\mathbf{A} = Q_{free}$$
 
 <img src="./images/charge_in_spherical_dielectric.png" align="right" style="width: 200px";/>
 
