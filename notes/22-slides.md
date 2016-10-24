@@ -3,7 +3,19 @@ layout: slide
 theme: white
 transition: slide
 ---
+<section data-markdown>
 
+Consider a single point charge at the origin. It will have ONLY a monopole contribution to the potential at a location $\mathbf{r} = \langle x,y,z\rangle$.
+
+As we have seen, if we move the charge to another location (e.g., $\mathbf{r}' = \langle 0,0,d \rangle$), the distribution now has a dipole contribution to the potential at $\mathbf{r}$!
+
+What the hell is going on here?
+
+1. It's just how the math works out. Nothing has changed physically at $\mathbf{r}$.
+2. There is something different about the field at $\mathbf{r}$ and the potential is showing us that.
+3. I'm not sure how to resolve this problem.
+
+</section>
 
 <section data-markdown>
 
