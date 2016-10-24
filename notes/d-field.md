@@ -66,10 +66,10 @@ Note:
 
 <section data-markdown>
 
+<img src="./images/doped_cylinder.png" align="right" style="width: 100px";/>
+
+
 A solid non-conducting dielectric rod has been injected ("doped") with a fixed, known charge distribution $\rho(s)$. (The material responds, polarizing internally.)
-
-<img src="./images/doped_cylinder.png" align="right" style="width: 200px";/>
-
 
 When computing $D$ in the rod, do you treat this $\rho(s)$ as the "free charges" or "bound charges"?
 
