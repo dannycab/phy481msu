@@ -46,7 +46,7 @@ $$\oint \mathbf{D}\cdot d\mathbf{A} = Q_{free}$$
 <img src="./images/charge_in_spherical_dielectric.png" align="right" style="width: 200px";/>
 
 
-A point charge $+q$ is placed at the center of a dielectric sphere (radius $R$).  There are no other free charges anywhere.  What is $|D(r)|$?
+A point charge $+q$ is placed at the center of a dielectric sphere (radius $R$).  There are no other free charges anywhere.  What is $|\mathbf{D}(r)|$?
 
 
 1. $q/(4 \pi r^2)$ everywhere
@@ -82,21 +82,18 @@ Note:
 
 <section data-markdown>
 
-<img src="./images/capacitor_with_dielectric.png" align="right" style="width: 300px";/>
+For linear dielectrics the relationship between the polarization, $\mathbf{P}$, and the total electric field, $\mathbf{E}$, is given by:
 
+$$\mathbf{P} = \varepsilon_0 \chi_e \mathbf{E}$$
 
-A very large (effectively infinite) capacitor has charge $Q$. A neutral (homogeneous) dielectric is inserted into the gap (and of course, it will polarize). We want to find $\mathbf{D}$ everywhere.
+where $X_e$ is typically a known constant. Think about what happens if (1) $X_e \rightarrow 0$ or if (2) $X_e \rightarrow \infty$. What do each of these limits describe?
 
-Which equation would you head to first?
-
-1. $\mathbf{D} = \varepsilon_0 \mathbf{E} + \mathbf{P}$
-2. $\oint \mathbf{D}\cdot d\mathbf{A} = Q_{free}$
-3. $\oint \mathbf{E}\cdot d\mathbf{A} = \frac{Q}{\varepsilon_0}$
-4. More than one of these would work
+1.  (1) describes a metal and (2) describes vacuum
+2.  (1) describes vacuum and (2) describes a metal
+3. Any material can gave either $X_e \rightarrow 0$ or $X_e \rightarrow \infty$
 
 Note:
 * CORRECT ANSWER: B
-* The amount of free charge is known!
 
 </section>
 
@@ -118,6 +115,26 @@ Which equation would you head to first?
 Note:
 * CORRECT ANSWER: E
 * If you don’t know it’s *linear*, then knowing D is not enough to determine E. (Even if it’s still x-y symmetric/infinite, you still don’t know how much it polarizes!)
+
+</section>
+
+<section data-markdown>
+
+<img src="./images/capacitor_with_dielectric.png" align="right" style="width: 300px";/>
+
+
+A very large (effectively infinite) capacitor has charge $Q$. A neutral (homogeneous) dielectric is inserted into the gap (and of course, it will polarize). We want to find $\mathbf{D}$ everywhere.
+
+Which equation would you head to first?
+
+1. $\mathbf{D} = \varepsilon_0 \mathbf{E} + \mathbf{P}$
+2. $\oint \mathbf{D}\cdot d\mathbf{A} = Q_{free}$
+3. $\oint \mathbf{E}\cdot d\mathbf{A} = \frac{Q}{\varepsilon_0}$
+4. More than one of these would work
+
+Note:
+* CORRECT ANSWER: B
+* The amount of free charge is known!
 
 </section>
 
