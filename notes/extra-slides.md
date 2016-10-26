@@ -48,3 +48,35 @@ Are $\rho_b$ and $\sigma_b$ due to real charges?
 Note:
 * CORRECT ANSWER: B
 </section>
+
+<section data-markdown>
+
+If we push this conductor inside the isolated capacitor, will it be drawn into the capacitor or repelled?
+
+<img src="./images/cap_metal_insert.png" align="center" style="width: 600px";/>
+
+
+1. It gets sucked into the capacitor
+2. It gets pushed out from the capacitor
+3. I just don’t know.
+
+Note:
+* CORRECT ANSWER: A
+
+</section>
+
+<section data-markdown>
+
+If we push this dielectric inside the isolated capacitor, will it be drawn into the capacitor or repelled?
+
+<img src="./images/cap_dielectric_insert.png" align="center" style="width: 600px";/>
+
+
+1. It gets sucked into the capacitor
+2. It gets pushed out from the capacitor
+3. I just don’t know.
+
+Note:
+* CORRECT ANSWER: A
+
+</section>

@@ -26,4 +26,5 @@ permalink: notes/index.html
 * Lecture 20 (October 19th): Multipole Expansion II [[HTML]](./20-slides.html) [[PDF]](./20-slides.pdf)
 * Lecture 21 (October 21st): Wrapping up the Multipole [[HTML]](./21-slides.html) [[PDF]](./21-slides.pdf)
 * Lecture 22 (October 24th): Introduction to Electric Fields in Matter [[HTML]](./22-slides.html) [[PDF]](./22-slides.pdf)
-* Lecture 23 (October 26th): Electric Fields in Matter [[HTML]](./23-slides.html) [[PDF]](./23-slides.pdf)
+* Lecture 23 (October 26th): Bound Charges [[HTML]](./23-slides.html) [[PDF]](./23-slides.pdf)
+* Lecture 24 (October 28th): Electric Fields in Matter [[HTML]](./24-slides.html) [[PDF]](./24-slides.pdf)
