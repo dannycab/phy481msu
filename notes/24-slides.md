@@ -102,7 +102,7 @@ Note:
 <img src="./images/capacitor_with_dielectric.png" align="right" style="width: 300px";/>
 
 
-A very large (effectively infinite) capacitor has charge $Q$. A neutral (homogeneous) dielectric is inserted into the gap (and of course, it will polarize). We want to find $\mathbf{E}$ everywhere.
+A very large (effectively infinite) capacitor has charge $Q$. A neutral (*homogeneous*) dielectric is inserted into the gap (and of course, it will polarize). We want to find $\mathbf{E}$ everywhere.
 
 Which equation would you head to first?
 
@@ -123,7 +123,7 @@ Note:
 <img src="./images/capacitor_with_dielectric.png" align="right" style="width: 300px";/>
 
 
-A very large (effectively infinite) capacitor has charge $Q$. A neutral (homogeneous) dielectric is inserted into the gap (and of course, it will polarize). We want to find $\mathbf{D}$ everywhere.
+A very large (effectively infinite) capacitor has charge $Q$. A neutral (*homogeneous*) dielectric is inserted into the gap (and of course, it will polarize). We want to find $\mathbf{D}$ everywhere.
 
 Which equation would you head to first?
 
