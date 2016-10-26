@@ -129,7 +129,7 @@ in-class and online participation, which basically "unweights" the exams.
 |------------|:-------------------------:|-----------------:|
 | Exam 1     |         Wed Oct 5         |              20% |
 | Exam 2     |         Wed Nov 2         |              20% |
-| Final Exam |   Time and Location TBD   |              20% |
+| Final Exam |         Thu Dec 15        |              20% |
 | Homework   | Due Fri at start of class |              40% |
 
 
