@@ -22,6 +22,29 @@ Note:
 
 <section data-markdown>
 
+## Announcements
+
+* Exam 2 (Wednesday, October 2nd in class)
+  * Danny will be out; Dennis is in charge
+* Covers through Homework 7 (solutions posted after class)
+* "Comprehensive" exam (need to remember old stuff)
+* 1 sheet of your own notes; formula sheet posted
+
+</section>
+
+<section data-markdown>
+
+## What's on Exam 2?
+
+* Determine the potential everywhere and charge on surface given a boundary condition on surface of sphere.
+* Determine the leading order contribution to the potential for a charge distribution; discuss changes that can affect contribution.
+* Determine how bound charges are distributed given a particular polarization.
+* Explain the process of solving Laplace's equation in Cartesian coordinates and the consequences of the solutions.
+
+</section>
+
+<section data-markdown>
+
 We define "Electric Displacement" or "D" field,
 $$\mathbf{D} = \varepsilon_0 \mathbf{E} + \mathbf{P}$$
 
