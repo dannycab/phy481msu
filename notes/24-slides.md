@@ -45,6 +45,25 @@ Note:
 
 <section data-markdown>
 
+<img src="./images/doped_cylinder.png" align="right" style="width: 100px";/>
+
+
+A solid non-conducting dielectric rod has been injected ("doped") with a fixed, known charge distribution $\rho(s)$. (The material responds, polarizing internally.)
+
+When computing $D$ in the rod, do you treat this $\rho(s)$ as the "free charges" or "bound charges"?
+
+1. "free charge"
+2. "bound charge"
+3. Neither of these - $\rho(s)$ is some combination of free and bound
+4. Something else.
+
+Note:
+* CORRECT ANSWER: A
+
+</section>
+
+<section data-markdown>
+
 We define "Electric Displacement" or "D" field,
 $$\mathbf{D} = \varepsilon_0 \mathbf{E} + \mathbf{P}$$
 
@@ -81,25 +100,6 @@ A point charge $+q$ is placed at the center of a dielectric sphere (radius $R$).
 Note:
 * CORRECT ANSWER: A
 
-
-</section>
-
-<section data-markdown>
-
-<img src="./images/doped_cylinder.png" align="right" style="width: 100px";/>
-
-
-A solid non-conducting dielectric rod has been injected ("doped") with a fixed, known charge distribution $\rho(s)$. (The material responds, polarizing internally.)
-
-When computing $D$ in the rod, do you treat this $\rho(s)$ as the "free charges" or "bound charges"?
-
-1. "free charge"
-2. "bound charge"
-3. Neither of these - $\rho(s)$ is some combination of free and bound
-4. Something else.
-
-Note:
-* CORRECT ANSWER: A
 
 </section>
 
