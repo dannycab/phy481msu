@@ -6,7 +6,7 @@ transition: slide
 
 <section data-markdown>
 
-When there are no free charges ($\rho_{free}$ = 0) in a material, the potential in that material satisfies Laplace's equation?
+When there are no free charges, $\rho_{free}$ = 0, in a material, the electric potential, $V$, in that material satisfies Laplace's equation?
 
 $$\nabla^2 V = 0$$
 
