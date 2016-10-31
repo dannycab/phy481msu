@@ -6,6 +6,22 @@ transition: slide
 
 <section data-markdown>
 
+When there are no free charges ($\rho_{free}$ = 0) in a material, the potential in that material satisfies Laplace's equation?
+
+$$\nabla^2 V = 0$$
+
+1. True
+2. False
+3. ???
+
+Note:
+* CORRECT ANSWER: A
+* As we will show later.
+
+</section>
+
+<section data-markdown>
+
 <img src="./images/capacitor_with_dielectric.png" align="right" style="width: 300px";/>
 
 
