@@ -3,8 +3,6 @@ layout: homework
 use_math: true
 ---
 
-<p style="color:purple">This homework is not ready until this message is removed.</p>
-
 # Homework 8 (Due November 11th)
 
 ## 1. Bound charges and the D-field
@@ -40,7 +38,7 @@ A point charge $+Q$ is at the center of a spherical plastic shell (inner radius 
 
 A solid sphere (radius $R$) of linear dielectric material (dielectric constant $\varepsilon_r$) has been "injected" with a uniform free charge density $\rho_f$ throughout its volume.
 
-1. Find the potential at the center of the sphere (with $V(\infty)=0$).
+1. Find the potential at the center of the sphere (with $V(\infty)=0$). *Hint: You might want to find D first.*
 2. Does your answer come out larger or smaller than for a simple sphere of charge with uniform charge density $\rho_f$ (that is, if you had neglected the effect of the dielectric constant)? Would that mean setting $\varepsilon_r$ to 0, or to 1?  Does this result make physical sense to you? Explain briefly.
 3. What do you get in the limit of infinite dielectric constant? What physical situation does that limit remind you of?
 
@@ -58,9 +56,9 @@ You have a large (infinite in the $x-y$ directions) parallel-plate conductor (tw
 
 ## 6. Magnetic Forces
 1. Griffiths works out (Ex 5.2) the general solution to motion of a particle in "crossed E and B fields" ($\mathbf{E}$ points in the $z$-direction, $\mathbf{B}$ in the $x$-direction) Work out his solution carefully, make sure you follow it. Then, use it to answer the following:
-2. Suppose the particle starts at the origin at $t=0$, with a given velocity $\mathbf{v}(t=0) = v_0\hat{y}$. Use Griffiths' formal results (Eq. 5.6) to find the "special initial speed", $v_0$, whose subsequent motion is simple straight-line constant-speed motion. Verify that this answer makes sense by using elementary Phys 184-style right-hand rule arguments and the Lorentz force law.
+2. Suppose the particle starts at the origin at $t=0$, with a given velocity $\mathbf{v}(t=0) = v_0\hat{y}$. Use Griffiths' formal results (Eq. 5.6) to find the "special initial speed", $v_0$, whose subsequent motion is simple straight-line constant-speed motion. Verify that this answer makes sense by using elementary Phys 184-style right-hand rule arguments and the Lorentz force law, $\mathbf{F} = q (\mathbf{E} + \mathbf{v} \times \mathbf{B})$
 3. The discovery of the electron (J.J. Thomson, 1897) used an apparatus with crossed $\mathbf{E}$ and $\mathbf{B}$ just like the above. Thomson adjusted $\mathbf{E}$ until he observed "straight-line, constant-speed" motion of the particle beam. Then, he turned off the $E$-field, and measured the radius of curvature ($R$) of the electron beam (deflected purely by the remaining $B$-field). Given $E$, $B$, and $R$ (all measured), deduce Thomson’s formula to find the charge to mass ratio ($e/m$) of the electrons.
-4. Go back to Griffiths' Ex 5.2 again, but this time suppose your particle starts at the origin with $\mathbf{v}(t=0) = v^{'}_0\hat{y}$, with starting speed $v^{'}_0$ exactly **half** the "special value" velocity you found in part 2.  Find and sketch the resulting trajectory of the particle. Is the kinetic energy of the particle constant with time? Briefly, comment (Is this consistent with energy conservation?!)   
+4. Go back to Griffiths' Ex 5.2 again, but this time suppose your particle starts at the origin with $\mathbf{v}(t=0) = v_1\hat{y}$, with starting speed $v_1$ exactly **half** the "special value" velocity you found in part 2.  Find and sketch the resulting trajectory of the particle. Is the kinetic energy of the particle constant with time? Briefly, comment (Is this consistent with energy conservation?!)   
 
 ## 7. Current Densities
 
