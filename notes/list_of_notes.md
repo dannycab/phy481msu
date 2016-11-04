@@ -29,3 +29,4 @@ permalink: notes/index.html
 * Lecture 23 (October 26th): Bound Charges [[HTML]](./23-slides.html) [[PDF]](./23-slides.pdf)
 * Lecture 24 (October 28th): Electric Fields in Matter [[HTML]](./24-slides.html) [[PDF]](./24-slides.pdf)
 * Lecture 25 (October 31st): Electric Fields in Matter II [[HTML]](./25-slides.html) [[PDF]](./25-slides.pdf)
+* Lecture 26 (November 3rd): Wrapping up Matter; Introduction to Magnetostatics [[HTML]](./26-slides.html) [[PDF]](./26-slides.pdf)
