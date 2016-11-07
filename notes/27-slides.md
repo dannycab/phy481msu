@@ -21,6 +21,14 @@ Note:
 
 <section data-markdown>
 
+## Grade Distribution
+
+<img src="./images/PHY481_GradeDistribution.png" align="center" style="width: 700px";/>
+
+</section>
+
+<section data-markdown>
+
 ## Magnetostatics
 
 <img src="./images/death-magnetic.jpg" align="center" style="width: 500px";/>
