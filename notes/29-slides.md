@@ -90,7 +90,7 @@ Note:
 <section data-markdown>
 
 To find the magnetic field $\mathbf{B}$ at P due to a current-carrying wire we use the Biot-Savart law,  
-$$\mathbf{B}(\mathbf{r})  = \dfrac{\mu_0}{4\pi}I\int \dfrac{d\mathbf{l}\times\hat{\mathfrak{R}}{\mathfrak{R}^2}$$
+$$\mathbf{B}(\mathbf{r})  = \dfrac{\mu_0}{4\pi}I\int \dfrac{d\mathbf{l}\times\hat{\mathfrak{R}}}{\mathfrak{R}^2}$$
 In the figure, with $d\mathbf{l}$ shown, which purple vector best represents $\mathfrak{R}$?
 
 <img src="./images/linecurrent_r.png" align="center" style="width: 400px";/>
@@ -105,7 +105,7 @@ Note:
 <img src="./images/linecurrent_plain.png" align="right" style="width: 400px";/>
 
 To find the magnetic field $\mathbf{B}$ at P due to a current-carrying wire we use the Biot-Savart law,  
-$$\mathbf{B}(\mathbf{r})  = \dfrac{\mu_0}{4\pi}I\int \dfrac{d\mathbf{l}\times\hat{\mathfrak{R}}{\mathfrak{R}^2}$$
+$$\mathbf{B}(\mathbf{r})  = \dfrac{\mu_0}{4\pi}I\int \dfrac{d\mathbf{l}\times\hat{\mathfrak{R}}}{\mathfrak{R}^2}$$
 What is the direction of the infinitesimal contribution $\mathbf{B}(P)$ created by current in $d\mathbf{l}$?
 
 1. Up the page
@@ -121,7 +121,7 @@ Note:
 
 <section data-markdown>
 
-What is the magnitude of $\dfrac{d\mathbf{l}\times\hat{\mathfrak{R}}{\mathfrak{R}^2}$?
+What is the magnitude of $\dfrac{d\mathbf{l}\times\hat{\mathfrak{R}}}{\mathfrak{R}^2}$?
 
 <img src="./images/linecurrent_R_shown.png" align="right" style="width: 400px";/>
 
@@ -174,7 +174,7 @@ Note:
 
 <section data-markdown>
 
-What is the magnitude of $\dfrac{d\mathbf{l}\times\hat{\mathfrak{R}}{\mathfrak{R}^2}$?
+What is the magnitude of $\dfrac{d\mathbf{l}\times\hat{\mathfrak{R}}}{\mathfrak{R}^2}$?
 
 <img src="./images/ringcurrent_R.png" align="right" style="width: 400px";/>
 
