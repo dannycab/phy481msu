@@ -139,7 +139,7 @@ Note:
 
 <section data-markdown>
 
-What is the value of $I \dfrac{d\mathbf{l} \times \mathfrak{R}}{\mathfrak{R}^2}$?
+What is the value of $I \dfrac{d\mathbf{l} \times \hat{\mathfrak{R}}}{\mathfrak{R}^2}$?
 
 <img src="./images/linecurrent_y0.png" align="right" style="width: 300px";/>
 
