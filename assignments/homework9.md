@@ -9,7 +9,7 @@ use_math: true
 
 ## 1. Modeling the motion of a charged particle in a magnetic field
 
-We have shown that the motion of a charged particle in a constant magnetic is a circular when the initial velocity is perpendicular to the field. In this problem, you will complete the code in a Jupyter notebook, which you should download (you can view it here), to model the motion of a proton in a magnetic field.
+We have shown that the motion of a charged particle in a constant magnetic is a circular when the initial velocity is perpendicular to the field. In this problem, you will complete the code in a Jupyter notebook, which you should [download](../jupyter/HW9-MotionOfChargeInMagneticField.ipynb) (you can [view it here](https://github.com/dannycab/phy481msu/blob/gh-pages/jupyter/HW9-MotionOfChargeInMagneticField.ipynb)), to model the motion of a proton in a magnetic field.
 
 1. You first task is to read through the code and complete the integration loop to compute the trajectory of the proton and plot it in 3D. (You might need to look up how to construct a 3D plot.) For this first case, you should expect a simple circular orbit because the proton starts it's motion moving perpendicular to the magnetic field.
 2. Once you have your code working for part 1, change it to give the proton a component of velocity along the direction of the magnetic field. What does the resulting motion look like? Explain qualitatively why it should look like that.
