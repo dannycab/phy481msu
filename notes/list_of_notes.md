@@ -32,3 +32,4 @@ permalink: notes/index.html
 * Lecture 26 (November 4th): Wrapping up Matter; Boundary Conditions [[HTML]](./26-slides.html) [[PDF]](./26-slides.pdf)
 * Lecture 27 (November 7th): Introduction to Magnetostatics; Lorentz Force [[HTML]](./27-slides.html) [[PDF]](./27-slides.pdf)
 * Lecture 28 (November 9th): Mass Spectrometry and Current Density [[HTML]](./28-slides.html) [[PDF]](./28-slides.pdf)
+* Lecture 29 (November 11th): Wrapping up Current Density and Biot-Savart's Law [[HTML]](./29-slides.html) [[PDF]](./29-slides.pdf)
