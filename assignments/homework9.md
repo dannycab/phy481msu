@@ -3,8 +3,6 @@ layout: homework
 use_math: true
 ---
 
-<p style="color:purple">This homework is not ready until this message is removed.</p>
-
 # Homework 9 (Due November 18th)
 
 ## 1. Modeling the motion of a charged particle in a magnetic field
