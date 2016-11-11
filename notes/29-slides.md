@@ -8,7 +8,7 @@ transition: slide
 
 We defined the volume current density in terms of the differential, $\mathbf{J} \equiv \dfrac{d\mathbf{I}}{da_{\perp}}$.
 
-When is ok to determine the volume current density by taking the ratio of current to cross-sectional area?
+When is it ok to determine the volume current density by taking the ratio of current to cross-sectional area?
 $$\mathbf{J} \stackrel{?}{=} \dfrac{\mathbf{I}}{A}$$
 
 1. Never
@@ -174,23 +174,6 @@ Note:
 
 <section data-markdown>
 
-<img src="./images/parallel_currents.png" align="right" style="width: 250px";/>
-
-I have two very long, parallel wires each carrying a current $I_1$ and $I_2$, respectively.  In which direction is the force on the wire with the current $I_2$?
-
- 1. Up
- 2. Down
- 3. Right
- 4. Left
- 5. Into or out of the page
-
- Note:
- * CORRECT ANSWER: D
-
-</section>
-
-<section data-markdown>
-
 What is the magnitude of $\dfrac{d\mathbf{l}\times\mathfrak{R}}{\mathfrak{R}^2}$?
 
 <img src="./images/ringcurrent_R.png" align="right" style="width: 400px";/>
@@ -220,6 +203,23 @@ What is $d\mathbf{B}_z$ (the contribution to the vertical component of $\mathbf{
 
 Note:
 * CORRECT ANSWER: A
+
+</section>
+
+<section data-markdown>
+
+<img src="./images/parallel_currents.png" align="right" style="width: 250px";/>
+
+I have two very long, parallel wires each carrying a current $I_1$ and $I_2$, respectively.  In which direction is the force on the wire with the current $I_2$?
+
+ 1. Up
+ 2. Down
+ 3. Right
+ 4. Left
+ 5. Into or out of the page
+
+ Note:
+ * CORRECT ANSWER: D
 
 </section>
 
