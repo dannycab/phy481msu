@@ -5,9 +5,6 @@ permalink: index.html
 use_math: true
 ---
 
-All aspects of this syllabus and any accompanying pages or references
-are preliminary until this message has been removed.
-
 ## Electricity and Magnetism I Fall 2016
 
 [Course Learning Goals](./learning_goals.html)
