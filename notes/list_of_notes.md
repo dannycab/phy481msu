@@ -33,4 +33,5 @@ permalink: notes/index.html
 * Lecture 27 (November 7th): Introduction to Magnetostatics; Lorentz Force [[HTML]](./27-slides.html) [[PDF]](./27-slides.pdf)
 * Lecture 28 (November 9th): Mass Spectrometry and Current Density [[HTML]](./28-slides.html) [[PDF]](./28-slides.pdf)
 * Lecture 29 (November 11th): Wrapping up Current Density and Biot-Savart's Law [[HTML]](./29-slides.html) [[PDF]](./29-slides.pdf)
-* Lecture 30 (November 14th): Biot-Savart's Law and Introduction to Ampere's Law [[HTML]](./30-slides.html) [[PDF]](./30-slides.pdf)
+* Lecture 30 (November 14th): Biot-Savart's Law [[HTML]](./30-slides.html) [[PDF]](./30-slides.pdf)
+* Lecture 31 (November 16th): Ampere's Law [[HTML]](./31-slides.html) [[PDF]](./31-slides.pdf)
