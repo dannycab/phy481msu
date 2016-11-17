@@ -45,15 +45,15 @@ $\mathbf{A}(\mathbf{r}) = \dfrac{\mu_0}{4 \pi} \int \dfrac{\mathbf{J}(\mathbf{r}
 - Then use Griffiths' product rule #7 (front flyleaf) to manipulate your expression until you get to . That “something” should be precisely the formula we’re after!  
 *At some point you will need to pull the curl past an integral sign - be sure to justify why this is a perfectly legitimate thing to do.*
 
-## 5. FIELDS AND STRENGTHS
+## 5. Fields and Strengths
 1. Estimate the density $\rho$ of mobile charges in a piece of gold-wire speaker wire, assuming each atom contributes one free electron. (Look up any necessary physical constants!) Then, think about the definition of current, and *estimate* the average electron speed in a gold speaker wire of ordinary household size carrying an ordinary household current.  Your answer will come out quite slow - it might surprise you. If you flip on the stereo, and the speakers are, say, 2 meters away, would there be a noticeable "time lag" before you hear the speaker come on?
 2. If you cut open this wire, you'll see it is really two wires, each insulated, and wrapped close together in a single plastic cylinder (since you need a complete circuit, current has to flow TO and FROM the speaker, right?). Make reasonable guesses for the dimensions involved in a real, ordinary speaker wire, to estimate the TOTAL magnetic force between the "outgoing" and "return" wires. Is it attractive or repulsive? Now - if you could somehow remove the stationary positive ions in the metallic conductor (which play no role in the flow of current, right?), make a rough estimate for the total electrical force of repulsion between the two wires. How does it compare with the magnetic force you just found?
 
-## 6. VECTOR POTENTIAL I
+## 6. Vector Potential I
 1. A long (infinite) wire (cylindrical conductor, radius $R$, whose axis coincides with the $z$ axis) carries a uniformly distributed current $I_0$ in the $+z$ direction. Assuming $\nabla \cdot \mathbf{A} = 0$ (the "Coulomb gauge"), and choosing $\mathbf{A}=0$ at the edge of the wire, show that the vector potential inside the wire could be given by $A= c I_0(1-s^2/R^2)$.  Find the constant $c$ (including units.) Things to explicitly find/discuss: What is the vector direction of $\mathbf{A}$? (Does it "make sense" in any way to you?)  Is your answer unique, or is there any remaining "ambiguity" in $\mathbf{A}$? (Note that we're not asking you to derive $\mathbf{A}$ from scratch, just to see that this choice of A "works")
 2. What is the vector potential outside that wire? (Make sure that it still satisfies $\nabla \cdot \mathbf{A} = 0$, and make sure that $\mathbf{A}$ is continuous at the edge of the wire, consistent with part 1).  Here again, is your answer unique, or is there any remaining "ambiguity" in $\mathbf{A}(outside)$?
 
-## 7. VECTOR POTENTIAL II
+## 7. Vector Potential II
 Griffiths Fig 5.48 is a handy "triangle" summarizing the mathematical connections between $\mathbf{J}$, $\mathbf{A}$, and $\mathbf{B}$ (like Fig. 2.35) But there's a missing link, he has nothing for the left arrow from $\mathbf{B}$ to $\mathbf{A}$. Note the equations defining $\mathbf{A}$ are very analogous to the basic Maxwell's equations for $\mathbf{B}$:
 
 $$\nabla \cdot \mathbf{B} = 0 \leftrightarrow \nabla \cdot \mathbf{A} = 0$$
