@@ -3,6 +3,8 @@ layout: homework
 use_math: true
 ---
 
+<p style="color: purple">This homework is not ready until this message has been removed.</p>
+
 # Homework 10 (Due December 2nd)
 
 ## 1. Ampere's Law
