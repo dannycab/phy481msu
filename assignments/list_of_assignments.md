@@ -13,4 +13,4 @@ permalink: ./assignments/index.html
 * Homework 7 (Due Oct. 28) [[HTML]](./homework7.html) [[PDF]](./homework7.pdf)
 * Homework 8 (Due Nov. 11) [[HTML]](./homework8.html) [[PDF]](./homework8.pdf)
 * Homework 9 (Due Nov. 18) [[HTML]](./homework9.html) [[PDF]](./homework9.pdf)
-* Homework 10 (Due Dec. 2) [[HTML]](./homework10.html)
+* Homework 10 (Due Dec. 2) [[HTML]](./homework10.html) [[PDF]](./homework10.pdf)
