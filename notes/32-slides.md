@@ -24,6 +24,15 @@ Note:
 
 <section data-markdown>
 
+I will be at next Wednesday's class.
+
+1. Yes, I'll be there.
+2. No, I'll be doing something more awesome!
+
+</section>
+
+<section data-markdown>
+
 <img src="./images/solenoid_2D.png" align="right" style="width: 100px";/>
 An infinite solenoid with surface current density $K$ is oriented along the $z$-axis. To use Ampere's Law, we need to argue what we think $\mathbf{B}(\mathbf{r})$ depends on and which way it points.
 
