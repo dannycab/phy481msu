@@ -35,3 +35,4 @@ permalink: notes/index.html
 * Lecture 29 (November 11th): Wrapping up Current Density and Biot-Savart's Law [[HTML]](./29-slides.html) [[PDF]](./29-slides.pdf)
 * Lecture 30 (November 14th): Biot-Savart's Law [[HTML]](./30-slides.html) [[PDF]](./30-slides.pdf)
 * Lecture 31 (November 16th): Ampere's Law [[HTML]](./31-slides.html) [[PDF]](./31-slides.pdf)
+* Lecture 32 (November 18th): Ampere's Law and Boundary Conditions [[HTML]](./32-slides.html) [[PDF]](./32-slides.pdf)
