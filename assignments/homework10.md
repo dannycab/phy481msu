@@ -17,7 +17,7 @@ The slab is infinite in (both) $x$ and $y$, but finite in $z$. So we must think 
 
 ## 2. Quick Ampere's Law
 
-Suppose $\mathbf{B}$ in a region of space centered on the origin has cylindrical symmetry and is given by $\mathbf{B} = B_0\hat{\phi}$ where $B_0$ is a constant, and $\hat{phi}$ is the azimuthal direction in cylindrical coordinates.
+Suppose $\mathbf{B}$ in a region of space centered on the origin has cylindrical symmetry and is given by $\mathbf{B} = B_0\hat{\phi}$ where $B_0$ is a constant, and $\hat{\phi}$ is the azimuthal direction in cylindrical coordinates.
 
 1. What is the current density in this region of space?
 2. Suppose the current density that you found extends out to a radius $R$ and is zero for $r > R$.  What is the magnetic field for $r > R$?
