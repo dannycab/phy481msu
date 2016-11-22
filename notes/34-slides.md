@@ -18,7 +18,7 @@ I'm here today.
 
 $\mathbf{A}(\mathbf{r}) = \dfrac{\mu_0}{4 \pi} \int \dfrac{\mathbf{J}(\mathbf{r}')}{\mathfrak{R}}d\tau'$
 
-* By direct integration, find the vector potential at a distance $s$ from an infinite straight wire carrying a current $I$
+* By direct integration, find the vector potential at a distance $s$ from an finite straight wire carrying a current $I$ *Put the wire on the $z$-axis, from $z_1$ to $z_2$.*
 * In which direction does $\mathbf{A}$ point? Does that make sense to you? Why?
 * Check that $\nabla \cdot \mathbf{A} = 0$.
 * Check that $\nabla \times \mathbf{A} = \mathbf{B}$.
