@@ -32,6 +32,8 @@ Note:
   * 12:45pm-2:45pm on Thursday the 15th in this room
 * Detailed grade projections by Monday 12th
   * w/ clicker bonus, but not HW 11
+* SIRS are open
+  * Please fill out; it helps shape departmental offerings
 
 </section>
 
