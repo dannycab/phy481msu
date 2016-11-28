@@ -69,7 +69,7 @@ Note:
 
 <section data-markdown>
 
-Consider line of charge with uniform charge density, $\lambda = \rho/(\pi a^2)$. What is the magntiude of the electric field outside of the line charge (at a distance $s>a$)?
+Consider line of charge with uniform charge density, $\lambda = \rho \pi a^2$. What is the magnitude of the electric field outside of the line charge (at a distance $s>a$)?
 
 1. $E = \lambda/(4 \pi \varepsilon_0 s^2)$
 2. $E = \lambda/(2 \pi \varepsilon_0 s^2)$
