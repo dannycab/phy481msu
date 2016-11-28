@@ -23,6 +23,20 @@ Note:
 
 <section data-markdown>
 
+## Announcements
+* Homework 10 (it's long; you started it, right?)
+  * Due this Friday
+* Final Homework is due Friday the 9th
+  * Magnetic dipoles and some magnetic matter
+* Final Exam (20%)
+  * 12:45pm-2:45pm on Thursday the 15th in this room
+* Detailed grade projections by Monday 12th
+  * w/ clicker bonus, but not HW 11
+
+</section>
+
+<section data-markdown>
+
 Consider a fat wire with radius $a$ with uniform current $I_0$ that runs along the $+z$-axis. We can compute the vector potential due to this wire directly. What is $\mathbf{J}$?
 
 1. $I_0/(2 \pi)$
@@ -56,6 +70,68 @@ Note:
 Consider line of charge with uniform charge density, $\lambda = \rho/(\pi a^2)$. What is the magntiude of the electric field outside of the line charge (at a distance $s>a$)?
 
 1. $E = \lambda/(4 \pi \varepsilon_0 s^2)$
-1. $E = \lambda/(2 \pi \varepsilon_0 s)$
+2. $E = \lambda/(2 \pi \varepsilon_0 s^2)$
+3. $E = \lambda/(4 \pi \varepsilon_0 s)$
+4. $E = \lambda/(2 \pi \varepsilon_0 s)$
+5. Something else?!
+
+*Use Gauss' Law*
+
+Note:
+* CORRECT ANSWER: D
+</section>
+
+<section data-markdown>
+
+Consider a shell of charge with surface charge $\sigma$ that is rotating at angular frequency of $\mathbf{\omega}$. Which of the expressions below describe the surface current, $\mathbf{K}$, that is observed in the fixed frame.
+
+1. $\sigma\,\mathbf{\omega}$
+2. $\sigma\,\mathbf{\dot{r}}$
+3. $\sigma\,\mathbf{r} \times \mathbf{\mathbf{\omega}}$
+4. $\sigma\,\mathbf{\mathbf{\omega}} \times \mathbf{r}$
+5. Something else?
+
+Note:
+* CORRECT ANSWER: D
+</section>
+
+<section data-markdown>
+
+What is the physical interpretation of $\oint \mathbf{A} \cdot d\mathbf{l}$?
+
+1. The current density $\mathbf{J}$
+2. The magnetic field $\mathbf{B}$
+3. The magnetic flux $\Phi_B$
+4. It's none of the above, but is something simple and concrete
+5. It has no particular physical interpretation at all
+
+Note:
+* CORRECT ANSWER: C
+
+</section>
+
+<section data-markdown>
+
+Consider a square loop enclosing some amount of magnetic field lines with height $H$ and length $L$.
+We intend to compute $\Phi_B = \oint \mathbf{A} \cdot d\mathbf{l}$? What happens to $\Phi_B$ as $H$ becomes vanishingly small?
+
+1. $\Phi_B$ stays constant
+2. $\Phi_B$ gets smaller but doesn't vanish
+3. $\Phi_B \rightarrow 0$
+
+Note:
+* CORRECT ANSWER: C
+
+</section>
+
+<section data-markdown>
+
+Consider a square loop enclosing some amount of magnetic field lines with height $H$ and length $L$. If $\Phi_B \rightarrow 0$ as $H \rightarrow 0$ (or $L \rightarrow 0$), what does that say about the continuity of $\mathbf{A}$?
+
+$\Phi_B = \oint \mathbf{A} \cdot d\mathbf{l}$
+
+1. $\mathbf{A}$ is continuous at boundaries
+2. $\mathbf{A}$ is discontinuous at boundaries
+3. ???
 
 </section>
