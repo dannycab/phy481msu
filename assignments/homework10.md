@@ -42,7 +42,7 @@ Griffiths (section 5.3.2) shows that, given Biot-Savart, we can arrive at Ampere
 $\mathbf{A}(\mathbf{r}) = \dfrac{\mu_0}{4 \pi} \int \dfrac{\mathbf{J}(\mathbf{r}')}{\mathfrak{R}}d\tau'$. (this is Griffiths Eq 5.63, or .65 in 4th edition). You’ll do this in a different way than Griffiths does (though I suggest you convince yourself you can see it his way too, which is section 5.4.1!). (Note: Part 2 is easier than part 1, really!!)
 - Start with the Biot-Savart law (Eq 5.45 , or 5.47 in the 4th ed).
 - Make use  of the handy identity we've seen several times this term: $\nabla \dfrac{1}{\mathfrak{R}} = -\dfrac{1}{\mathfrak{R}^2}\hat{\mathfrak{R}}$  (Do you know where this relation comes from, can you show it?)  
-- Then use Griffiths' product rule #7 (front flyleaf) to manipulate your expression until you get to . That “something” should be precisely the formula we’re after!  
+- Then use Griffiths' product rule #7 (front flyleaf) to manipulate your expression until you get to $\mathbf{B} = \nabla \times$ something. That “something” should be precisely the formula we’re after!  
 *At some point you will need to pull the curl past an integral sign - be sure to justify why this is a perfectly legitimate thing to do.*
 
 ## 5. Fields and Strengths
