@@ -40,3 +40,4 @@ permalink: notes/index.html
 * Lecture 34 (November 23rd): Working with the Vector Potential (Class Activities) [[HTML]](./34-slides.html) [[PDF]](./34-slides.pdf)
 * Lecture 34 (November 28th): Vector Potential Examples [[HTML]](./35-slides.html) [[PDF]](./35-slides.pdf)
 * Lecture 35 (November 30th): Magnetic Dipoles [[HTML]](./36-slides.html) [[PDF]](./36-slides.pdf)
+* Lecture 36 (December 2nd): Introduction to Magnetism with Matter [[HTML]](./37-slides.html) [[PDF]](./37-slides.pdf)
