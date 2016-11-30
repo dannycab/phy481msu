@@ -3,8 +3,6 @@ layout: homework
 use_math: true
 ---
 
-<p style="color:purple">This homework is not ready until this message has been removed.</p>
-
 # Homework 11 (Due December 9th)
 
 ## 1. Coordinate Free Dipole Equation
@@ -58,7 +56,7 @@ Consider a long magnetic rod, radius $a$. Imagine that we have set up a permanen
 3. Use these bound currents to find the magnetic field inside and outside the cylinder. (Direction and magnitude)
 4. Find the $\mathbf{H}$ field inside and outside the cylinder, and verify that $\oint \mathbf{H} \cdot d\mathbf{l} = I_{free}$ works. Explain briefly in words why your answer might be what it is.
 6. Now relax the assumption that it is infinite - if this cylinder was finite in length ($L$), what changes? Sketch the magnetic field (inside and out). Briefly but clearly explain your reasoning.
-Please draw *two* such sketches, one for the case that the length $L$ is a few times bigger than a (long-ish rod, like a magnet you might play with from a toy set),  and another for the case $L<<a$, which is more like a magnetic disk than a rod.
+Please draw *two* such sketches, one for the case that the length $L$ is a few times bigger than a (long-ish rod, like a magnet you might play with from a toy set),  and another for the case $L \ll a$, which is more like a magnetic disk than a rod.
 
 ## 5. Bound Currents II
 Like the last question, consider a long magnetic rod, radius $a$.  This time imagine that we can set up a permanent azimuthal magnetization $\mathbf{M}(s,\phi,z) = c s \hat{\phi}$, with $c$ = constant, and $s$ is the usual cylindrical radial coordinate.  Neglect end effects, assume the cylinder is infinitely long.
