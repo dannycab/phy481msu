@@ -6,11 +6,9 @@ transition: slide
 
 <section data-markdown>
 
-<img src="./images/loop_in_B_field.png" align="center" style="width: 600px";/>
+<img src="./images/loop_in_B_field.png" align="center" style="width: 550px";/>
 
-The force on a segment of wire $L$ is $\mathbf{F} = I \mathbf{L} \times \mathbf{B}$
-
-A current-carrying wire loop is in a constant magnetic field $\mathbf{B} = B \hat{z}$ as shown. What is the direction of the torque on the loop?
+The force on a segment of wire $L$ is $\mathbf{F} = I \mathbf{L} \times \mathbf{B}$ A current-carrying wire loop is in a constant magnetic field $\mathbf{B} = B \hat{z}$ as shown. What is the direction of the torque on the loop?
 
 1. Zero
 2. +x
