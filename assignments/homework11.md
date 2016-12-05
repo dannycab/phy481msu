@@ -49,7 +49,7 @@ Toy magnets seem to have a force law which "turns on" quite suddenly as they app
 
 ## 4. Bound Currents I
 
-Consider a long magnetic rod, radius $a$. Imagine that we have set up a permanent magnetization $\mathbf{M}(s,\phi,z) = c$, with $c$ = constant.  *Neglect end effects, assume the cylinder is infinitely long.*
+Consider a long magnetic rod, radius $a$. Imagine that we have set up a permanent magnetization $\mathbf{M}(s,\phi,z) = c \hat{z}$, with $c$ = constant.  *Neglect end effects, assume the cylinder is infinitely long.*
 
 1. Calculate the bound currents $\mathbf{K}_b$ and $\mathbf{J}_b$ (on the surface, and interior of the rod respectively).  
 2. What are the units of $c$?
