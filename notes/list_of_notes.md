@@ -41,4 +41,5 @@ permalink: notes/index.html
 * Lecture 35 (November 28th): Vector Potential Examples [[HTML]](./35-slides.html) [[PDF]](./35-slides.pdf)
 * Lecture 36 (November 30th): Magnetic Dipoles [[HTML]](./36-slides.html) [[PDF]](./36-slides.pdf)
 * Lecture 37 (December 2nd): Introduction to Magnetism with Matter [[HTML]](./37-slides.html) [[PDF]](./37-slides.pdf)
-* Lecture 38 (December 5th): Bound Currents [[HTML]](./38-slides.html) [[PDF]](./38-slides.pdf)
+* Lecture 38 (December 5th): Bound Currents and Introduction to $\mathbf{H}$ [[HTML]](./38-slides.html) [[PDF]](./38-slides.pdf)
+* Lecture 39 (December 7th): $\mathbf{H}$ field examples and Ferromagnetism [[HTML]](./39-slides.html) [[PDF]](./39-slides.pdf)
