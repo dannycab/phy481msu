@@ -22,7 +22,7 @@ $$\mathbf{B} = \dfrac{\mu_0}{4 \pi r^3}(3 (\mathbf{m}\cdot\hat{r})\hat{r} - \mat
 ## 2. Semi-classical electron dipole moment
 
 
-A thin uniform solid torus (a "donut") has total charge $Q$, mass $M$. It rotates around its own central axis at angular frequency $\omega$, as shown.
+A thin uniform solid torus (a "donut") has total charge $Q$, mass $M$, radius $R$. It rotates around its own central axis at angular frequency $\omega$, as shown.
 
 ![Spinning Donut](./images/hw11/spinning_donut.png)
 
