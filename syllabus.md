@@ -200,7 +200,7 @@ as a physics major. Here is what I have experienced, and heard from
 other faculty teaching upper division physics in the past:
 
 - most students reported spending a minimum of 10 hours per week on the
-homework (!!)
+homework
 - students who didn't attend the homework help sessions
 often did poorly in the class.
 - students reported learning a tremendous amount in this class.
