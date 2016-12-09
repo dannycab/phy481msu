@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Syllabus
-permalink: index.html
+permalink: ./index.html
 use_math: true
 ---
 
