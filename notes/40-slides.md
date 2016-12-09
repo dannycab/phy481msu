@@ -1,9 +1,7 @@
 ---
-
 layout: slide
 theme: white
 transition: slide
-
 ---
 
 <section data-markdown>
