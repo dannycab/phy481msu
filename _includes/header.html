@@ -1,4 +1,25 @@
-<header class="site-header">
+  <nav class="navbar navbar-default container">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </div>
+    <ul class="nav navbar-nav">
+
+    <li>  <a class="page-link" href="{{ site.baseurl }}/index.html">Syllabus</a></li>
+      <li><a class="page-link" href="{{ site.baseurl }}/calendar.html">Calendar</a></li>
+      <li><a class="page-link" href="{{ site.baseurl }}/learning_goals.html">Learning Goals</a></li>
+      <li><a class="page-link" href="{{ site.baseurl }}/notes/index.html">Class Notes and Slides</a></li>
+    <li>  <a class="page-link" href="{{ site.baseurl }}/assignments/index.html">Homework</a></li>
+      <!-- {% for my_page in site.pages %}
+        {% if my_page.title %}
+          <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+      {% endif %}
+      {% endfor %} -->
+    </ul>
+  </div>
+</nav>
+
+<!--<header class="site-header">
 
   <div class="wrapper">
 
@@ -14,11 +35,11 @@
       </a>
 
       <div class="trigger">
-        <a class="page-link" href="https://dannycab.github.io/phy481msu/">Syllabus</a>
-        <a class="page-link" href="https://dannycab.github.io/phy481msu/calendar.html">Calendar</a>
-        <a class="page-link" href="https://dannycab.github.io/phy481msu/learning_goals.html">Learning Goals</a>
-        <a class="page-link" href="https://dannycab.github.io/phy481msu/notes/">Class Notes and Slides</a>
-        <a class="page-link" href="https://dannycab.github.io/phy481msu/assignments/">Homework</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/">Syllabus</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/calendar.html">Calendar</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/learning_goals.html">Learning Goals</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/notes/">Class Notes and Slides</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/assignments/">Homework</a>-->
 
         <!-- Broken for some reason on Github; had to hard code-->
         <!--{% for my_page in site.pages %}
@@ -26,10 +47,9 @@
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}-->
-
-      </div>
+<!--      </div>
     </nav>
 
   </div>
 
-</header>
+</header>-->
